@@ -20,7 +20,7 @@ export default function Navbar() {
       }
 
       // Show second navbar after 10% scroll
-      setShowSecondNavbar(scrollPercent > 20);
+      setShowSecondNavbar(scrollPercent > 10);
     };
 
     window.addEventListener("scroll", handleScroll);

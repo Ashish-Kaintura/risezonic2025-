@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
+import BlackLogo from "../assets/images/Logo/risezonic logo (1).png";
 import {
   FaPhoneAlt,
   FaEnvelope,
@@ -45,33 +46,29 @@ export default function Navbar2() {
         <div className=" mx-auto flex justify-between items-center sm:px-4">
           {/* Logo */}
           <div className="text-xl font-bold">
-            <img
-              className="w-32"
-              src="https://www.webeesocial.com/wp-content/uploads/2020/12/logo-tm-compressed.png"
-              alt="logo"
-            />
+            <img className="w-32" src={BlackLogo} alt="logo" />
           </div>
 
           {/* Navigation Links */}
           <div className="flex text-black items-center justify-between space-x-4 ">
             <ul className="md:flex hidden space-x-6">
               <li>
-                <a href="#" className="hover:text-gray-300 text-lg">
+                <a href="/about-us" className="hover:text-amber-600 text-lg">
                   About
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-gray-300 text-lg">
+                <a href="#" className="hover:text-amber-600 text-lg">
                   Services
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-gray-300 text-lg">
+                <a href="#" className="hover:text-amber-600 text-lg">
                   Contact
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-gray-300 text-lg">
+                <a href="#" className="hover:text-amber-600 text-lg">
                   Blogs
                 </a>
               </li>
@@ -115,43 +112,43 @@ export default function Navbar2() {
           <ul className="p-4 space-y-4">
             <li className="flex items-center gap-2">
               <FaHome />
-              <a href="#" className="block hover:text-gray-300 text-lg">
+              <a href="#" className="block hover:text-amber-600 text-lg">
                 Home
               </a>
             </li>
             <li className="flex items-center gap-2">
               <FaInfoCircle />
-              <a href="#" className="block hover:text-gray-300 text-lg">
+              <a href="#" className="block hover:text-amber-600 text-lg">
                 About
               </a>
             </li>
             <li className="flex items-center gap-2">
               <FaServicestack />
-              <a href="#" className="block hover:text-gray-300 text-lg">
+              <a href="#" className="block hover:text-amber-600 text-lg">
                 Services
               </a>
             </li>
             <li className="flex items-center gap-2">
               <FaBlog />
-              <a href="#" className="block hover:text-gray-300 text-lg">
+              <a href="#" className="block hover:text-amber-600 text-lg">
                 Blogs
               </a>
             </li>
             <li className="flex items-center gap-2">
               <FaPhoneAlt />
-              <a href="#" className="block hover:text-gray-300 text-lg">
+              <a href="#" className="block hover:text-amber-600 text-lg">
                 Contact
               </a>
             </li>
             <li className="flex items-center gap-2">
               <FaNewspaper />
-              <a href="#" className="block hover:text-gray-300 text-lg">
+              <a href="#" className="block hover:text-amber-600 text-lg">
                 News And Media
               </a>
             </li>
             <li className="flex items-center gap-2">
               <FaLock />
-              <a href="#" className="block hover:text-gray-300 text-lg">
+              <a href="#" className="block hover:text-amber-600 text-lg">
                 Privacy Policy
               </a>
             </li>

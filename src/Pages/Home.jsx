@@ -1,84 +1,91 @@
 import React from "react";
-
+import BackgroundIMG from "../assets/images/Screenshot 2025-05-14 182854.png";
+import HeroBanner from "../assets/images/Home/newsize.jpg";
+import HeroSection from "../components/HeroSection";
+import OurServices from "../components/OurServices";
+import Workprocess from "../components/Workprocess";
+import StrengthInNumber from "../components/StrengthInNumber";
+import Contactus from "../components/Contactus";
+import Testimonial from "../components/Testimonial";
+import BlogComponent from "../components/BlogComponent";
 export default function Home() {
   return (
     <div>
       <div
-        className="h-[700px] bg-emerald-600"
+        className="md:h-[920px] h-[400px] bg-center bg-cover bg-no-repeat "
         style={{
-          backgroundImage:
-            "url('https://webeesocial.com/wp-content/uploads/2018/10/webeesocial-web-banner3.jpg')",
+          backgroundImage: `url(${"https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg"})`,
         }}
-      ></div>
-      <article>
-        <section>
-          <h1 className="text-3xl font-bold underline">Hello world!</h1>
-          <p className="text-lg">
-            This is a simple example of a React component styled with Tailwind
-            CSS.
+      >
+        <article className="absolute top-60 right-20 md:flex hidden items-center justify-center z-10">
+          <section>
+            <h1 className="text-8 font-semibold font-heading">
+              Best Digital Marketing
+            </h1>
+            <h2 className="text-7xl font-semibold text-secondary mt-1 pt-1 font-heading">
+              Agency in Delhi NCR
+            </h2>
+            <p className="mt-2 pt-4 font-semibold font-body ">
+              Risezonic is considered one of the best digital marketing agency
+              in Delhi NCR. The whole team focuses on creativity and excellence{" "}
+              <br />
+              to help the brands reach new horizons. As an award-winning
+              consulting firm in digital marketing, we offer personalized <br />
+              solutions for boosting sales, digital marketing, web and app
+              development, and technology strategy.
+              <br />
+              <br />
+            </p>
+            <div>
+              <div className="flex justify-center mt-10 items-center gap-12 h-full">
+                <div className="bg-gradient-to-b from-gray-800/40 to-transparent p-[4px] rounded-[16px]">
+                  <button className="group p-[4px] rounded-[12px] bg-gradient-to-b from-gray-700 to-gray-600 shadow-[0_2px_4px_rgba(0,0,0,0.7)] hover:shadow-[0_4px_8px_rgba(0,0,0,0.6)] active:shadow-[0_0px_1px_rgba(0,0,0,0.8)] active:scale-[0.995] transition-all duration-200">
+                    <div className="bg-gradient-to-b from-gray-600 to-gray-700 rounded-[8px] px-3 py-2">
+                      <div className="flex gap-2 items-center">
+                        <span className="font-semibold text-white">
+                          More Details
+                        </span>
+                      </div>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
+      </div>
+
+      <HeroSection />
+      <div
+        className=" bg-center bg-cover py-6 bg-fixed bg-no-repeat"
+        style={{
+          backgroundColor: "#00a19b",
+          backgroundImage:
+            "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",
+        }}
+      >
+        <div className="text-center py-4 relative">
+          <h2 className="text-4xl text-white font-semibold font-heading pt-6">
+            Our Service
+          </h2>
+          <span className="text-amber-600 text-4xl font-semibold absolute top-12 left-0 right-0 bottom-0 inset-0 ">
+            ___________
+          </span>
+          <p className="text-xl pt-4 text-white font-body">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout <br />
+            established fact that a reader will.
           </p>
-        </section>
-      </article>
-      <div className="h-96 bg-emerald-100"></div>
-      <article>
-        <section>
-          <h1 className="text-3xl font-bold underline">Hello world!</h1>
-          <p className="text-lg">
-            This is a simple example of a React component styled with Tailwind
-            CSS.
-          </p>
-        </section>
-      </article>
-      <div className="h-96 bg-emerald-100"></div>
-      <article>
-        <section>
-          <h1 className="text-3xl font-bold underline">Hello world!</h1>
-          <p className="text-lg">
-            This is a simple example of a React component styled with Tailwind
-            CSS.
-          </p>
-        </section>
-      </article>
-      <div className="h-96 bg-emerald-100"></div>
-      <article>
-        <section>
-          <h1 className="text-3xl font-bold underline">Hello world!</h1>
-          <p className="text-lg">
-            This is a simple example of a React component styled with Tailwind
-            CSS.
-          </p>
-        </section>
-      </article>
-      <div className="h-96 bg-emerald-100"></div>
-      <article>
-        <section>
-          <h1 className="text-3xl font-bold underline">Hello world!</h1>
-          <p className="text-lg">
-            This is a simple example of a React component styled with Tailwind
-            CSS.
-          </p>
-        </section>
-      </article>
-      <div className="h-96 bg-emerald-100"></div>
-      <article>
-        <section>
-          <h1 className="text-3xl font-bold underline">Hello world!</h1>
-          <p className="text-lg">
-            This is a simple example of a React component styled with Tailwind
-            CSS.
-          </p>
-        </section>
-      </article>
-      <div className="h-96 bg-emerald-100"></div>
-      <article>
-        <section>
-          <h1 className="text-3xl font-bold underline">Hello world!</h1>
-          <p className="text-lg">
-            This is a simple example of a React component styled with Tailwind
-            CSS.
-          </p>
-        </section>
-      </article>
+          <div className=" mt-6">
+            <OurServices />
+          </div>
+        </div>
+      </div>
+      <Workprocess />
+      <StrengthInNumber />
+      <Contactus />
+      <Testimonial/>
+      <BlogComponent/>
     </div>
   );
 }
