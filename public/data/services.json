@@ -1,0 +1,40 @@
+[
+    {
+        "title": "Digital Strategy and Planning",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis at distinctio, recusandae voluptas veniam sed, nulla ullam mollitia explicabo cumque quis eligendi vitae iusto cupiditate ipsa sit a officia consectetur exercitationem placeat nostrum voluptatum similique.",
+        "intro": "Have a look at our most innovative strategies here!",
+        "longdescription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita reprehenderit optio ad adipisci. Nemo cum esse voluptatem culpa odit reiciendis perspiciatis quis! Magnam excepturi maiores vitae alias corporis reprehenderit hic, possimus doloribus harum nobis quas doloremque iusto, officia sit quibusdam. Aut reiciendis vitae voluptatibus! A temporibus nisi quaerat delectus atque dicta. Quas consectetur enim consequuntur facere natus odit obcaecati saepe? Perferendis modi corrupti magnam beatae unde. Nulla cupiditate placeat ex explicabo sunt neque nostrum nihil similique cumque delectus dolor laboriosam maiores animi odio quasi est doloribus, nemo vel debitis minima quaerat deleniti adipisci. Asperiores accusantium tenetur, dignissimos delectus nisi odio in sit voluptas eveniet accusamus molestias consectetur natus. Aperiam perspiciatis omnis harum quasi quos culpa repellat nesciunt. Dolorum porro recusandae enim quidem aspernatur blanditiis laboriosam quos! Saepe, quidem eveniet hic aspernatur vero veniam! Explicabo voluptatibus ipsum doloribus! Dolore magni provident minus repudiandae rerum, soluta, odit magnam ipsam dicta aliquam saepe!",
+        "link": "https://www.risezonic.com/",
+        "bgImage": "https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg"
+    },
+    {
+        "title": "Social Media Management",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis at distinctio, recusandae voluptas veniam sed, nulla ullam mollitia explicabo cumque quis eligendi vitae iusto cupiditate ipsa sit a officia consectetur exercitationem placeat nostrum voluptatum similique.",
+        "link": "https://www.risezonic.com/",
+        "bgImage": "https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg"
+    },
+    {
+        "title": "SEO Optimization",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis at distinctio, recusandae voluptas veniam sed, nulla ullam mollitia explicabo cumque quis eligendi vitae iusto cupiditate ipsa sit a officia consectetur exercitationem placeat nostrum voluptatum similique.",
+        "link": "https://www.risezonic.com/",
+        "bgImage": "https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg"
+    },
+    {
+        "title": "Content Creation",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis at distinctio, recusandae voluptas veniam sed, nulla ullam mollitia explicabo cumque quis eligendi vitae iusto cupiditate ipsa sit a officia consectetur exercitationem placeat nostrum voluptatum similique.",
+        "link": "https://www.risezonic.com/",
+        "bgImage": "https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg"
+    },
+    {
+        "title": "Email Marketing",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis at distinctio, recusandae voluptas veniam sed, nulla ullam mollitia explicabo cumque quis eligendi vitae iusto cupiditate ipsa sit a officia consectetur exercitationem placeat nostrum voluptatum similique.",
+        "link": "https://www.risezonic.com/",
+        "bgImage": "https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg"
+    },
+    {
+        "title": "Web Development",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis at distinctio, recusandae voluptas veniam sed, nulla ullam mollitia explicabo cumque quis eligendi vitae iusto cupiditate ipsa sit a officia consectetur exercitationem placeat nostrum voluptatum similique.",
+        "link": "https://www.risezonic.com/",
+        "bgImage": "https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg"
+    }
+]

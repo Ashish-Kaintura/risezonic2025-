@@ -1,5 +1,6 @@
-import React, { useState, useRef, useEffect } from "react";
+import { Link } from "react-router-dom";
 import BlackLogo from "../assets/images/Logo/risezonic logo (1).png";
+import React, { useState, useRef, useEffect } from "react";
 import {
   FaPhoneAlt,
   FaEnvelope,
@@ -19,9 +20,7 @@ import {
   AiOutlineClose,
   AiOutlineMenuFold,
 } from "react-icons/ai";
-import { FaCircleQuestion } from "react-icons/fa6";
-import { Link } from "react-router-dom";
-export default function Navbar2() {
+export default function NavForOther() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const sidebarRef = useRef(null);
 
@@ -43,52 +42,60 @@ export default function Navbar2() {
   return (
     <header>
       {/* Main Navbar */}
-      <nav className="bg-white text-black px-4 py-6">
+      <nav className=" text-black px-4 py-6  bg-white border-b-4 border-slate-200 fixed top-0 w-full z-50  shadow-lg">
         <div className=" mx-auto flex justify-between items-center sm:px-4">
           {/* Logo */}
           <div className="text-xl font-bold">
-            <img className="w-42" src={BlackLogo} alt="logo" />
+            <Link to="/">
+              <img className="w-52" src={BlackLogo} alt="logo" />
+            </Link>
           </div>
 
           {/* Navigation Links */}
-          <div className="flex text-black items-center justify-between space-x-6 ">
+          <div className="flex text-black items-center justify-between space-x-4 ">
             <ul className="md:flex hidden space-x-6">
               <li>
-                <Link to="/" className="hover:text-amber-400 text-lg">
+                <Link to="/" className="hover:text-amber-600 text-lg">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/about-us" className="hover:text-amber-400 text-lg">
+                <Link to="/about-us" className="hover:text-amber-600 text-lg">
                   About
                 </Link>
               </li>
               <li>
-                <Link to="/about-us" className="hover:text-amber-400 text-lg">
+                <Link to="/" className="hover:text-amber-600 text-lg">
                   What We Do
                 </Link>
               </li>
               <li>
-                <Link to="/our-services" className="hover:text-amber-400 text-lg">
+                <Link
+                  to="/our-services"
+                  className="hover:text-amber-600 text-lg"
+                >
                   Services
                 </Link>
               </li>
               <li>
-                <Link to="#" className="hover:text-amber-400 text-lg">
+                <Link to="#" className="hover:text-amber-600 text-lg">
                   Contact
                 </Link>
               </li>
               <li>
-                <Link to="#" className="hover:text-amber-400 text-lg">
+                <Link to="#" className="hover:text-amber-600 text-lg">
                   Blogs
                 </Link>
               </li>
             </ul>
-            <ul className="flex ">
+          </div>
+
+          <div>
+            <ul className="flex">
               <button
                 id="menu-button"
                 onClick={() => setIsSidebarOpen(true)}
-                className="cursor-pointer  hover:bg-gray-200 text-black font-bold rounded ml-4 pt-1"
+                className="cursor-pointer  hover:bg-gray-200 text-black font-bold rounded"
               >
                 <AiOutlineMenuFold size={25} />
               </button>
@@ -96,6 +103,7 @@ export default function Navbar2() {
           </div>
         </div>
         {/* /* Sidebar */}
+
         <div
           className={`fixed top-0 right-0 h-full bg-white w-64 text-black z-50 shadow-lg transform transition-transform duration-300 ease-in-out ${
             isSidebarOpen ? "translate-x-0" : "translate-x-full"
@@ -121,12 +129,6 @@ export default function Navbar2() {
               <FaInfoCircle />
               <Link to="#" className="block hover:text-amber-600 text-lg">
                 About
-              </Link>
-            </li>
-            <li className="flex items-center gap-2">
-              <FaCircleQuestion />
-              <Link to="#" className="block hover:text-amber-600 text-lg">
-                What We
               </Link>
             </li>
             <li className="flex items-center gap-2">

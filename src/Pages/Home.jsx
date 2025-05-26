@@ -8,9 +8,11 @@ import StrengthInNumber from "../components/StrengthInNumber";
 import Contactus from "../components/Contactus";
 import Testimonial from "../components/Testimonial";
 import BlogComponent from "../components/BlogComponent";
+import Navbar from "../components/Navbar";
 export default function Home() {
   return (
     <div>
+      <Navbar />
       <div
         className="md:h-[920px] h-[400px] bg-center bg-cover bg-no-repeat "
         style={{

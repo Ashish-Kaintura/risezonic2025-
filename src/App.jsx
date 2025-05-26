@@ -4,16 +4,19 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { useEffect } from "react";
 import About from "./Pages/About";
+import Services from "./Pages/Services";
+import ServiceDetail from "./Pages/ServicesDetails";
 function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
     <Router>
-      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about-us" element={<About/>} />
+        <Route path="/about-us" element={<About />} />
+        <Route path="/our-services" element={<Services />} />
+        <Route path="/our-services/:title" element={<ServiceDetail />} />
       </Routes>
       <Footer />
     </Router>

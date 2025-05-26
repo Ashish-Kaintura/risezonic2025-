@@ -31,7 +31,7 @@ const BlogComponent = () => {
           <h2 className="text-8xl font-bold text-start text-gray-800 mb-10 font-heading ">
             <span className="text-primary"> Latest </span> <br /> Blog <br />
             <span className="text-secondary"> Posts</span>
-            <span className="text-primary">...</span>
+            <span className="text-secondary">...</span>
           </h2>
         </div>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2 w-[50%]">

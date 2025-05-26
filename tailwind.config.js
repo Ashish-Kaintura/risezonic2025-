@@ -9,7 +9,7 @@ export default {
         background: "#112240",
         text: "#8892B0",
         white: "#FFFFFF",
-        black: "#000000",
+       
       },
       fontSize: {
         42: "10.5rem",
