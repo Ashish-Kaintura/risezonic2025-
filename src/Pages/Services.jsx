@@ -5,7 +5,9 @@ export default function Services() {
   const [services, setServices] = useState([]);
 
   useEffect(() => {
+    // localapi
     fetch("public/data/services.json") // adjust path if needed
+    // fetch("http://localhost:5000/api/services") // adjust path if needed
       .then((res) => res.json())
       .then((data) => setServices(data))
       .catch((err) => console.error("Failed to fetch services:", err));
@@ -21,7 +23,7 @@ export default function Services() {
         }}
       >
         <div className="pt-28 container mx-auto">
-          <div className="flex justify-center py-8 text-center bg-primary text-white">
+          <div className="flex justify-center py-8 text-center bg-primary text-white rounded-xl">
             <h1 className="font-heading text-5xl">Our Services</h1>
           </div>
 
@@ -36,10 +38,10 @@ export default function Services() {
                 <p className="pt-8 font-body">{service.description}</p>
                 <Link
                   to={`/our-services/${encodeURIComponent(service.title)}`}
-                  className="bg-primary text-white px-4 py-2 rounded-md mt-4
+                  className="bg-secondary text-white px-4 py-2 rounded-md mt-4
                   inline-block"
                 >
-                  Visit Our Website
+                  Read More
                 </Link>
               </div>
             ))}

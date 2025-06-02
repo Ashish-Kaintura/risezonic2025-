@@ -8,7 +8,7 @@ export default function ServiceDetail() {
 
   useEffect(() => {
     const decodedTitle = decodeURIComponent(title); // 👈 decode it
-    fetch("/data/services.json")
+    fetch("/public/data/services.json")
       .then((res) => res.json())
       .then((data) => {
         const found = data.find((item) => item.title === decodedTitle);

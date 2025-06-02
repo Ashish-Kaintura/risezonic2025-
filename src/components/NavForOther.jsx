@@ -42,7 +42,7 @@ export default function NavForOther() {
   return (
     <header>
       {/* Main Navbar */}
-      <nav className=" text-black px-4 py-6  bg-white border-b-4 border-slate-200 fixed top-0 w-full z-50  shadow-lg">
+      <nav className=" text-black px-4 py-6  bg-white border-b-4 border-slate-200 fixed top-0 w-full z-50  shadow-lg font-body">
         <div className=" mx-auto flex justify-between items-center sm:px-4">
           {/* Logo */}
           <div className="text-xl font-bold">
@@ -83,7 +83,7 @@ export default function NavForOther() {
                 </Link>
               </li>
               <li>
-                <Link to="#" className="hover:text-amber-600 text-lg">
+                <Link to="/blogs" className="hover:text-amber-600 text-lg">
                   Blogs
                 </Link>
               </li>
@@ -139,13 +139,13 @@ export default function NavForOther() {
             </li>
             <li className="flex items-center gap-2">
               <FaBlog />
-              <Link to="#" className="block hover:text-amber-600 text-lg">
+              <Link to="/blogs" className="block hover:text-amber-600 text-lg">
                 Blogs
               </Link>
             </li>
             <li className="flex items-center gap-2">
               <FaPhoneAlt />
-              <Link to="#" className="block hover:text-amber-600 text-lg">
+              <Link to="/contact-us" className="block hover:text-amber-600 text-lg">
                 Contact
               </Link>
             </li>

@@ -1,5 +1,7 @@
 import React from "react";
-
+import Workprocess1 from "../assets/images/Home/Workprocess1.jpg"
+import Workprocess2 from "../assets/images/Home/Workprocess2.jpg"
+import Workprocess3 from "../assets/images/Home/Workprocess3.jpg"
 export default function Workprocess() {
   return (
     <div>
@@ -39,7 +41,7 @@ export default function Workprocess() {
           <div className="h-100 w-full bg-gray-300 overflow-hidden ">
             <img
               className="bg-contain bg-center h-full w-full "
-              src="src/assets/images/Home/Elegant White.png"
+              src={Workprocess1}
               alt="Plan & Create"
             />
           </div>
@@ -48,7 +50,8 @@ export default function Workprocess() {
           <div className="h-100 w-full bg-gray-300 overflow-hidden ">
             <img
               className="bg-contain bg-center h-full w-full "
-              src="https://plus.unsplash.com/premium_photo-1661430753296-11d1fde8b7dd?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGFwdG9wJTIwZGVza3xlbnwwfHwwfHx8MA%3D%3D"
+              // src="https://plus.unsplash.com/premium_photo-1661430753296-11d1fde8b7dd?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGFwdG9wJTIwZGVza3xlbnwwfHwwfHx8MA%3D%3D"
+              src={Workprocess2}
               alt="Plan & Create"
             />
           </div>
@@ -99,7 +102,8 @@ export default function Workprocess() {
           <div className="h-100 w-full bg-gray-300 overflow-hidden ">
             <img
               className="bg-cover bg-center h-full w-full "
-              src="https://media.istockphoto.com/id/1222160402/photo/women-using-laptop-computer.jpg?s=612x612&w=0&k=20&c=pE4fJnDVx3fr8FWZru30rwQgrPolpupbVBf83Us7MwM="
+              // src="https://media.istockphoto.com/id/1222160402/photo/women-using-laptop-computer.jpg?s=612x612&w=0&k=20&c=pE4fJnDVx3fr8FWZru30rwQgrPolpupbVBf83Us7MwM="
+              src={Workprocess3}
               alt="Plan & Create"
             />
           </div>

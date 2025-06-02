@@ -1,40 +1,282 @@
 [
     {
+        "id": "1",
+        "url": "",
         "title": "Digital Strategy and Planning",
-        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis at distinctio, recusandae voluptas veniam sed, nulla ullam mollitia explicabo cumque quis eligendi vitae iusto cupiditate ipsa sit a officia consectetur exercitationem placeat nostrum voluptatum similique.",
+        "bgImage": "https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg",
+        "img": "",
         "intro": "Have a look at our most innovative strategies here!",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis at distinctio, recusandae voluptas veniam sed, nulla ullam mollitia explicabo cumque quis eligendi vitae iusto cupiditate ipsa sit a officia consectetur exercitationem placeat nostrum voluptatum similique.",
+        "shortdescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis at distinctio, recusandae voluptas veniam sed, nulla ullam mollitia explicabo cumque quis eligendi vitae iusto cupiditate ipsa sit a officia consectetur exercitationem placeat nostrum voluptatum similique.",
         "longdescription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita reprehenderit optio ad adipisci. Nemo cum esse voluptatem culpa odit reiciendis perspiciatis quis! Magnam excepturi maiores vitae alias corporis reprehenderit hic, possimus doloribus harum nobis quas doloremque iusto, officia sit quibusdam. Aut reiciendis vitae voluptatibus! A temporibus nisi quaerat delectus atque dicta. Quas consectetur enim consequuntur facere natus odit obcaecati saepe? Perferendis modi corrupti magnam beatae unde. Nulla cupiditate placeat ex explicabo sunt neque nostrum nihil similique cumque delectus dolor laboriosam maiores animi odio quasi est doloribus, nemo vel debitis minima quaerat deleniti adipisci. Asperiores accusantium tenetur, dignissimos delectus nisi odio in sit voluptas eveniet accusamus molestias consectetur natus. Aperiam perspiciatis omnis harum quasi quos culpa repellat nesciunt. Dolorum porro recusandae enim quidem aspernatur blanditiis laboriosam quos! Saepe, quidem eveniet hic aspernatur vero veniam! Explicabo voluptatibus ipsum doloribus! Dolore magni provident minus repudiandae rerum, soluta, odit magnam ipsam dicta aliquam saepe!",
-        "link": "https://www.risezonic.com/",
-        "bgImage": "https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg"
+        "metacanonical": "",
+        "metatitle": "",
+        "metadescription": "",
+        "metakeywords": "",
+        "SubServices": [
+            {
+                "title": "Digital Marketing",
+                "img": "",
+                "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "shortdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "longdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "bgImage": "https://i.postimg.cc/3x5j1f6H/Banner-2-green.jpg"
+            },
+            {
+                "title": "SEO Optimization",
+                "img": "",
+                "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "shortdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "longdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "bgImage": "https://i.postimg.cc/3x5j1f6H/Banner-2-green.jpg"
+            }
+        ]
     },
     {
-        "title": "Social Media Management",
+        "id": "1",
+        "url": "",
+        "title": "Digital Strategy and Planning",
+        "bgImage": "https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg",
+        "img": "",
+        "intro": "Have a look at our most innovative strategies here!",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis at distinctio, recusandae voluptas veniam sed, nulla ullam mollitia explicabo cumque quis eligendi vitae iusto cupiditate ipsa sit a officia consectetur exercitationem placeat nostrum voluptatum similique.",
-        "link": "https://www.risezonic.com/",
-        "bgImage": "https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg"
+        "shortdescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis at distinctio, recusandae voluptas veniam sed, nulla ullam mollitia explicabo cumque quis eligendi vitae iusto cupiditate ipsa sit a officia consectetur exercitationem placeat nostrum voluptatum similique.",
+        "longdescription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita reprehenderit optio ad adipisci. Nemo cum esse voluptatem culpa odit reiciendis perspiciatis quis! Magnam excepturi maiores vitae alias corporis reprehenderit hic, possimus doloribus harum nobis quas doloremque iusto, officia sit quibusdam. Aut reiciendis vitae voluptatibus! A temporibus nisi quaerat delectus atque dicta. Quas consectetur enim consequuntur facere natus odit obcaecati saepe? Perferendis modi corrupti magnam beatae unde. Nulla cupiditate placeat ex explicabo sunt neque nostrum nihil similique cumque delectus dolor laboriosam maiores animi odio quasi est doloribus, nemo vel debitis minima quaerat deleniti adipisci. Asperiores accusantium tenetur, dignissimos delectus nisi odio in sit voluptas eveniet accusamus molestias consectetur natus. Aperiam perspiciatis omnis harum quasi quos culpa repellat nesciunt. Dolorum porro recusandae enim quidem aspernatur blanditiis laboriosam quos! Saepe, quidem eveniet hic aspernatur vero veniam! Explicabo voluptatibus ipsum doloribus! Dolore magni provident minus repudiandae rerum, soluta, odit magnam ipsam dicta aliquam saepe!",
+        "metacanonical": "",
+        "metatitle": "",
+        "metadescription": "",
+        "metakeywords": "",
+        "SubServices": [
+            {
+                "title": "Digital Marketing",
+                "img": "",
+                "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "shortdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "longdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "bgImage": "https://i.postimg.cc/3x5j1f6H/Banner-2-green.jpg"
+            },
+            {
+                "title": "SEO Optimization",
+                "img": "",
+                "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "shortdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "longdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "bgImage": "https://i.postimg.cc/3x5j1f6H/Banner-2-green.jpg"
+            }
+        ]
     },
     {
-        "title": "SEO Optimization",
+        "id": "1",
+        "url": "",
+        "title": "Digital Strategy and Planning",
+        "bgImage": "https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg",
+        "img": "",
+        "intro": "Have a look at our most innovative strategies here!",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis at distinctio, recusandae voluptas veniam sed, nulla ullam mollitia explicabo cumque quis eligendi vitae iusto cupiditate ipsa sit a officia consectetur exercitationem placeat nostrum voluptatum similique.",
-        "link": "https://www.risezonic.com/",
-        "bgImage": "https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg"
+        "shortdescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis at distinctio, recusandae voluptas veniam sed, nulla ullam mollitia explicabo cumque quis eligendi vitae iusto cupiditate ipsa sit a officia consectetur exercitationem placeat nostrum voluptatum similique.",
+        "longdescription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita reprehenderit optio ad adipisci. Nemo cum esse voluptatem culpa odit reiciendis perspiciatis quis! Magnam excepturi maiores vitae alias corporis reprehenderit hic, possimus doloribus harum nobis quas doloremque iusto, officia sit quibusdam. Aut reiciendis vitae voluptatibus! A temporibus nisi quaerat delectus atque dicta. Quas consectetur enim consequuntur facere natus odit obcaecati saepe? Perferendis modi corrupti magnam beatae unde. Nulla cupiditate placeat ex explicabo sunt neque nostrum nihil similique cumque delectus dolor laboriosam maiores animi odio quasi est doloribus, nemo vel debitis minima quaerat deleniti adipisci. Asperiores accusantium tenetur, dignissimos delectus nisi odio in sit voluptas eveniet accusamus molestias consectetur natus. Aperiam perspiciatis omnis harum quasi quos culpa repellat nesciunt. Dolorum porro recusandae enim quidem aspernatur blanditiis laboriosam quos! Saepe, quidem eveniet hic aspernatur vero veniam! Explicabo voluptatibus ipsum doloribus! Dolore magni provident minus repudiandae rerum, soluta, odit magnam ipsam dicta aliquam saepe!",
+        "metacanonical": "",
+        "metatitle": "",
+        "metadescription": "",
+        "metakeywords": "",
+        "SubServices": [
+            {
+                "title": "Digital Marketing",
+                "img": "",
+                "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "shortdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "longdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "bgImage": "https://i.postimg.cc/3x5j1f6H/Banner-2-green.jpg"
+            },
+            {
+                "title": "SEO Optimization",
+                "img": "",
+                "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "shortdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "longdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "bgImage": "https://i.postimg.cc/3x5j1f6H/Banner-2-green.jpg"
+            }
+        ]
     },
     {
-        "title": "Content Creation",
+        "id": "1",
+        "url": "",
+        "title": "Digital Strategy and Planning",
+        "bgImage": "https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg",
+        "img": "",
+        "intro": "Have a look at our most innovative strategies here!",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis at distinctio, recusandae voluptas veniam sed, nulla ullam mollitia explicabo cumque quis eligendi vitae iusto cupiditate ipsa sit a officia consectetur exercitationem placeat nostrum voluptatum similique.",
-        "link": "https://www.risezonic.com/",
-        "bgImage": "https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg"
+        "shortdescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis at distinctio, recusandae voluptas veniam sed, nulla ullam mollitia explicabo cumque quis eligendi vitae iusto cupiditate ipsa sit a officia consectetur exercitationem placeat nostrum voluptatum similique.",
+        "longdescription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita reprehenderit optio ad adipisci. Nemo cum esse voluptatem culpa odit reiciendis perspiciatis quis! Magnam excepturi maiores vitae alias corporis reprehenderit hic, possimus doloribus harum nobis quas doloremque iusto, officia sit quibusdam. Aut reiciendis vitae voluptatibus! A temporibus nisi quaerat delectus atque dicta. Quas consectetur enim consequuntur facere natus odit obcaecati saepe? Perferendis modi corrupti magnam beatae unde. Nulla cupiditate placeat ex explicabo sunt neque nostrum nihil similique cumque delectus dolor laboriosam maiores animi odio quasi est doloribus, nemo vel debitis minima quaerat deleniti adipisci. Asperiores accusantium tenetur, dignissimos delectus nisi odio in sit voluptas eveniet accusamus molestias consectetur natus. Aperiam perspiciatis omnis harum quasi quos culpa repellat nesciunt. Dolorum porro recusandae enim quidem aspernatur blanditiis laboriosam quos! Saepe, quidem eveniet hic aspernatur vero veniam! Explicabo voluptatibus ipsum doloribus! Dolore magni provident minus repudiandae rerum, soluta, odit magnam ipsam dicta aliquam saepe!",
+        "metacanonical": "",
+        "metatitle": "",
+        "metadescription": "",
+        "metakeywords": "",
+        "SubServices": [
+            {
+                "title": "Digital Marketing",
+                "img": "",
+                "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "shortdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "longdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "bgImage": "https://i.postimg.cc/3x5j1f6H/Banner-2-green.jpg"
+            },
+            {
+                "title": "SEO Optimization",
+                "img": "",
+                "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "shortdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "longdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "bgImage": "https://i.postimg.cc/3x5j1f6H/Banner-2-green.jpg"
+            }
+        ]
     },
     {
-        "title": "Email Marketing",
+        "id": "1",
+        "url": "",
+        "title": "Digital Strategy and Planning",
+        "bgImage": "https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg",
+        "img": "",
+        "intro": "Have a look at our most innovative strategies here!",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis at distinctio, recusandae voluptas veniam sed, nulla ullam mollitia explicabo cumque quis eligendi vitae iusto cupiditate ipsa sit a officia consectetur exercitationem placeat nostrum voluptatum similique.",
-        "link": "https://www.risezonic.com/",
-        "bgImage": "https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg"
+        "shortdescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis at distinctio, recusandae voluptas veniam sed, nulla ullam mollitia explicabo cumque quis eligendi vitae iusto cupiditate ipsa sit a officia consectetur exercitationem placeat nostrum voluptatum similique.",
+        "longdescription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita reprehenderit optio ad adipisci. Nemo cum esse voluptatem culpa odit reiciendis perspiciatis quis! Magnam excepturi maiores vitae alias corporis reprehenderit hic, possimus doloribus harum nobis quas doloremque iusto, officia sit quibusdam. Aut reiciendis vitae voluptatibus! A temporibus nisi quaerat delectus atque dicta. Quas consectetur enim consequuntur facere natus odit obcaecati saepe? Perferendis modi corrupti magnam beatae unde. Nulla cupiditate placeat ex explicabo sunt neque nostrum nihil similique cumque delectus dolor laboriosam maiores animi odio quasi est doloribus, nemo vel debitis minima quaerat deleniti adipisci. Asperiores accusantium tenetur, dignissimos delectus nisi odio in sit voluptas eveniet accusamus molestias consectetur natus. Aperiam perspiciatis omnis harum quasi quos culpa repellat nesciunt. Dolorum porro recusandae enim quidem aspernatur blanditiis laboriosam quos! Saepe, quidem eveniet hic aspernatur vero veniam! Explicabo voluptatibus ipsum doloribus! Dolore magni provident minus repudiandae rerum, soluta, odit magnam ipsam dicta aliquam saepe!",
+        "metacanonical": "",
+        "metatitle": "",
+        "metadescription": "",
+        "metakeywords": "",
+        "SubServices": [
+            {
+                "title": "Digital Marketing",
+                "img": "",
+                "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "shortdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "longdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "bgImage": "https://i.postimg.cc/3x5j1f6H/Banner-2-green.jpg"
+            },
+            {
+                "title": "SEO Optimization",
+                "img": "",
+                "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "shortdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "longdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "bgImage": "https://i.postimg.cc/3x5j1f6H/Banner-2-green.jpg"
+            }
+        ]
     },
     {
-        "title": "Web Development",
+        "id": "1",
+        "url": "",
+        "title": "Digital Strategy and Planning",
+        "bgImage": "https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg",
+        "img": "",
+        "intro": "Have a look at our most innovative strategies here!",
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis at distinctio, recusandae voluptas veniam sed, nulla ullam mollitia explicabo cumque quis eligendi vitae iusto cupiditate ipsa sit a officia consectetur exercitationem placeat nostrum voluptatum similique.",
-        "link": "https://www.risezonic.com/",
-        "bgImage": "https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg"
+        "shortdescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis at distinctio, recusandae voluptas veniam sed, nulla ullam mollitia explicabo cumque quis eligendi vitae iusto cupiditate ipsa sit a officia consectetur exercitationem placeat nostrum voluptatum similique.",
+        "longdescription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita reprehenderit optio ad adipisci. Nemo cum esse voluptatem culpa odit reiciendis perspiciatis quis! Magnam excepturi maiores vitae alias corporis reprehenderit hic, possimus doloribus harum nobis quas doloremque iusto, officia sit quibusdam. Aut reiciendis vitae voluptatibus! A temporibus nisi quaerat delectus atque dicta. Quas consectetur enim consequuntur facere natus odit obcaecati saepe? Perferendis modi corrupti magnam beatae unde. Nulla cupiditate placeat ex explicabo sunt neque nostrum nihil similique cumque delectus dolor laboriosam maiores animi odio quasi est doloribus, nemo vel debitis minima quaerat deleniti adipisci. Asperiores accusantium tenetur, dignissimos delectus nisi odio in sit voluptas eveniet accusamus molestias consectetur natus. Aperiam perspiciatis omnis harum quasi quos culpa repellat nesciunt. Dolorum porro recusandae enim quidem aspernatur blanditiis laboriosam quos! Saepe, quidem eveniet hic aspernatur vero veniam! Explicabo voluptatibus ipsum doloribus! Dolore magni provident minus repudiandae rerum, soluta, odit magnam ipsam dicta aliquam saepe!",
+        "metacanonical": "",
+        "metatitle": "",
+        "metadescription": "",
+        "metakeywords": "",
+        "SubServices": [
+            {
+                "title": "Digital Marketing",
+                "img": "",
+                "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "shortdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "longdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "bgImage": "https://i.postimg.cc/3x5j1f6H/Banner-2-green.jpg"
+            },
+            {
+                "title": "SEO Optimization",
+                "img": "",
+                "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "shortdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "longdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "bgImage": "https://i.postimg.cc/3x5j1f6H/Banner-2-green.jpg"
+            }
+        ]
+    },
+    {
+        "id": "1",
+        "url": "",
+        "title": "Digital Strategy and Planning",
+        "bgImage": "https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg",
+        "img": "",
+        "intro": "Have a look at our most innovative strategies here!",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis at distinctio, recusandae voluptas veniam sed, nulla ullam mollitia explicabo cumque quis eligendi vitae iusto cupiditate ipsa sit a officia consectetur exercitationem placeat nostrum voluptatum similique.",
+        "shortdescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis at distinctio, recusandae voluptas veniam sed, nulla ullam mollitia explicabo cumque quis eligendi vitae iusto cupiditate ipsa sit a officia consectetur exercitationem placeat nostrum voluptatum similique.",
+        "longdescription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita reprehenderit optio ad adipisci. Nemo cum esse voluptatem culpa odit reiciendis perspiciatis quis! Magnam excepturi maiores vitae alias corporis reprehenderit hic, possimus doloribus harum nobis quas doloremque iusto, officia sit quibusdam. Aut reiciendis vitae voluptatibus! A temporibus nisi quaerat delectus atque dicta. Quas consectetur enim consequuntur facere natus odit obcaecati saepe? Perferendis modi corrupti magnam beatae unde. Nulla cupiditate placeat ex explicabo sunt neque nostrum nihil similique cumque delectus dolor laboriosam maiores animi odio quasi est doloribus, nemo vel debitis minima quaerat deleniti adipisci. Asperiores accusantium tenetur, dignissimos delectus nisi odio in sit voluptas eveniet accusamus molestias consectetur natus. Aperiam perspiciatis omnis harum quasi quos culpa repellat nesciunt. Dolorum porro recusandae enim quidem aspernatur blanditiis laboriosam quos! Saepe, quidem eveniet hic aspernatur vero veniam! Explicabo voluptatibus ipsum doloribus! Dolore magni provident minus repudiandae rerum, soluta, odit magnam ipsam dicta aliquam saepe!",
+        "metacanonical": "",
+        "metatitle": "",
+        "metadescription": "",
+        "metakeywords": "",
+        "SubServices": [
+            {
+                "title": "Digital Marketing",
+                "img": "",
+                "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "shortdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "longdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "bgImage": "https://i.postimg.cc/3x5j1f6H/Banner-2-green.jpg"
+            },
+            {
+                "title": "SEO Optimization",
+                "img": "",
+                "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "shortdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "longdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "bgImage": "https://i.postimg.cc/3x5j1f6H/Banner-2-green.jpg"
+            }
+        ]
+    },
+    {
+        "id": "1",
+        "url": "",
+        "title": "Digital Strategy and Planning",
+        "bgImage": "https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg",
+        "img": "",
+        "intro": "Have a look at our most innovative strategies here!",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis at distinctio, recusandae voluptas veniam sed, nulla ullam mollitia explicabo cumque quis eligendi vitae iusto cupiditate ipsa sit a officia consectetur exercitationem placeat nostrum voluptatum similique.",
+        "shortdescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis at distinctio, recusandae voluptas veniam sed, nulla ullam mollitia explicabo cumque quis eligendi vitae iusto cupiditate ipsa sit a officia consectetur exercitationem placeat nostrum voluptatum similique.",
+        "longdescription": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita reprehenderit optio ad adipisci. Nemo cum esse voluptatem culpa odit reiciendis perspiciatis quis! Magnam excepturi maiores vitae alias corporis reprehenderit hic, possimus doloribus harum nobis quas doloremque iusto, officia sit quibusdam. Aut reiciendis vitae voluptatibus! A temporibus nisi quaerat delectus atque dicta. Quas consectetur enim consequuntur facere natus odit obcaecati saepe? Perferendis modi corrupti magnam beatae unde. Nulla cupiditate placeat ex explicabo sunt neque nostrum nihil similique cumque delectus dolor laboriosam maiores animi odio quasi est doloribus, nemo vel debitis minima quaerat deleniti adipisci. Asperiores accusantium tenetur, dignissimos delectus nisi odio in sit voluptas eveniet accusamus molestias consectetur natus. Aperiam perspiciatis omnis harum quasi quos culpa repellat nesciunt. Dolorum porro recusandae enim quidem aspernatur blanditiis laboriosam quos! Saepe, quidem eveniet hic aspernatur vero veniam! Explicabo voluptatibus ipsum doloribus! Dolore magni provident minus repudiandae rerum, soluta, odit magnam ipsam dicta aliquam saepe!",
+        "metacanonical": "",
+        "metatitle": "",
+        "metadescription": "",
+        "metakeywords": "",
+        "SubServices": [
+            {
+                "title": "Digital Marketing",
+                "img": "",
+                "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "shortdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "longdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "bgImage": "https://i.postimg.cc/3x5j1f6H/Banner-2-green.jpg"
+            },
+            {
+                "title": "SEO Optimization",
+                "img": "",
+                "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "shortdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "longdescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque.",
+                "bgImage": "https://i.postimg.cc/3x5j1f6H/Banner-2-green.jpg"
+            }
+        ]
     }
 ]

@@ -4,7 +4,7 @@ export default function NonScrollerNavbar() {
   return (
     <header>
       {/* Main Navbar */}
-      <nav className=" text-white px-4 py-6 w-full fixed top-0 z-50 header1 ">
+      <nav className=" text-white px-4 py-6 w-full fixed top-0 z-50 header1 font-body ">
         <div className=" mx-auto flex justify-between items-center sm:px-4">
           {/* Logo */}
           <div className="text-xl font-bold">
@@ -37,12 +37,12 @@ export default function NonScrollerNavbar() {
                 </Link>
               </li>
               <li>
-                <Link to="#" className="hover:text-amber-400 text-lg">
+                <Link to="/contact-us" className="hover:text-amber-400 text-lg">
                   Contact
                 </Link>
               </li>
               <li>
-                <Link to="#" className="hover:text-amber-400 text-lg">
+                <Link to="/blogs" className="hover:text-amber-400 text-lg">
                   Blogs
                 </Link>
               </li>
