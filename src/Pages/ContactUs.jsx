@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import NavForOther from "../Components/NavForOther";
+import NavForOther from "../components/NavForOther";
 const ContactUs = () => {
   const [form, setForm] = useState({
     name: "",
@@ -29,15 +29,20 @@ const ContactUs = () => {
             Get in Touch
           </h1>
         </div>
-        <div className=" bg-gray-100 flex items-center flex-col justify-center p-4">
+        <div
+          className=" bg-gray-100 flex items-center flex-col justify-center p-4 bg-fixed bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url(${"src/assets/images/Home/service-bg.jpg"})`,
+          }}
+        >
           <div className="py-6 relative text-center">
-            <h2 className="text-center font-heading p-2 text-4xl text-primary mb-4">
-              Coffee or Chai? <span className="text-black">It's on us!</span>
+            <h2 className="text-center font-heading p-2 text-4xl text-white mb-4">
+              Coffee or Chai? <span className="text-primary">It's on us!</span>
             </h2>
             <span className="absolute inset-0 right-0 left-0 top-16 font-bold text-secondary">
               _____________________________________
             </span>
-            <p className="text-lg text-gray-700 text-center font-body mb-2">
+            <p className="text-lg text-white text-center font-body mb-2">
               If you have any questions, feedback, or just want to say hello,
               feel free to reach out to us using the form below. We look forward
               to hearing from you!
@@ -58,7 +63,7 @@ const ContactUs = () => {
                 Address
               </h2>
               <span>info@risezonic.com</span>
-              <p >
+              <p>
                 Risezonic - Awfis, 07th Floor, Gate No 3 & 4, Ambience Island
                 DLF Phase 3, NH-8, Gurugram, Haryana 122002
               </p>

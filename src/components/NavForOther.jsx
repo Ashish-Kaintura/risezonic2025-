@@ -78,7 +78,7 @@ export default function NavForOther() {
                 </Link>
               </li>
               <li>
-                <Link to="#" className="hover:text-amber-600 text-lg">
+                <Link to="/contact-us" className="hover:text-amber-600 text-lg">
                   Contact
                 </Link>
               </li>

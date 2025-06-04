@@ -8,7 +8,7 @@ const HeroSection = () => {
         {/* Left Image */}
         <div className="w-full md:w-1/2 ">
           <img
-            src="src/assets/images/Home/bg-remove2.png"
+            src="https://i.postimg.cc/tJBmYFmZ/Image-4-1.png"
             alt="Student"
             className="rounded-2xl w-full h-full object-cover"
           />

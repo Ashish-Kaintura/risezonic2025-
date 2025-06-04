@@ -6,8 +6,10 @@ export default function Services() {
 
   useEffect(() => {
     // localapi
-    fetch("public/data/services.json") // adjust path if needed
-    // fetch("http://localhost:5000/api/services") // adjust path if needed
+    // fetch("public/data/services.json") // adjust path if needed
+      // fetch("http://localhost:5000/api/services") // adjust path if needed
+      // live server
+      fetch("https://risezonic2025backend.onrender.com/api/services") // adjust path if needed
       .then((res) => res.json())
       .then((data) => setServices(data))
       .catch((err) => console.error("Failed to fetch services:", err));
@@ -37,7 +39,7 @@ export default function Services() {
                 <h2 className="text-5xl font-heading">{service.title}</h2>
                 <p className="pt-8 font-body">{service.description}</p>
                 <Link
-                  to={`/our-services/${encodeURIComponent(service.title)}`}
+                  to={`/our-services/${encodeURIComponent(service.url)}`}
                   className="bg-secondary text-white px-4 py-2 rounded-md mt-4
                   inline-block"
                 >

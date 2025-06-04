@@ -9,6 +9,8 @@ import ServiceDetail from "./Pages/ServicesDetails";
 import Blog from "./Pages/Blog";
 import BlogDetail from "./Pages/BlogDetails";
 import ContactUs from "./Pages/ContactUs";
+import Career from "./Pages/Career";
+import Gallery from "./Pages/Gallery";
 function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -19,10 +21,12 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<About />} />
         <Route path="/our-services" element={<Services />} />
-        <Route path="/our-services/:title" element={<ServiceDetail />} />
+        <Route path="/our-services/:url" element={<ServiceDetail />} />
         <Route path="/blogs" element={<Blog/>} />
         <Route path="/blog/:id" element={<BlogDetail/> } />
         <Route path="/contact-us" element={<ContactUs/>} />
+        <Route path="/career" element={<Career/>} />
+        <Route path="/gallery" element={<Gallery/>} />
       </Routes>
       <Footer />
     </Router>
