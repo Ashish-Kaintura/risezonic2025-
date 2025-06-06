@@ -2,24 +2,24 @@ import React from "react";
 
 const testimonials = [
   {
-    name: "Jane Doe",
+    name: "Amit Verma ",
     role: "Customer",
     feedback:
-      "Absolutely amazing service! The products arrived quickly and were exactly as described. Highly recommended!",
+      "They improved our online visibility within months. The use of SEO and social media methods increased the amount of traffic and leads seen on their website. Definitely, this agency leads as the top digital marketing agency in India!",
     image: "https://randomuser.me/api/portraits/women/44.jpg",
   },
   {
-    name: "John Smith",
+    name: "Priya Mehta",
     role: "Regular Buyer",
     feedback:
-      "Shopping here is always a pleasure. Great selection, smooth checkout, and fast delivery every time.",
+      "Our business has improved a lot since working with Risezonic. All team members think ahead, rely on data and have lots of creative answers. Definitely a great choice for anyone looking to grow their brand online.",
     image: "https://randomuser.me/api/portraits/men/32.jpg",
   },
   {
-    name: "Lisa Brown",
+    name: "Rohit Khurana",
     role: "Verified User",
     feedback:
-      "Customer support was incredibly helpful when I had a question about my order. Will shop again!",
+      "Risezonic made a difference from redesigning the website to improving marketing campaigns. Because of their knowledge of the Delhi NCR market, we were able to grow within the region and beyond. Fantastic digital marketing company!",
     image: "https://randomuser.me/api/portraits/women/68.jpg",
   },
 ];

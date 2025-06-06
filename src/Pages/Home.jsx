@@ -12,9 +12,29 @@ import Navbar from "../components/Navbar";
 export default function Home() {
   return (
     <div>
+      <div className="application">
+        <title>
+          Risezonic | Trusted Digital Marketing services Company in Delhi.
+        </title>
+        <meta
+          name="description"
+          content="Learn more about Risezonic—Delhi’s leading digital marketing services company. how we help businesses thrive online."
+        />
+        <meta name="keywords" content="home, risezonic, tech, services" />
+        <meta
+          property="og:title"
+          content=" About Risezonic | Trusted Digital Marketing services Company in
+              Delhi."
+        />
+        <meta
+          property="og:description"
+          content="Discover our latest offerings at Risezonic."
+        />
+        <link rel="canonical" href="https://www.risezonic.com/" />
+      </div>
       <Navbar />
       <div
-        className="md:h-[920px] h-[400px] bg-center bg-cover bg-no-repeat "
+        className="md:h-[920px] h-[400px] bg-center bg-cover bg-no-repeat relative "
         style={{
           backgroundImage: `url(${"https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg"})`,
         }}
@@ -28,13 +48,15 @@ export default function Home() {
               Agency in Delhi NCR
             </h2>
             <p className="mt-2 pt-4 font-semibold font-body ">
-              Risezonic is considered one of the best digital marketing agency
-              in Delhi NCR. The whole team focuses on creativity and excellence{" "}
+              Risezonic is a leading digital marketing agency, distinguished by
+              its creativity, accurate results and focus on results.
               <br />
-              to help the brands reach new horizons. As an award-winning
-              consulting firm in digital marketing, we offer personalized <br />
-              solutions for boosting sales, digital marketing, web and app
-              development, and technology strategy.
+              Since we have won awards, we are experts in providing excellent
+              digital marketing, building custom websites and apps and
+              consulting brands on technology. <br />
+              Strengthening the combination of data-driven decisions, creative
+              thoughts and strong tech knowledge allows us to achieve measurable
+              results.
               <br />
               <br />
             </p>
@@ -66,7 +88,7 @@ export default function Home() {
             "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",
         }}
       >
-        <div className="text-center py-4 relative">
+        <div className="text-center py-4 relative container mx-auto">
           <h2 className="text-4xl text-white font-semibold font-heading pt-6">
             Our Service
           </h2>
@@ -74,9 +96,10 @@ export default function Home() {
             ___________
           </span>
           <p className="text-xl pt-4 text-white font-body">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout <br />
-            established fact that a reader will.
+            Everything we do is based on joint effort, imagination and getting
+            the job done. We know that each company is unique and we adjust our
+            strategies to meet your requirements. Paying attention to openness,
+            we team up with your organization to create results that last.
           </p>
           <div className=" mt-6">
             <OurServices />
@@ -86,8 +109,8 @@ export default function Home() {
       <Workprocess />
       <StrengthInNumber />
       <Contactus />
-      <Testimonial/>
-      <BlogComponent/>
+      <Testimonial />
+      <BlogComponent />
     </div>
   );
 }

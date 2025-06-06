@@ -5,7 +5,7 @@ export default function Contactus() {
   return (
     <>
       <div
-        className="flex justify-center items-center bg-cover bg-center bg-no-repeat h-screen bg-fixed space-x-6"
+        className="lg:flex justify-center items-center bg-cover bg-center bg-no-repeat h-screen bg-fixed space-x-6"
         style={{
           backgroundImage: `url(${"src/assets/images/Home/service-bg.jpg"})`,
         }}
@@ -101,7 +101,7 @@ export default function Contactus() {
             Send Message
           </button>
         </form>
-        <div>
+        <div className="flex justify-center mt-2 lg:mt-0">
           <OnclickVideo />
         </div>
       </div>

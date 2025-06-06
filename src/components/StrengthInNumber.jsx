@@ -53,13 +53,13 @@ export default function StrengthInNumber() {
       {stats.map((stat) => (
         <div
           key={stat.id}
-          className={`${stat.color} text-black hover:bg-secondary hover:text-white w-64 h-64 flex flex-col items-center justify-center rounded-xl shadow-lg`}
+          className={`${stat.color} text-black hover:bg-secondary hover:text-white lg:w-64 w-20 h-28 lg:h-64 flex flex-col items-center justify-center rounded-xl shadow-lg`}
         >
           {/* <div className="text-4xl mb-2">{stat.icon}</div> */}
-          <div className="text-4xl  font-heading">
+          <div className="lg:text-4xl text-normal  font-heading">
             {inView && <CountUp end={stat.value} duration={2} />}+
           </div>
-          <div className="text-lg font-light mt-2 font-body">
+          <div className="lg:text-lg text-sm font-light mt-2 font-body text-center">
             {stat.label}
           </div>
         </div>

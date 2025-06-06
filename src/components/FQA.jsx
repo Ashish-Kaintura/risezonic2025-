@@ -2,18 +2,27 @@ import React, { useState } from "react";
 
 const faqs = [
   {
-    question: "What is your return policy?",
+    question: "Which types of industry are you most experienced in?",
     answer:
-      "We accept returns within 30 days of purchase. Items must be in original condition.",
+      "We handle development services for a broad selection of industries, for example, eCommerce, education, real estate, hospitality and others. We develop unique strategies that match your business’s needs and your target audience.",
   },
   {
-    question: "How long does shipping take?",
+    question:
+      " When should I expect to see the results of my digital marketing?",
     answer:
-      "Shipping typically takes 5-7 business days depending on your location.",
+      "If SEO and content marketing are used, you should notice changes in 3 to 6 months, while paid advertising tends to provide results in only a few weeks.F",
   },
   {
-    question: "Do you offer customer support?",
-    answer: "Yes, our customer support is available 24/7 via chat and email.",
+    question:
+      "Is it possible to choose custom digital marketing packages from you?",
+    answer:
+      "Absolutely. We plan and provide services that fit your goals, budget and level of digital knowledge. For clients who want either large-scale systems or limited campaigns, we are able to help.",
+  },
+  {
+    question:
+      "Are you able to make changes to an online site that is already working?",
+    answer:
+      "Yes. Along with WordPress website design, we help with speed, SEO, look on mobile devices and better user experience.",
   },
 ];
 

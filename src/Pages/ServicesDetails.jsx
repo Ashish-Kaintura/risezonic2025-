@@ -1,21 +1,30 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import NavForOther from "../components/NavForOther";
+import Loader from "../components/Loader";
 
 export default function ServiceDetail() {
   const { url } = useParams();
   const [service, setService] = useState(null);
 
   useEffect(() => {
-    fetch("https://risezonic2025backend.onrender.com/api/services/")
-      .then((res) => res.json())
-      .then((data) => {
-        const found = data.find((item) => item.url === url);
-        setService(found);
-      });
+    const fetchService = async () => {
+      const res = await fetch(
+        "https://risezonic2025backend.onrender.com/api/services/"
+      );
+      const data = await res.json();
+      const found = data.find((item) => item.url === url);
+      setService(found);
+    };
+    fetchService();
   }, [url]);
 
-  if (!service) return <div className="p-8">Loading service details...</div>;
+  if (!service)
+    return (
+      <div className="p-8 flex h-screen items-center justify-center text-center ">
+       <Loader/>
+      </div>
+    );
 
   return (
     <>
@@ -32,7 +41,9 @@ export default function ServiceDetail() {
               <p className="text-xl italic text-gray-600 mb-4">
                 {service.intro}
               </p>
-              <p className="text-base text-gray-700 mb-4">{service.description}</p>
+              <p className="text-base text-gray-700 mb-4">
+                {service.description}
+              </p>
             </div>
 
             {/* Banner image */}
@@ -47,7 +58,9 @@ export default function ServiceDetail() {
 
           {/* Long Description */}
           <div className="mt-12 prose max-w-none prose-lg text-gray-800">
-            <div dangerouslySetInnerHTML={{ __html: service.longdescription }} />
+            <div
+              dangerouslySetInnerHTML={{ __html: service.longdescription }}
+            />
           </div>
 
           {/* SubServices */}
@@ -58,15 +71,24 @@ export default function ServiceDetail() {
               </h2>
               <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                 {service.SubServices.map((sub, index) => (
-                  <div key={index} className="bg-gray-50 p-4 rounded-lg shadow-sm hover:shadow-md transition">
+                  <div
+                    key={index}
+                    className="bg-gray-50 p-4 rounded-lg shadow-sm hover:shadow-md transition"
+                  >
                     <img
                       src={sub.bgImage}
                       alt={sub.title}
                       className="w-full h-40 object-cover rounded mb-3"
                     />
-                    <h3 className="text-xl font-semibold text-gray-800">{sub.title}</h3>
-                    <p className="text-sm text-gray-600 italic mb-2">{sub.intro}</p>
-                    <p className="text-sm text-gray-700">{sub.shortdescription}</p>
+                    <h3 className="text-xl font-semibold text-gray-800">
+                      {sub.title}
+                    </h3>
+                    <p className="text-sm text-gray-600 italic mb-2">
+                      {sub.intro}
+                    </p>
+                    <p className="text-sm text-gray-700">
+                      {sub.shortdescription}
+                    </p>
                   </div>
                 ))}
               </div>

@@ -55,7 +55,7 @@ const OurServices = () => {
               className="rounded-lg shadow-lg p-6 bg-white hover:bg-amber-600 hover:text-white hover:-translate-y-4 transition-all duration-300 transform hover:scale-105"
             >
               <div className="text-4xl mb-4">{service.icon}</div>
-              <div className="text-4xl mb-4 w-64 h-64 overflow-hidden">
+              <div className="text-4xl mb-4 lg:w-64 h-64 overflow-hidden flex justify-center">
                 <img className="w-full h-full object-contain" src={service.img} alt={service.title} />
               </div>
               <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
