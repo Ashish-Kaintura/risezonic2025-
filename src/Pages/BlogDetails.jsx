@@ -1,16 +1,40 @@
 // src/pages/BlogDetail.jsx
 import { useParams } from "react-router-dom";
-import blogs from "../.././public/data/blog.json";
+import { useEffect, useState } from "react";
+// import blogs from "../.././public/data/blog.json";
 import NavForOther from "../components/NavForOther";
 export default function BlogDetail() {
-  const { id } = useParams();
-  const blog = blogs.find((b) => b.id === id);
+  const { url } = useParams();
+  // eslint-disable-next-line no-unused-vars
+  const [blogs, setBlogs] = useState([]);
+  const [blog, setBlog] = useState(null);
+  const [loading, setLoading] = useState(true);
 
+  useEffect(() => {
+    const fetchBlogs = async () => {
+      try {
+        const res = await fetch(
+          "https://risezonic2025backend.onrender.com/api/blogs"
+        ); // Replace with your API endpoint
+        const data = await res.json();
+        setBlogs(data);
+        const foundBlog = data.find((b) => b.url === url);
+        setBlog(foundBlog);
+      } catch (error) {
+        console.error("Failed to fetch blogs:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchBlogs();
+  }, [url]);
+
+  if (loading) return <div className="text-center p-8">Loading...</div>;
   if (!blog) return <div className="text-center p-8">Blog not found.</div>;
 
   return (
     <>
-    <NavForOther />
+      <NavForOther />
       <div className="max-w-4xl mx-auto px-4 py-8 pt-28">
         <img
           src={blog.image}

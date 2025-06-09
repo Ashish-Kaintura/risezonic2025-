@@ -10,7 +10,7 @@ export default function BlogCard({ blog }) {
   });
 
   return (
-    <div className="bg-white rounded-xl shadow p-4 hover:shadow-xl transition hover:-translate-y-2 shadow-secondary ">
+    <div  className="bg-white rounded-xl shadow p-4 hover:shadow-xl transition hover:-translate-y-2 shadow-secondary ">
       <img
         src={blog.Image}
         alt={blog.title}

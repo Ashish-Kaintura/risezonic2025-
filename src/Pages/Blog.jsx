@@ -9,17 +9,23 @@ export default function Blog() {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const res = await fetch('https://risezonic2025backend.onrender.com/api/blogs'); // Replace with your API endpoint
+        const res = await fetch(
+          "https://risezonic2025backend.onrender.com/api/blogs"
+        ); // Replace with your API endpoint
         const data = await res.json();
         setBlogs(data);
       } catch (error) {
-        console.error('Failed to fetch blogs:', error);
+        console.error("Failed to fetch blogs:", error);
       }
     };
     fetchBlogs();
   }, []);
   // Sort blogs by createdAt (or publishedAt) descending before rendering
-  const sortedBlogs = [...blogs].sort((a, b) => new Date(b.createdAt || b.publishedAt) - new Date(a.createdAt || a.publishedAt));
+  const sortedBlogs = [...blogs].sort(
+    (a, b) =>
+      new Date(b.createdAt || b.publishedAt) -
+      new Date(a.createdAt || a.publishedAt)
+  );
 
   return (
     <>
@@ -37,7 +43,7 @@ export default function Blog() {
           <br />
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {sortedBlogs.map((blog) => (
-              <BlogCard key={blog.id} blog={blog} />
+              <BlogCard key={blog.id || blog.url} blog={blog} />
             ))}
           </div>
         </div>

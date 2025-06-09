@@ -22,7 +22,7 @@ export default function ServiceDetail() {
   if (!service)
     return (
       <div className="p-8 flex h-screen items-center justify-center text-center ">
-       <Loader/>
+        <Loader />
       </div>
     );
 
@@ -40,6 +40,9 @@ export default function ServiceDetail() {
               </h1>
               <p className="text-xl italic text-gray-600 mb-4">
                 {service.intro}
+              </p>
+              <p className="text-base text-gray-700 mb-4">
+                {service.shortdescription}
               </p>
               <p className="text-base text-gray-700 mb-4">
                 {service.description}
@@ -63,8 +66,131 @@ export default function ServiceDetail() {
             />
           </div>
 
-          {/* SubServices */}
+          {/* subservices  */}
           {service.SubServices?.length > 0 && (
+            <div className="mt-16">
+              <section className="container mx-auto">
+                {/* SubService 1 - Local SEO */}
+                {service.SubServices[0] && (
+                  <div className="sm:flex sm:justify-between justify-center  items-center">
+                    <div className=" w-full flex justify-center text-center ">
+                      <article>
+                        <section className=" flex justify-center text-start items-center p-6">
+                          <div className="relative">
+                            <h2 className="text-6xl font-heading text-black">
+                              {service.SubServices[0].title}
+                            </h2>
+
+                            <h3 className="md:pt-8 pt-6 font-body text-sm italic font-semibold">
+                              {service.SubServices[0].intro}
+                            </h3>
+                            <p className="md:pt-8 pt-2 font-body">
+                              {service.SubServices[0].intro}
+                              {service.SubServices[0].intro}
+                              {service.SubServices[0].intro}
+                              {service.SubServices[0].intro}
+                            </p>
+                          </div>
+                        </section>
+                      </article>
+                    </div>
+                    <div className="md:h-100 w-full bg-gray-300 overflow-hidden">
+                      <img
+                        className="bg-contain bg-center h-full w-full"
+                        src="https://media.istockphoto.com/id/1324356458/vector/picture-icon-photo-frame-symbol-landscape-sign-photograph-gallery-logo-web-interface-and.jpg?s=612x612&w=0&k=20&c=ZmXO4mSgNDPzDRX-F8OKCfmMqqHpqMV6jiNi00Ye7rE="
+                        alt="Plan & Create"
+                      />
+                    </div>
+                  </div>
+                )}
+              </section>
+            </div>
+          )}
+
+          {/* subservices  */}
+          {service.SubServices?.length > 0 && (
+            <div className="mt-16">
+              <section className="container mx-auto">
+                {/* SubService 1 - Local SEO */}
+                {service.SubServices[1] && (
+                  <div className="sm:flex sm:justify-between justify-center  items-center">
+                    <div className="md:h-100 w-full bg-gray-300 overflow-hidden">
+                      <img
+                        className="bg-contain bg-center h-full w-full"
+                        src="https://media.istockphoto.com/id/1324356458/vector/picture-icon-photo-frame-symbol-landscape-sign-photograph-gallery-logo-web-interface-and.jpg?s=612x612&w=0&k=20&c=ZmXO4mSgNDPzDRX-F8OKCfmMqqHpqMV6jiNi00Ye7rE="
+                        alt="Plan & Create"
+                      />
+                    </div>
+                    <div className=" w-full flex justify-center text-center ">
+                      <article>
+                        <section className=" flex justify-center text-start items-center p-6">
+                          <div className="relative">
+                            <h2 className="text-6xl font-heading text-black">
+                              {service.SubServices[1].title}
+                            </h2>
+
+                            <h3 className="md:pt-8 pt-6 font-body text-sm italic font-semibold">
+                              {service.SubServices[1].intro}
+                            </h3>
+                            <p className="md:pt-8 pt-2 font-body">
+                              {service.SubServices[1].intro}
+                              {service.SubServices[1].intro}
+                              {service.SubServices[1].intro}
+                              {service.SubServices[1].intro}
+                            </p>
+                          </div>
+                        </section>
+                      </article>
+                    </div>
+                  </div>
+                )}
+              </section>
+            </div>
+          )}
+
+          {/* subservices  */}
+          {service.SubServices?.length > 0 && (
+            <div className="mt-16">
+              <section className="container mx-auto">
+                {/* SubService 1 - Local SEO */}
+                {service.SubServices[2] && (
+                  <div className="sm:flex sm:justify-between justify-center  items-center">
+                    <div className=" w-full flex justify-center text-center ">
+                      <article>
+                        <section className=" flex justify-center text-start items-center p-6">
+                          <div className="relative">
+                            <h2 className="text-6xl font-heading text-black">
+                              {service.SubServices[2].title}
+                            </h2>
+
+                            <h3 className="md:pt-8 pt-6 font-body text-sm italic font-semibold">
+                              {service.SubServices[2].intro}
+                            </h3>
+                            <p className="md:pt-8 pt-2 font-body">
+                              {service.SubServices[2].intro}
+                              {service.SubServices[2].intro}
+                              {service.SubServices[2].intro}
+                              {service.SubServices[2].intro}
+                            </p>
+                          </div>
+                        </section>
+                      </article>
+                    </div>
+                    <div className="md:h-100 w-full bg-gray-300 overflow-hidden">
+                      <img
+                        className="bg-contain bg-center h-full w-full"
+                        src="https://media.istockphoto.com/id/1324356458/vector/picture-icon-photo-frame-symbol-landscape-sign-photograph-gallery-logo-web-interface-and.jpg?s=612x612&w=0&k=20&c=ZmXO4mSgNDPzDRX-F8OKCfmMqqHpqMV6jiNi00Ye7rE="
+                        alt="Plan & Create"
+                      />
+                    </div>
+                  </div>
+                )}
+              </section>
+            </div>
+          )}
+
+          {/* SubServices */}
+          {/* {service.SubServices?.length > 0 && (
             <div className="mt-16">
               <h2 className="text-3xl font-semibold mb-6 border-b pb-2">
                 Related SubServices
@@ -93,7 +219,7 @@ export default function ServiceDetail() {
                 ))}
               </div>
             </div>
-          )}
+          )} */}
         </section>
       </article>
     </>
