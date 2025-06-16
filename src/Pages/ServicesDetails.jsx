@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import NavForOther from "../components/NavForOther";
 import Loader from "../components/Loader";
+import { Helmet } from "react-helmet-async";
 
 export default function ServiceDetail() {
   const { url } = useParams();
@@ -28,6 +29,15 @@ export default function ServiceDetail() {
 
   return (
     <>
+      <Helmet>
+        <title>{service.metatitle}</title>
+        <meta name="description" content={service.metadescription} />
+        <meta name="keywords" content={service.metakeywords} />
+        <meta property="og:title" content={service.metatitle} />
+        <meta property="og:description" content={service.metadescription} />
+        <link rel="canonical" href={service.metacanonical} />
+      </Helmet>
+
       <NavForOther />
 
       <article className="pt-28 bg-white min-h-screen">
@@ -84,11 +94,12 @@ export default function ServiceDetail() {
                             <h3 className="md:pt-8 pt-6 font-body text-sm italic font-semibold">
                               {service.SubServices[0].intro}
                             </h3>
+
                             <p className="md:pt-8 pt-2 font-body">
-                              {service.SubServices[0].intro}
-                              {service.SubServices[0].intro}
-                              {service.SubServices[0].intro}
-                              {service.SubServices[0].intro}
+                              {service.SubServices[0].shortdescription}
+                            </p>
+                            <p className="md:pt-8 pt-2 font-body">
+                              {service.SubServices[0].description}
                             </p>
                           </div>
                         </section>
@@ -132,11 +143,12 @@ export default function ServiceDetail() {
                             <h3 className="md:pt-8 pt-6 font-body text-sm italic font-semibold">
                               {service.SubServices[1].intro}
                             </h3>
+
                             <p className="md:pt-8 pt-2 font-body">
-                              {service.SubServices[1].intro}
-                              {service.SubServices[1].intro}
-                              {service.SubServices[1].intro}
-                              {service.SubServices[1].intro}
+                              {service.SubServices[1].shortdescription}
+                            </p>
+                            <p className="md:pt-8 pt-2 font-body">
+                              {service.SubServices[1].description}
                             </p>
                           </div>
                         </section>
@@ -166,11 +178,12 @@ export default function ServiceDetail() {
                             <h3 className="md:pt-8 pt-6 font-body text-sm italic font-semibold">
                               {service.SubServices[2].intro}
                             </h3>
+
                             <p className="md:pt-8 pt-2 font-body">
-                              {service.SubServices[2].intro}
-                              {service.SubServices[2].intro}
-                              {service.SubServices[2].intro}
-                              {service.SubServices[2].intro}
+                              {service.SubServices[2].shortdescription}
+                            </p>
+                            <p className="md:pt-8 pt-2 font-body">
+                              {service.SubServices[2].description}
                             </p>
                           </div>
                         </section>

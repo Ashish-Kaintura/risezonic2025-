@@ -69,7 +69,10 @@ export default function Navbar2() {
                 </Link>
               </li>
               <li>
-                <Link to="/our-services" className="hover:text-amber-400 text-lg">
+                <Link
+                  to="/our-services"
+                  className="hover:text-amber-400 text-lg"
+                >
                   Services
                 </Link>
               </li>
@@ -78,7 +81,7 @@ export default function Navbar2() {
                   Contact
                 </Link>
               </li>
-               <li>
+              <li>
                 <Link to="/blogs" className="hover:text-amber-400 text-lg">
                   Blogs
                 </Link>
@@ -119,19 +122,25 @@ export default function Navbar2() {
             </li>
             <li className="flex items-center gap-2">
               <FaInfoCircle />
-              <Link to="#" className="block hover:text-amber-600 text-lg">
+              <Link
+                to="/about-us"
+                className="block hover:text-amber-600 text-lg"
+              >
                 About
               </Link>
             </li>
             <li className="flex items-center gap-2">
               <FaCircleQuestion />
               <Link to="#" className="block hover:text-amber-600 text-lg">
-                What We
+                What We do
               </Link>
             </li>
             <li className="flex items-center gap-2">
               <FaServicestack />
-              <Link to="#" className="block hover:text-amber-600 text-lg">
+              <Link
+                to="/our-services"
+                className="block hover:text-amber-600 text-lg"
+              >
                 Services
               </Link>
             </li>
@@ -143,19 +152,37 @@ export default function Navbar2() {
             </li>
             <li className="flex items-center gap-2">
               <FaPhoneAlt />
-              <Link to="/contact-us" className="block hover:text-amber-600 text-lg">
+              <Link
+                to="/contact-us"
+                className="block hover:text-amber-600 text-lg"
+              >
                 Contact
               </Link>
             </li>
             <li className="flex items-center gap-2">
+              <FaPhoneAlt />
+              <Link
+                to="/gallery"
+                className="block hover:text-amber-600 text-lg"
+              >
+                Gallery
+              </Link>
+            </li>
+            <li className="flex items-center gap-2">
               <FaNewspaper />
-              <Link to="#" className="block hover:text-amber-600 text-lg">
+              <Link
+                to="/newsandmedia"
+                className="block hover:text-amber-600 text-lg"
+              >
                 News And Media
               </Link>
             </li>
             <li className="flex items-center gap-2">
               <FaLock />
-              <Link to="#" className="block hover:text-amber-600 text-lg">
+              <Link
+                to="/privacy-policy"
+                className="block hover:text-amber-600 text-lg"
+              >
                 Privacy Policy
               </Link>
             </li>

@@ -13,6 +13,7 @@ import Career from "./Pages/Career";
 import Gallery from "./Pages/Gallery";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import MediaPage from "./Pages/MediaPage";
+import WhatWeDo from "./Pages/WhatWeDo";
 function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -22,6 +23,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<About />} />
+        <Route path="/whatwedo" element={<WhatWeDo/>} />
         <Route path="/our-services" element={<Services />} />
         <Route path="/our-services/:url" element={<ServiceDetail />} />
         <Route path="/blogs" element={<Blog/>} />

@@ -2,6 +2,8 @@ import React from "react";
 import NavForOther from "../components/NavForOther";
 import Testimonial from "../components/Testimonial";
 import FAQ from "../components/FQA";
+import Aboutusimg from "../../src/assets/images/Aboutus/Aboutus.webp";
+import whatwedo from "../assets/images/Aboutus/whatwedo.webp";
 import { Helmet } from "react-helmet-async";
 export default function About() {
   return (
@@ -82,10 +84,11 @@ export default function About() {
                 </section>
               </article>
             </div>
-            <div className="md:h-100 w-full bg-gray-300 overflow-hidden">
+            <div className="md:h-100 w-full  overflow-hidden">
               <img
                 className="bg-contain bg-center h-full w-full"
-                src="https://media.istockphoto.com/id/1324356458/vector/picture-icon-photo-frame-symbol-landscape-sign-photograph-gallery-logo-web-interface-and.jpg?s=612x612&w=0&k=20&c=ZmXO4mSgNDPzDRX-F8OKCfmMqqHpqMV6jiNi00Ye7rE="
+                // src="https://media.istockphoto.com/id/1324356458/vector/picture-icon-photo-frame-symbol-landscape-sign-photograph-gallery-logo-web-interface-and.jpg?s=612x612&w=0&k=20&c=ZmXO4mSgNDPzDRX-F8OKCfmMqqHpqMV6jiNi00Ye7rE="
+                src={Aboutusimg}
                 alt="Plan & Create"
               />
             </div>
@@ -97,7 +100,8 @@ export default function About() {
             <div className="md:h-100 w-full  overflow-hidden ">
               <img
                 className="bg-contain bg-center h-full w-full"
-                src="https://media.istockphoto.com/id/1324356458/vector/picture-icon-photo-frame-symbol-landscape-sign-photograph-gallery-logo-web-interface-and.jpg?s=612x612&w=0&k=20&c=ZmXO4mSgNDPzDRX-F8OKCfmMqqHpqMV6jiNi00Ye7rE="
+                // src="https://media.istockphoto.com/id/1324356458/vector/picture-icon-photo-frame-symbol-landscape-sign-photograph-gallery-logo-web-interface-and.jpg?s=612x612&w=0&k=20&c=ZmXO4mSgNDPzDRX-F8OKCfmMqqHpqMV6jiNi00Ye7rE="
+                src={whatwedo}
                 alt="Plan & Create"
               />
             </div>

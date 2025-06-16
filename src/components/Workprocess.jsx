@@ -1,5 +1,5 @@
 import React from "react";
-import Workprocess1 from "../assets/images/Home/Workprocess1.jpg";
+import Workprocess1 from "../assets/images/Home/workplan.jpg";
 import Workprocess2 from "../assets/images/Home/Workprocess2.jpg";
 import Workprocess3 from "../assets/images/Home/Workprocess3.jpg";
 export default function Workprocess() {
@@ -40,8 +40,8 @@ export default function Workprocess() {
           </div>
           <div className="h-100 w-full bg-gray-300 overflow-hidden ">
             <img
-              className="bg-contain bg-center h-full w-full "
-              src="https://cdn.tophatch.com/media/filer_public_thumbnails/filer_public/04/e3/04e32b3d-d563-4bdf-9513-1df4abeffb85/floorplan_v61_cover4_2100.png__2100.0x1181.0_subsampling-2.png"
+              className="bg-cover bg-center h-full w-full "
+              src={Workprocess1}
               alt="Plan & Create"
             />
           </div>
@@ -49,7 +49,7 @@ export default function Workprocess() {
         <div className="sm:flex sm:justify-between justify-center bg-gray-200 ">
           <div className="h-100 w-full bg-gray-300 overflow-hidden ">
             <img
-              className="bg-contain bg-center h-full w-full "
+              className="bg-cover bg-center h-full w-full "
               // src="https://plus.unsplash.com/premium_photo-1661430753296-11d1fde8b7dd?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGFwdG9wJTIwZGVza3xlbnwwfHwwfHx8MA%3D%3D"
               src={Workprocess2}
               alt="Plan & Create"

@@ -27,7 +27,7 @@ export default function NonScrollerNavbar() {
                 </Link>
               </li>
               <li>
-                <Link to="/about-us" className="hover:text-amber-400 text-lg">
+                <Link to="/whatwedo" className="hover:text-amber-400 text-lg">
                   What We Do
                 </Link>
               </li>

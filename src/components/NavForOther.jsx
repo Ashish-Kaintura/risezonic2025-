@@ -15,6 +15,7 @@ import {
   FaNewspaper,
   FaLock,
 } from "react-icons/fa";
+import { FaCircleQuestion } from "react-icons/fa6";
 import {
   AiOutlineMenuUnfold,
   AiOutlineClose,
@@ -65,7 +66,7 @@ export default function NavForOther() {
                 </Link>
               </li>
               <li>
-                <Link to="/" className="hover:text-amber-600 text-lg">
+                <Link to="/whatwedo" className="hover:text-amber-600 text-lg">
                   What We Do
                 </Link>
               </li>
@@ -121,19 +122,25 @@ export default function NavForOther() {
           <ul className="p-4 space-y-4">
             <li className="flex items-center gap-2">
               <FaHome />
-              <Link to="#" className="block hover:text-amber-600 text-lg">
+              <Link to="/" className="block hover:text-amber-600 text-lg">
                 Home
               </Link>
             </li>
             <li className="flex items-center gap-2">
               <FaInfoCircle />
-              <Link to="#" className="block hover:text-amber-600 text-lg">
+              <Link to="/about-us" className="block hover:text-amber-600 text-lg">
                 About
               </Link>
             </li>
             <li className="flex items-center gap-2">
+              <FaCircleQuestion />
+              <Link to="/whatwedo" className="block hover:text-amber-600 text-lg">
+                What We do
+              </Link>
+            </li>
+            <li className="flex items-center gap-2">
               <FaServicestack />
-              <Link to="#" className="block hover:text-amber-600 text-lg">
+              <Link to="/our-services" className="block hover:text-amber-600 text-lg">
                 Services
               </Link>
             </li>
@@ -145,19 +152,37 @@ export default function NavForOther() {
             </li>
             <li className="flex items-center gap-2">
               <FaPhoneAlt />
-              <Link to="/contact-us" className="block hover:text-amber-600 text-lg">
+              <Link
+                to="/contact-us"
+                className="block hover:text-amber-600 text-lg"
+              >
                 Contact
               </Link>
             </li>
             <li className="flex items-center gap-2">
+              <FaPhoneAlt />
+              <Link
+                to="/gallery"
+                className="block hover:text-amber-600 text-lg"
+              >
+                Gallery
+              </Link>
+            </li>
+            <li className="flex items-center gap-2">
               <FaNewspaper />
-              <Link to="#" className="block hover:text-amber-600 text-lg">
+              <Link
+                to="/newsandmedia"
+                className="block hover:text-amber-600 text-lg"
+              >
                 News And Media
               </Link>
             </li>
             <li className="flex items-center gap-2">
               <FaLock />
-              <Link to="#" className="block hover:text-amber-600 text-lg">
+              <Link
+                to="/privacy-policy"
+                className="block hover:text-amber-600 text-lg"
+              >
                 Privacy Policy
               </Link>
             </li>

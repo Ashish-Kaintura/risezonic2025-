@@ -36,21 +36,21 @@ export default function Services() {
   return (
     <>
       <Helmet>
-        <title>Services</title>
+        <title>SEO Agency in Delhi | Risezonic.</title>
         <meta
           name="description"
-          content="services for expert tips on SEO, social media, performance marketing,website design, and the latest digital marketing trends."
+          content="Boost your online visibility with Risezonic -SEO Agency in Delhi. We specialize in local and international SEO strategies that drive traffic, leads, and growth."
         />
-        <meta name="keywords" content="Digital Marketing Blog" />
-        <meta
-          property="og:title"
-          content="Digital Marketing Blog | Risezonic."
-        />
+        <meta name="keywords" content="SEO Agency in Delhi" />
+        <meta property="og:title" content="SEO Agency in Delhi | Risezonic." />
         <meta
           property="og:description"
-          content="services for expert tips on SEO, social media, performance marketing,website design, and the latest digital marketing trends."
+          content="Boost your online visibility with Risezonic -SEO Agency in Delhi. We specialize in local and international SEO strategies that drive traffic, leads, and growth."
         />
-        <link rel="canonical" href="https://www.risezonic.com/our-services" />
+        <link
+          rel="canonical "
+          href="https://www.risezonic.com/services/seo-services"
+        />
       </Helmet>
       <NavForOther />
       <section
@@ -67,20 +67,20 @@ export default function Services() {
           {/* Loader */}
           {loading ? (
             <div className="flex justify-center items-center py-20">
-             <Loader/>
+              <Loader />
             </div>
           ) : (
             // Render services dynamically
             <div className="flex flex-wrap justify-evenly p-6 gap-8">
               {services
-                .filter(service => service.isActive)
+                .filter((service) => service.isActive)
                 .map((service, index) => (
                   <div
                     key={index}
                     className="w-[650px] bg-white border-2 rounded-lg shadow-lg p-4  hover:bg-[url('https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg')]  transition-all duration-300 hover:-translate-y-2 hover:text-black hover:bg-cover hover:bg-center"
                   >
                     <h2 className="text-5xl font-heading">{service.title}</h2>
-                    <p className="pt-8 font-body">{service.description}</p>
+                    <p className="pt-8 font-body line-clamp-5">{service.description}</p>
                     <Link
                       to={`/our-services/${encodeURIComponent(service.url)}`}
                       className="bg-secondary text-white px-4 py-2 rounded-md mt-4

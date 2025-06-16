@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 // import blogs from "../.././public/data/blog.json";
 import NavForOther from "../components/NavForOther";
+import { Helmet } from "react-helmet-async";
 export default function BlogDetail() {
   const { url } = useParams();
   // eslint-disable-next-line no-unused-vars
@@ -35,6 +36,14 @@ export default function BlogDetail() {
   return (
     <>
       <NavForOther />
+      <Helmet>
+        <title>{blog.metatitle}</title>
+        <meta name="description" content={blog.metadescription} />
+        <meta name="keywords" content={blog.metakeywords} />
+        <meta property="og:title" content={blog.metatitle} />
+        <meta property="og:description" content={blog.metadescription} />
+        <link rel="canonical" href={blog.metacanonical} />
+      </Helmet>
       <div className="max-w-4xl mx-auto px-4 py-8 pt-28">
         <img
           src={blog.image}
