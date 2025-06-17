@@ -9,7 +9,8 @@ const newsData = [
     date: "June 4, 2025",
     description:
       "Risezonic unveils a suite of AI-driven services aimed at transforming how businesses operate digitally.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd-M_r7bEyuBQzUODeKwobumjZ2bnoB_uelw&s",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd-M_r7bEyuBQzUODeKwobumjZ2bnoB_uelw&s",
     featured: true,
   },
   {
@@ -18,7 +19,8 @@ const newsData = [
     date: "May 22, 2025",
     description:
       "We showcased our platform to thousands of entrepreneurs and investors at the expo.",
-    image: "https://static.vecteezy.com/system/resources/thumbnails/014/440/983/small_2x/image-icon-design-in-blue-circle-png.png",
+    image:
+      "https://static.vecteezy.com/system/resources/thumbnails/014/440/983/small_2x/image-icon-design-in-blue-circle-png.png",
   },
   {
     title: "Risezonic Partners with Microsoft",
@@ -26,7 +28,8 @@ const newsData = [
     date: "April 30, 2025",
     description:
       "We’ve entered a strategic alliance with Microsoft to expand cloud services for SMBs.",
-    image: "https://static.vecteezy.com/system/resources/thumbnails/014/440/983/small_2x/image-icon-design-in-blue-circle-png.png",
+    image:
+      "https://static.vecteezy.com/system/resources/thumbnails/014/440/983/small_2x/image-icon-design-in-blue-circle-png.png",
   },
   {
     title: "CEO Interviewed on TechCrunch Live",
@@ -34,7 +37,8 @@ const newsData = [
     date: "April 10, 2025",
     description:
       "Our CEO discusses Risezonic's roadmap and vision for the future on TechCrunch.",
-    image: "https://static.vecteezy.com/system/resources/thumbnails/014/440/983/small_2x/image-icon-design-in-blue-circle-png.png",
+    image:
+      "https://static.vecteezy.com/system/resources/thumbnails/014/440/983/small_2x/image-icon-design-in-blue-circle-png.png",
   },
 ];
 
@@ -44,7 +48,19 @@ const MediaPage = () => {
 
   return (
     <>
-    <NavForOther/>
+      <Helmet>
+        <title>Risezonic News & Media | Latest Updates .</title>
+        <meta
+          name="description"
+          content="Stay updated with the latest news, media features, and press releases from Risezonic. A leading marketing agency in Delhi."
+        />
+        <meta name="keywords" content="Risezonic" />
+        <link
+          rel="canonical "
+          href="https://www.risezonic.com/news-and-media"
+        />
+      </Helmet>
+      <NavForOther />
       <div className="pt-28">
         <div className="bg-gray-100 text-gray-800 px-6 py-10">
           <div className="max-w-7xl mx-auto">

@@ -47,14 +47,16 @@ const Footer = () => {
         <div>
           <h2 className="text-xl font-semibold mb-4 text-white">Services</h2>
           <ul className="space-y-2">
-            <a href=""> <li>Home</li></a>
+            <a href="/"> <li>Home</li></a>
             <a href=""> <li>About</li></a>
             <a href=""> <li>Services</li></a>
+            <a href=""> <li>Career</li></a>
+            <a href=""> <li>Blog</li></a>
             <a href=""> <li>Ai Risezonic</li></a>
             <a href=""> <li>Daily News</li></a>
             <a href=""> <li>What We Do</li></a>
             <a href=""> <li>Privacy Policy</li></a>
-            <a href=""> <li>Blog</li></a>
+           
           </ul>
         </div>
 

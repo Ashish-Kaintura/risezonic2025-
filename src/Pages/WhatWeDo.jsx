@@ -7,6 +7,18 @@ import OurServices from "../components/OurServices";
 export default function WhatWeDo() {
   return (
     <>
+      <Helmet>
+        <title>Explore Marketing Solutions | Risezonic</title>
+        <meta
+          name="description"
+          content="Rizeonic provides results-driven digital marketing strategies, including SEO, social media, performance marketing, and paid ad management."
+        />
+        <meta name="keywords" content="Marketing Solutions" />
+        <link
+          rel="canonical "
+          href="https://www.risezonic.com/what-we-do"
+        />
+      </Helmet>
       <NavForOther />
       <section>
         <div

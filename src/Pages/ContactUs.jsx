@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import NavForOther from "../components/NavForOther";
+import { Helmet } from "react-helmet-async";
 const ContactUs = () => {
   const [form, setForm] = useState({
     name: "",
@@ -22,6 +23,15 @@ const ContactUs = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Contact us | Risezonic -Digital Marketing Experts.</title>
+        <meta
+          name="description"
+          content="Get in touch with a digital marketing expert at Risezonic. how we can help boost your online presence and drive real business growth."
+        />
+        <meta name="keywords" content="Digital Marketing Experts." />
+        <link rel="canonical " href="https://www.risezonic.com/contact-us" />
+      </Helmet>
       <NavForOther />
       <div className=" sm:p-28">
         <div>

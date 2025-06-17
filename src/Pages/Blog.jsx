@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import BlogCard from "../components/BlogCard";
 import NavForOther from "../components/NavForOther";
+import { Helmet } from "react-helmet-async";
 export default function Blog() {
   const [blogs, setBlogs] = useState([]);
 
@@ -29,6 +30,16 @@ export default function Blog() {
 
   return (
     <>
+      <Helmet>
+        <title>Digital Marketing Blog | Risezonic.</title>
+        <meta
+          name="description"
+          content="Explore the Risezonic blog for expert tips on SEO, social media, performance marketing,website design, and the latest digital marketing trends."
+        />
+        <meta name="keywords" content="Digital Marketing Blog" />
+
+        <link rel="canonical " href="https://www.risezonic.com/blogs" />
+      </Helmet>
       <NavForOther />
       <div
         className="bg-center bg-cover bg-fixed py-12"

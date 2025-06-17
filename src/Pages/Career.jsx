@@ -1,5 +1,6 @@
 import React from "react";
 import NavForOther from "../components/NavForOther";
+import { Helmet } from "react-helmet-async";
 const Career = () => {
   const jobs = [
     {
@@ -19,6 +20,15 @@ const Career = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Careers at Risezonic | Join Our Digital Marketing Team.</title>
+        <meta
+          name="description"
+          content="Start your digital marketing career at Risezonic. Join the Risezonic group team in Delhi and work on exciting, high-impact campaigns."
+        />
+        <meta name="keywords" content="Risezonic " />
+        <link rel="canonical " href="https://www.risezonic.com/career" />
+      </Helmet>
       <NavForOther />
       <div className="min-h-screen bg-gray-50 py-12 px-4 pt-28">
         <div className="max-w-5xl mx-auto text-center">

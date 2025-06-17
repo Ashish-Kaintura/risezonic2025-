@@ -13,7 +13,12 @@ import {
   FaBlog,
   FaNewspaper,
   FaLock,
+  FaInstalod,
 } from "react-icons/fa";
+
+import { useLocation } from "react-router-dom";
+
+import { RiGalleryFill } from "react-icons/ri";
 import {
   AiOutlineMenuUnfold,
   AiOutlineClose,
@@ -40,6 +45,10 @@ export default function Navbar2() {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
+  const location = useLocation();
+  const currentPath = location.pathname;
+  const isActive = (path) => currentPath === path;
+
   return (
     <header>
       {/* Main Navbar */}
@@ -47,42 +56,90 @@ export default function Navbar2() {
         <div className=" mx-auto flex justify-between items-center sm:px-4">
           {/* Logo */}
           <div className="text-xl font-bold">
-            <img className="w-42" src={BlackLogo} alt="logo" />
+            <a href="/">
+              <img className="w-42" src={BlackLogo} alt="logo" />
+            </a>
           </div>
 
           {/* Navigation Links */}
           <div className="flex text-black items-center justify-between space-x-6 ">
             <ul className="md:flex hidden space-x-6">
               <li>
-                <Link to="/" className="hover:text-amber-400 text-lg">
+                <Link
+                  to="/"
+                  className={`text-lg hover:text-amber-400 ${
+                    isActive("/") ? "text-amber-400 font-semibold" : ""
+                  }`}
+                >
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/about-us" className="hover:text-amber-400 text-lg">
+                <Link
+                  to="/about-us"
+                  className={`text-lg hover:text-amber-400 ${
+                    isActive("/about-us") ? "text-amber-400 font-semibold" : ""
+                  }`}
+                >
                   About
                 </Link>
               </li>
               <li>
-                <Link to="/about-us" className="hover:text-amber-400 text-lg">
+                <Link
+                  to="/what-we-do"
+                  className={`text-lg hover:text-amber-400 ${
+                    isActive("/what-we-do")
+                      ? "text-amber-400 font-semibold"
+                      : ""
+                  }`}
+                >
                   What We Do
                 </Link>
               </li>
               <li>
                 <Link
                   to="/our-services"
-                  className="hover:text-amber-400 text-lg"
+                  className={`text-lg hover:text-amber-400 ${
+                    isActive("/our-services")
+                      ? "text-amber-400 font-semibold"
+                      : ""
+                  }`}
                 >
                   Services
                 </Link>
               </li>
               <li>
-                <Link to="/contact-us" className="hover:text-amber-400 text-lg">
+                <Link
+                  to="/airisezonic"
+                  className={`text-lg hover:text-amber-400 ${
+                    isActive("/airisezonic")
+                      ? "text-amber-400 font-semibold"
+                      : ""
+                  }`}
+                >
+                  Ai Risezonic
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  to="/contact-us"
+                  className={`text-lg hover:text-amber-400 ${
+                    isActive("/contact-us")
+                      ? "text-amber-400 font-semibold"
+                      : ""
+                  }`}
+                >
                   Contact
                 </Link>
               </li>
               <li>
-                <Link to="/blogs" className="hover:text-amber-400 text-lg">
+                <Link
+                  to="/blogs"
+                  className={`text-lg hover:text-amber-400 ${
+                    isActive("/blogs") ? "text-amber-400 font-semibold" : ""
+                  }`}
+                >
                   Blogs
                 </Link>
               </li>
@@ -131,7 +188,10 @@ export default function Navbar2() {
             </li>
             <li className="flex items-center gap-2">
               <FaCircleQuestion />
-              <Link to="#" className="block hover:text-amber-600 text-lg">
+              <Link
+                to="/what-we-do"
+                className="block hover:text-amber-600 text-lg"
+              >
                 What We do
               </Link>
             </li>
@@ -142,6 +202,15 @@ export default function Navbar2() {
                 className="block hover:text-amber-600 text-lg"
               >
                 Services
+              </Link>
+            </li>
+            <li className="flex items-center gap-2">
+              <FaInstalod />
+              <Link
+                to="/our-services"
+                className="block hover:text-amber-600 text-lg"
+              >
+                Ai Risezonic
               </Link>
             </li>
             <li className="flex items-center gap-2">
@@ -160,7 +229,7 @@ export default function Navbar2() {
               </Link>
             </li>
             <li className="flex items-center gap-2">
-              <FaPhoneAlt />
+              <RiGalleryFill />
               <Link
                 to="/gallery"
                 className="block hover:text-amber-600 text-lg"

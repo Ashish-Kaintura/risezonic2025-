@@ -48,15 +48,9 @@ export default function ServiceDetail() {
               <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-4">
                 {service.title}
               </h1>
-              <p className="text-xl italic text-gray-600 mb-4">
-                {service.intro}
-              </p>
-              <p className="text-base text-gray-700 mb-4">
-                {service.shortdescription}
-              </p>
-              <p className="text-base text-gray-700 mb-4">
-                {service.description}
-              </p>
+              <p className="text-xl italic  mb-4">{service.intro}</p>
+              <p className="text-base  mb-4">{service.shortdescription}</p>
+              <p className="text-base  mb-4">{service.description}</p>
             </div>
 
             {/* Banner image */}
@@ -70,7 +64,7 @@ export default function ServiceDetail() {
           </div>
 
           {/* Long Description */}
-          <div className="mt-12 prose max-w-none prose-lg text-gray-800">
+          <div className="mt-12 prose max-w-none prose-lg text-gray-900">
             <div
               dangerouslySetInnerHTML={{ __html: service.longdescription }}
             />
