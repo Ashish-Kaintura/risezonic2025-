@@ -4,6 +4,8 @@ import {
   FaTwitter,
   FaInstagram,
   FaLinkedinIn,
+  FaYoutube,
+  FaPinterest,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -47,16 +49,42 @@ const Footer = () => {
         <div>
           <h2 className="text-xl font-semibold mb-4 text-white">Services</h2>
           <ul className="space-y-2">
-            <a href="/"> <li>Home</li></a>
-            <a href=""> <li>About</li></a>
-            <a href=""> <li>Services</li></a>
-            <a href=""> <li>Career</li></a>
-            <a href=""> <li>Blog</li></a>
-            <a href=""> <li>Ai Risezonic</li></a>
-            <a href=""> <li>Daily News</li></a>
-            <a href=""> <li>What We Do</li></a>
-            <a href=""> <li>Privacy Policy</li></a>
-           
+            <a href="/">
+              {" "}
+              <li>Home</li>
+            </a>
+            <a href="">
+              {" "}
+              <li>About</li>
+            </a>
+            <a href="">
+              {" "}
+              <li>Services</li>
+            </a>
+            <a href="">
+              {" "}
+              <li>Career</li>
+            </a>
+            <a href="">
+              {" "}
+              <li>Blog</li>
+            </a>
+            <a href="">
+              {" "}
+              <li>Ai Risezonic</li>
+            </a>
+            <a href="">
+              {" "}
+              <li>Daily News</li>
+            </a>
+            <a href="">
+              {" "}
+              <li>What We Do</li>
+            </a>
+            <a href="">
+              {" "}
+              <li>Privacy Policy</li>
+            </a>
           </ul>
         </div>
 
@@ -75,17 +103,41 @@ const Footer = () => {
         <div>
           <h2 className="text-xl font-semibold mb-4 text-white">Follow Us</h2>
           <div className="flex space-x-4">
-            <a href="#" className="hover:text-white">
+            <a
+              href="https://in.pinterest.com/rajshree0012/"
+              className="hover:text-white"
+            >
+              <FaPinterest />
+            </a>  
+            <a
+              href="https://www.facebook.com/risezonicofficial"
+              className="hover:text-white"
+            >
               <FaFacebookF />
             </a>
-            <a href="#" className="hover:text-white">
+            <a
+              href="https://twitter.com/risezonicLLP"
+              className="hover:text-white"
+            >
               <FaTwitter />
             </a>
-            <a href="#" className="hover:text-white">
+            <a
+              href="https://www.instagram.com/risezonicofficial/"
+              className="hover:text-white"
+            >
               <FaInstagram />
             </a>
-            <a href="#" className="hover:text-white">
+            <a
+              href="https://www.linkedin.com/company/risezonic"
+              className="hover:text-white"
+            >
               <FaLinkedinIn />
+            </a>
+            <a
+              href="https://www.youtube.com/@risezonic"
+              className="hover:text-white"
+            >
+              <FaYoutube />
             </a>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import NewsCard from "../components/NewsCard";
 import NavForOther from "../components/NavForOther";
-
+import { Helmet } from "react-helmet-async";
 const newsData = [
   {
     title: "Risezonic Launches New AI Services",
@@ -81,7 +81,7 @@ const MediaPage = () => {
                     className="w-full h-80 object-cover"
                   />
                   <div className="p-6">
-                    <span className="inline-block bg-indigo-600 text-white text-xs px-3 py-1 rounded-full mb-2">
+                    <span className="inline-block bg-primary text-white text-xs px-3 py-1 rounded-full mb-2">
                       {featured.category}
                     </span>
                     <h2 className="text-2xl font-bold mb-2">
@@ -91,7 +91,7 @@ const MediaPage = () => {
                       {featured.date}
                     </p>
                     <p className="text-gray-700 mb-4">{featured.description}</p>
-                    <button className="text-indigo-600 font-semibold hover:underline">
+                    <button className="text-primary font-semibold hover:underline">
                       Read More →
                     </button>
                   </div>
@@ -108,7 +108,7 @@ const MediaPage = () => {
                     alt={item.title}
                     className="w-full h-40 object-cover rounded-md mb-3"
                   />
-                  <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded-full">
+                  <span className="text-xs bg-blue-100 text-primary px-2 py-1 rounded-full">
                     {item.category}
                   </span>
                   <h4 className="font-semibold text-lg mt-2">{item.title}</h4>
@@ -116,7 +116,7 @@ const MediaPage = () => {
                   <p className="text-sm text-gray-700 mt-2">
                     {item.description}
                   </p>
-                  <button className="text-sm text-blue-600 mt-2 hover:underline">
+                  <button className="text-sm text-primary mt-2 hover:underline">
                     Read More
                   </button>
                 </div>

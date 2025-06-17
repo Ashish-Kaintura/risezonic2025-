@@ -26,7 +26,7 @@ export default function ServiceDetail() {
         <Loader />
       </div>
     );
-
+    
   return (
     <>
       <Helmet>
@@ -43,7 +43,7 @@ export default function ServiceDetail() {
       <article className="pt-28 bg-white min-h-screen">
         <section className="container mx-auto px-4 py-8">
           {/* Header section */}
-          <div className="flex flex-col md:flex-row justify-between items-start gap-6">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="md:w-2/3">
               <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-4">
                 {service.title}
@@ -58,13 +58,13 @@ export default function ServiceDetail() {
               <img
                 src={service.bgImage}
                 alt={service.title}
-                className="w-full h-64 object-cover rounded-lg shadow-md"
+                className="w-full h-96 object-cover rounded-lg shadow-md"
               />
             </div>
           </div>
 
           {/* Long Description */}
-          <div className="mt-12 prose max-w-none prose-lg text-gray-900">
+          <div className="mt-12 prose max-w-none prose-lg ">
             <div
               dangerouslySetInnerHTML={{ __html: service.longdescription }}
             />
