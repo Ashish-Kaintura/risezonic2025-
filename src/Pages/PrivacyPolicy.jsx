@@ -1,7 +1,11 @@
 import React from "react";
 import NavForOther from "../components/NavForOther";
 import { Helmet } from "react-helmet-async";
+import { useEffect } from "react";
 export default function PrivacyPolicy() {
+  useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <>
       <Helmet>

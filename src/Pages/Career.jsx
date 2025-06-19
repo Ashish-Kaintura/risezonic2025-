@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import NavForOther from "../components/NavForOther";
 import { Helmet } from "react-helmet-async";
 const Career = () => {
@@ -17,7 +18,9 @@ const Career = () => {
     },
     { id: 3, title: "UI/UX Designer", location: "Remote", type: "Contract" },
   ];
-
+useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Helmet>

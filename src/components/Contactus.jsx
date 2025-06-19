@@ -1,13 +1,14 @@
 import React from "react";
 import OnclickVideo from "./OnclickVideo";
-
+import bgimage from "../assets/images/Home/service-bg.jpg";
 export default function Contactus() {
   return (
     <>
       <div
         className="lg:flex justify-center items-center bg-cover bg-center bg-no-repeat h-screen bg-fixed space-x-6"
         style={{
-          backgroundImage: `url(${"src/assets/images/Home/service-bg.jpg"})`,
+          // backgroundImage: `url(${"src/assets/images/Home/service-bg.jpg"})`,
+          backgroundImage: `url(${bgimage})`,
         }}
       >
         <form className="bg-white bg-opacity-80 p-8 rounded-lg shadow-md w-full max-w-md">

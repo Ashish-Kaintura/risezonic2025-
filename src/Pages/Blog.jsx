@@ -27,7 +27,9 @@ export default function Blog() {
       new Date(b.createdAt || b.publishedAt) -
       new Date(a.createdAt || a.publishedAt)
   );
-
+useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Helmet>

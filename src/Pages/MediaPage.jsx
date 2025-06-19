@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import NewsCard from "../components/NewsCard";
 import NavForOther from "../components/NavForOther";
 import { Helmet } from "react-helmet-async";
@@ -45,7 +46,9 @@ const newsData = [
 const MediaPage = () => {
   const featured = newsData.find((item) => item.featured);
   const rest = newsData.filter((item) => !item.featured);
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Helmet>
@@ -76,6 +79,7 @@ const MediaPage = () => {
               <div className="mb-12">
                 <div className="grid md:grid-cols-2 gap-6 items-center bg-white rounded-lg shadow overflow-hidden">
                   <img
+                    loading="lazy"
                     src={featured.image}
                     alt={featured.title}
                     className="w-full h-80 object-cover"
@@ -104,6 +108,7 @@ const MediaPage = () => {
               {rest.map((item, index) => (
                 <div key={index} className="bg-white rounded-lg shadow p-4">
                   <img
+                    loading="lazy"
                     src={item.image}
                     alt={item.title}
                     className="w-full h-40 object-cover rounded-md mb-3"

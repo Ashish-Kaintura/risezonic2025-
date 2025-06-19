@@ -56,7 +56,7 @@ export default function NavForOther() {
           {/* Logo */}
           <div className="text-xl font-bold">
             <Link to="/">
-              <img className="w-52" src={BlackLogo} alt="logo" />
+              <img loading="lazy" className="w-52" src={BlackLogo} alt="logo" />
             </Link>
           </div>
 

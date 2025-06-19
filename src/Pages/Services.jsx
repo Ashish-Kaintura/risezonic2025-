@@ -19,7 +19,9 @@ export default function Services() {
 
   // Loader state
   const [loading, setLoading] = useState(true);
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   useEffect(() => {
     fetch("https://risezonic2025backend.onrender.com/api/services")
       .then((res) => res.json())
@@ -80,7 +82,9 @@ export default function Services() {
                     className="w-[650px] bg-white border-2 rounded-lg shadow-lg p-4  hover:bg-[url('https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg')]  transition-all duration-300 hover:-translate-y-2 hover:text-black hover:bg-cover hover:bg-center"
                   >
                     <h2 className="text-5xl font-heading">{service.title}</h2>
-                    <p className="pt-8 font-body line-clamp-5">{service.description}</p>
+                    <p className="pt-8 font-body line-clamp-5">
+                      {service.shortdescription}
+                    </p>
                     <Link
                       to={`/our-services/${encodeURIComponent(service.url)}`}
                       className="bg-secondary text-white px-4 py-2 rounded-md mt-4

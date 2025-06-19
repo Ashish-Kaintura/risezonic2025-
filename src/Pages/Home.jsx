@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import BackgroundIMG from "../assets/images/Screenshot 2025-05-14 182854.png";
 import HeroBanner from "../assets/images/Home/newsize.jpg";
 import HeroSection from "../components/HeroSection";
@@ -9,7 +10,18 @@ import Contactus from "../components/Contactus";
 import Testimonial from "../components/Testimonial";
 import BlogComponent from "../components/BlogComponent";
 import Navbar from "../components/Navbar";
+
 export default function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  // useEffect(() => {
+  //   AOS.init({
+  //     duration: 1000, // Animation duration in ms
+  //     once: true, // Whether animation should happen only once
+  //   });
+  // }, []);
   return (
     <div>
       <div className="application">

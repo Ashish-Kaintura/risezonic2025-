@@ -74,6 +74,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="text-xl font-bold">
             <img
+              loading="lazy"
               className="w-48"
               src="https://www.webeesocial.com/wp-content/uploads/2020/12/logo-tm-compressed.png"
               alt="logo"

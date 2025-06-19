@@ -19,7 +19,9 @@ const DailyNews = () => {
 
   const API_BASE =
     "https://newsdata.io/api/1/latest?apikey=pub_8bd6c4ea88694bbabe8424eae02fb12a&country=in&language=en&timezone=Asia/Kolkata";
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   useEffect(() => {
     const fetchNews = async () => {
       setLoading(true);
@@ -44,7 +46,7 @@ const DailyNews = () => {
 
   return (
     <>
-    <NavForOther/>
+      <NavForOther />
       <div className="max-w-6xl mx-auto p-4 pt-28">
         <h2 className="text-2xl font-bold mb-6 text-center">Daily News</h2>
         <div className="flex justify-end mb-6">
@@ -67,6 +69,7 @@ const DailyNews = () => {
               className="bg-white shadow-md rounded-lg overflow-hidden transition hover:shadow-lg"
             >
               <img
+                loading="lazy"
                 src={item.image_url || "https://via.placeholder.com/400x200"}
                 alt={item.title}
                 className="w-full h-48 object-cover"
@@ -75,6 +78,7 @@ const DailyNews = () => {
                 <div className="flex items-center gap-2 text-sm text-gray-500">
                   {item.source_icon && (
                     <img
+                      loading="lazy"
                       src={item.source_icon}
                       alt="icon"
                       className="w-5 h-5 rounded-full"

@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import NavForOther from "../components/NavForOther";
 import Testimonial from "../components/Testimonial";
 import FAQ from "../components/FQA";
 import Aboutusimg from "../../src/assets/images/Aboutus/Aboutus.webp";
-import whatwedo from "../assets/images/Aboutus/whatwedo.webp";
+import whatwedo from "../assets/images/Aboutus/AboutUsWhatwedo.png";
 import { Helmet } from "react-helmet-async";
 export default function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       {/* <div className="application">
@@ -86,6 +89,7 @@ export default function About() {
             </div>
             <div className="md:h-100 w-full  overflow-hidden">
               <img
+                loading="lazy"
                 className="bg-contain bg-center h-full w-full"
                 // src="https://media.istockphoto.com/id/1324356458/vector/picture-icon-photo-frame-symbol-landscape-sign-photograph-gallery-logo-web-interface-and.jpg?s=612x612&w=0&k=20&c=ZmXO4mSgNDPzDRX-F8OKCfmMqqHpqMV6jiNi00Ye7rE="
                 src={Aboutusimg}
@@ -99,6 +103,7 @@ export default function About() {
           <div className="sm:flex sm:justify-between justify-centerp-6 ">
             <div className="md:h-100 w-full  overflow-hidden ">
               <img
+                loading="lazy"
                 className="bg-contain bg-center h-full w-full"
                 // src="https://media.istockphoto.com/id/1324356458/vector/picture-icon-photo-frame-symbol-landscape-sign-photograph-gallery-logo-web-interface-and.jpg?s=612x612&w=0&k=20&c=ZmXO4mSgNDPzDRX-F8OKCfmMqqHpqMV6jiNi00Ye7rE="
                 src={whatwedo}

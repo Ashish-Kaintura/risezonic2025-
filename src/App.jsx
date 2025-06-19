@@ -15,7 +15,16 @@ import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import MediaPage from "./Pages/MediaPage";
 import WhatWeDo from "./Pages/WhatWeDo";
 import DailyNewsPage from "./Pages/DailyNews";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration in ms
+      once: false, // Whether animation should happen only once
+      dataaosEasing: "ease-in-sine"
+    });
+  }, []);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -24,19 +33,18 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<About />} />
-        <Route path="/what-we-do" element={<WhatWeDo/>} />
+        <Route path="/what-we-do" element={<WhatWeDo />} />
         <Route path="/our-services" element={<Services />} />
         <Route path="/our-services/:url" element={<ServiceDetail />} />
-        <Route path="/blogs" element={<Blog/>} />
-        <Route path="/blog/:url" element={<BlogDetail/> } />
-        <Route path="/contact-us" element={<ContactUs/>} />
-        <Route path="/career" element={<Career/>} />
-        <Route path="/gallery" element={<Gallery/>} />
+        <Route path="/blogs" element={<Blog />} />
+        <Route path="/blog/:url" element={<BlogDetail />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/career" element={<Career />} />
+        <Route path="/gallery" element={<Gallery />} />
 
-
-        <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
-        <Route path="/newsandmedia" element={<MediaPage/>} />
-        <Route path="/dailynewspage" element={<DailyNewsPage/>} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/newsandmedia" element={<MediaPage />} />
+        <Route path="/dailynewspage" element={<DailyNewsPage />} />
       </Routes>
       <Footer />
     </Router>

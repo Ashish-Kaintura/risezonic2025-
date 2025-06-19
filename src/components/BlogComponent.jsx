@@ -42,6 +42,7 @@ const BlogComponent = () => {
               className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
               <img
+                loading="lazy"
                 src={blog.image}
                 alt={blog.title}
                 className="w-full h-48 object-cover"

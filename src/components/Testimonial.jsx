@@ -51,6 +51,7 @@ const Testimonial = () => {
               className="bg-white rounded-2xl shadow-md p-6 text-center"
             >
               <img
+              loading="lazy"
                 src={testimonial.image}
                 alt={testimonial.name}
                 className="w-20 h-20 rounded-full mx-auto mb-4 object-cover"

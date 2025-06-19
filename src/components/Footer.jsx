@@ -26,11 +26,13 @@ const Footer = () => {
         <div className="flex space-x-4">
           <div>
             <img
+              loading="lazy"
               className="w-30 h-28 mb-2"
               src="https://www.risezonic.com/certificates/google%20certificate1.webp"
               alt=""
             />
             <img
+              loading="lazy"
               className="w-30 h-28 mb-2"
               src="https://www.risezonic.com/certificates/miiscertificate.webp"
               alt=""
@@ -38,6 +40,7 @@ const Footer = () => {
           </div>
           <div>
             <img
+              loading="lazy"
               className="w-30 h-28 mb-2"
               src="https://www.risezonic.com/certificates/iso9001.webp"
               alt=""
@@ -108,7 +111,7 @@ const Footer = () => {
               className="hover:text-white"
             >
               <FaPinterest />
-            </a>  
+            </a>
             <a
               href="https://www.facebook.com/risezonicofficial"
               className="hover:text-white"

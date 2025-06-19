@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import NavForOther from "../components/NavForOther";
 import { Helmet } from "react-helmet-async";
 const Gallery = () => {
@@ -10,7 +11,9 @@ const Gallery = () => {
     "/images/img5.jpg",
     "/images/img6.jpg",
   ];
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Helmet>
@@ -33,6 +36,7 @@ const Gallery = () => {
             {images.map((src, index) => (
               <div key={index} className="overflow-hidden rounded-lg shadow-md">
                 <img
+                  loading="lazy"
                   src={src}
                   alt={`Gallery ${index + 1}`}
                   className="w-full h-60 object-cover transform hover:scale-105 transition duration-300"

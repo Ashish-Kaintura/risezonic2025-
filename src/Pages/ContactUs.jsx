@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import NavForOther from "../components/NavForOther";
 import { Helmet } from "react-helmet-async";
+import bgimag from "../assets/images/Home/service-bg.jpg";
 const ContactUs = () => {
   const [form, setForm] = useState({
     name: "",
@@ -20,7 +21,9 @@ const ContactUs = () => {
     alert("Thank you for contacting us!");
     setForm({ name: "", email: "", subject: "", message: "" });
   };
-
+useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Helmet>
@@ -42,7 +45,8 @@ const ContactUs = () => {
         <div
           className=" bg-gray-100 flex items-center flex-col justify-center p-4 bg-fixed bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url(${"src/assets/images/Home/service-bg.jpg"})`,
+            // backgroundImage: `url(${"src/assets/images/Home/service-bg.jpg"})`,
+            backgroundImage: `url(${bgimag})`,
           }}
         >
           <div className="py-6 relative text-center">

@@ -57,7 +57,7 @@ export default function Navbar2() {
           {/* Logo */}
           <div className="text-xl font-bold">
             <a href="/">
-              <img className="w-42" src={BlackLogo} alt="logo" />
+              <img loading="lazy" className="w-42" src={BlackLogo} alt="logo" />
             </a>
           </div>
 

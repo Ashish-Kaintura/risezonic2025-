@@ -10,7 +10,9 @@ export default function BlogDetail() {
   const [blogs, setBlogs] = useState([]);
   const [blog, setBlog] = useState(null);
   const [loading, setLoading] = useState(true);
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
@@ -46,6 +48,7 @@ export default function BlogDetail() {
       </Helmet>
       <div className="max-w-4xl mx-auto px-4 py-8 pt-28">
         <img
+          loading="lazy"
           src={blog.image}
           alt={blog.title}
           className="w-full h-96 object-cover rounded-xl mb-6"

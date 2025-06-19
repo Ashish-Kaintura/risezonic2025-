@@ -15,7 +15,7 @@ export default function NonScrollerNavbar() {
           {/* Logo */}
           <div className="text-xl font-bold">
             <Link to="/">
-              <img className="w-42" src={BlackLogo} alt="logo" />
+              <img loading="lazy" className="w-42" src={BlackLogo} alt="logo" />
             </Link>
           </div>
 
@@ -46,7 +46,9 @@ export default function NonScrollerNavbar() {
                 <Link
                   to="/what-we-do"
                   className={`text-lg hover:text-amber-400 ${
-                    isActive("/what-we-do") ? "text-amber-400 font-semibold" : ""
+                    isActive("/what-we-do")
+                      ? "text-amber-400 font-semibold"
+                      : ""
                   }`}
                 >
                   What We Do
@@ -56,7 +58,9 @@ export default function NonScrollerNavbar() {
                 <Link
                   to="/our-services"
                   className={`text-lg hover:text-amber-400 ${
-                    isActive("/our-services") ? "text-amber-400 font-semibold" : ""
+                    isActive("/our-services")
+                      ? "text-amber-400 font-semibold"
+                      : ""
                   }`}
                 >
                   Services
@@ -66,7 +70,9 @@ export default function NonScrollerNavbar() {
                 <Link
                   to="/airisezonic"
                   className={`text-lg hover:text-amber-400 ${
-                    isActive("/airisezonic") ? "text-amber-400 font-semibold" : ""
+                    isActive("/airisezonic")
+                      ? "text-amber-400 font-semibold"
+                      : ""
                   }`}
                 >
                   Ai Risezonic
@@ -76,7 +82,9 @@ export default function NonScrollerNavbar() {
                 <Link
                   to="/contact-us"
                   className={`text-lg hover:text-amber-400 ${
-                    isActive("/contact-us") ? "text-amber-400 font-semibold" : ""
+                    isActive("/contact-us")
+                      ? "text-amber-400 font-semibold"
+                      : ""
                   }`}
                 >
                   Contact

@@ -1,4 +1,5 @@
-import React from "react"; // Update the path as per your project structure
+import React from "react";
+
 import { FaTrophy } from "react-icons/fa";
 
 const HeroSection = () => {
@@ -6,8 +7,9 @@ const HeroSection = () => {
     <div className="bg-gradient-to-b from-blue-200 to-white pt-20 px-5 md:px-20 ">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10 space-x-8">
         {/* Left Image */}
-        <div className="w-full md:w-1/2 lg:flex hidden ">
+        <div data-aos="zoom-in" className="w-full md:w-1/2 lg:flex hidden ">
           <img
+            loading="lazy"
             src="https://i.postimg.cc/657y6Ch0/Image-4-2.png"
             alt="Student"
             className="rounded-2xl w-full h-full object-cover"
@@ -47,6 +49,7 @@ const HeroSection = () => {
           </div>
           <div className="w-full md:w-1/2 flex lg:hidden ">
             <img
+              loading="lazy"
               src="https://i.postimg.cc/657y6Ch0/Image-4-2.png"
               alt="Student"
               className="rounded-2xl w-full h-full object-cover"

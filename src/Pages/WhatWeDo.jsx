@@ -1,11 +1,16 @@
 import React from "react";
+import { useEffect } from "react";
 import NavForOther from "../components/NavForOther";
 import Testimonial from "../components/Testimonial";
-import Aboutusimg from "../../src/assets/images/Aboutus/Aboutus.webp";
+import WhatwedoIMg from "../../src/assets/images/Whatwedo/what we do.png";
 import whatwedo from "../assets/images/Aboutus/whatwedo.webp";
 import OurServices from "../components/OurServices";
+
 import { Helmet } from "react-helmet-async";
 export default function WhatWeDo() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Helmet>
@@ -15,20 +20,10 @@ export default function WhatWeDo() {
           content="Rizeonic provides results-driven digital marketing strategies, including SEO, social media, performance marketing, and paid ad management."
         />
         <meta name="keywords" content="Marketing Solutions" />
-        <link
-          rel="canonical "
-          href="https://www.risezonic.com/what-we-do"
-        />
+        <link rel="canonical " href="https://www.risezonic.com/what-we-do" />
       </Helmet>
       <NavForOther />
-      <section>
-        <div
-          className="md:h-[720px] h-[400px]  bg-cover bg-no-repeat bg-fixed "
-          style={{
-            backgroundImage: `url(${"https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg"})`,
-          }}
-        ></div>
-      </section>
+
       <section className="container mx-auto">
         <div className="sm:flex sm:justify-between justify-center  h-screen items-center">
           <div className="h-100 w-full flex justify-center text-center ">
@@ -77,9 +72,10 @@ export default function WhatWeDo() {
           </div>
           <div className="md:h-100 w-full  overflow-hidden">
             <img
+              loading="lazy"
               className="bg-contain bg-center h-full w-full"
               // src="https://media.istockphoto.com/id/1324356458/vector/picture-icon-photo-frame-symbol-landscape-sign-photograph-gallery-logo-web-interface-and.jpg?s=612x612&w=0&k=20&c=ZmXO4mSgNDPzDRX-F8OKCfmMqqHpqMV6jiNi00Ye7rE="
-              src={Aboutusimg}
+              src={WhatwedoIMg}
               alt="Plan & Create"
             />
           </div>
@@ -90,6 +86,7 @@ export default function WhatWeDo() {
         <div className="sm:flex sm:justify-between justify-centerp-6 ">
           <div className="md:h-100 w-full  overflow-hidden ">
             <img
+              loading="lazy"
               className="bg-contain bg-center h-full w-full"
               // src="https://media.istockphoto.com/id/1324356458/vector/picture-icon-photo-frame-symbol-landscape-sign-photograph-gallery-logo-web-interface-and.jpg?s=612x612&w=0&k=20&c=ZmXO4mSgNDPzDRX-F8OKCfmMqqHpqMV6jiNi00Ye7rE="
               src={whatwedo}
@@ -193,12 +190,15 @@ export default function WhatWeDo() {
             </article>
           </div>
           <div className="flex justify-center items-center ">
-            <div className="overflow-hidden h-[40rem] w-[40rem]">
+            <div className="overflow-hidden ">
               <img
-                className="bg-contain bg-center h-full w-full"
+                loading="lazy"
+                className="bg-contain bg-center h-[450px] w-full"
                 // src="https://media.istockphoto.com/id/1324356458/vector/picture-icon-photo-frame-symbol-landscape-sign-photograph-gallery-logo-web-interface-and.jpg?s=612x612&w=0&k=20&c=ZmXO4mSgNDPzDRX-F8OKCfmMqqHpqMV6jiNi00Ye7rE="
-                src={Aboutusimg}
-                alt="Plan & Create"
+                src="https://i.postimg.cc/yYY3wjcM/Image-9-1.png"
+                // src="https://i.postimg.cc/htNJQq6n/Image-9.png"
+                // https://postimg.cc/gallery/BDdX6H1
+                alt="why chooes us"
               />
             </div>
           </div>
