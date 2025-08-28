@@ -52,7 +52,7 @@ export default function About() {
       <NavForOther />
 
       <div className="block justify-center">
-        <section className="container mx-auto">
+        <section className="max-w-6xl mx-auto">
           <div className="sm:flex sm:justify-between justify-center mt-20 h-screen items-center">
             <div className="h-100 w-full flex justify-center text-center ">
               <article>
@@ -99,7 +99,7 @@ export default function About() {
           </div>
         </section>
 
-        <section className="container mx-auto">
+        <section className="max-w-6xl mx-auto">
           <div className="sm:flex sm:justify-between justify-centerp-6 ">
             <div className="md:h-100 w-full  overflow-hidden ">
               <img
@@ -147,7 +147,7 @@ export default function About() {
           </div>
         </section>
 
-        <article className="container mx-auto">
+        <article className="max-w-6xl mx-auto">
           <section>
             <div className="sm:flex sm:justify-between justify-center py-12">
               <div>

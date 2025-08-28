@@ -109,7 +109,8 @@ export default function NavForOther() {
               </li>
               <li>
                 <Link
-                  to="/airisezonic"
+                  to="https://ai.risezonic.com/"
+                  target="blank"
                   className={`text-lg hover:text-amber-400 ${
                     isActive("/airisezonic")
                       ? "text-amber-400 font-semibold"
@@ -210,7 +211,8 @@ export default function NavForOther() {
             <li className="flex items-center gap-2">
               <FaInstalod />
               <Link
-                to="/our-services"
+                to="https://ai.risezonic.com/"
+                target="blank"
                 className="block hover:text-amber-600 text-lg"
               >
                 Ai Risezonic

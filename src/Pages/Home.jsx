@@ -46,20 +46,20 @@ export default function Home() {
       </div>
       <Navbar />
       <div
-        className="md:h-[920px] h-[400px] bg-center bg-cover bg-no-repeat relative "
+        className="md:h-[920px] h-[350px] bg-center bg-cover bg-no-repeat relative "
         style={{
           backgroundImage: `url(${"https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg"})`,
         }}
       >
-        <article className="absolute top-60 right-20 md:flex hidden items-center justify-center z-10">
+        <article className="absolute top-72 right-10 md:flex hidden items-center justify-center z-10">
           <section>
-            <h1 className="text-8 font-semibold font-heading">
+            <h1 className="text-8xl font-semibold font-heading">
               Best Digital Marketing
             </h1>
             <h2 className="text-7xl font-semibold text-secondary mt-1 pt-1 font-heading">
               Agency in Delhi NCR
             </h2>
-            <p className="mt-2 pt-4 font-semibold font-body ">
+            <p className="mt-2 pt-4 font-semibold font-body text-sm">
               Risezonic is a leading digital marketing agency, distinguished by
               its creativity, accurate results and focus on results.
               <br />
@@ -100,7 +100,7 @@ export default function Home() {
             "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",
         }}
       >
-        <div className="text-center py-4 relative container mx-auto">
+        <div className="text-center py-4 relative max-w-6xl mx-auto">
           <h2 className="text-4xl text-white font-semibold font-heading pt-6">
             Our Service
           </h2>

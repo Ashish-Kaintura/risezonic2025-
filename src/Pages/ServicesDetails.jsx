@@ -7,13 +7,16 @@ import { Helmet } from "react-helmet-async";
 export default function ServiceDetail() {
   const { url } = useParams();
   const [service, setService] = useState(null);
+  const fetchdata = "../src/data/services.json";
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   useEffect(() => {
     const fetchService = async () => {
       const res = await fetch(
-        "https://risezonic2025backend.onrender.com/api/services/"
+        // "https://risezonic2025backend.onrender.com/api/services/"
+        fetchdata
       );
       const data = await res.json();
       const found = data.find((item) => item.url === url);
@@ -70,7 +73,7 @@ export default function ServiceDetail() {
                 <article>
                   <section className=" flex justify-center text-start items-center p-6">
                     <div className="relative">
-                      <h2 className="text-5xl font-heading text-primary font-heading">
+                      <h2 className="text-5xl  text-primary font-heading">
                         {service.title}
                       </h2>
                       <span className="text-amber-600 text-4xl font-semibold absolute md:top-6 top-8 left-0 right-0 bottom-0 inset-0">

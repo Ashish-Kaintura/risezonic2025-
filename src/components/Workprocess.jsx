@@ -11,7 +11,7 @@ export default function Workprocess() {
         <span className="text-amber-600 text-4xl font-semibold absolute top-12 left-0 right-0 bottom-0 inset-0 ">
           ______________
         </span>
-        <p className="text-xl pt-6 text-gray-600 font-body pb-8">
+        <p className="text-xl pt-6 text-gray-600 font-body pb-8 max-w-6xl text-center mx-auto">
           To achieve our results, we are creative, plan well and make teamwork
           run smoothly. The main purpose of our strategy is to support your
           business’s growth by finding out what you require and creating

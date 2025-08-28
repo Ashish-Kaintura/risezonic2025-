@@ -5,7 +5,7 @@ export default function Contactus() {
   return (
     <>
       <div
-        className="lg:flex justify-center items-center bg-cover bg-center bg-no-repeat h-screen bg-fixed space-x-6"
+        className="lg:flex justify-center items-center bg-cover bg-center bg-no-repeat py-6 bg-fixed space-x-6"
         style={{
           // backgroundImage: `url(${"src/assets/images/Home/service-bg.jpg"})`,
           backgroundImage: `url(${bgimage})`,

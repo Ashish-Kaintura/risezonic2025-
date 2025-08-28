@@ -6,12 +6,13 @@ import NavForOther from "../components/NavForOther";
 import { Helmet } from "react-helmet-async";
 export default function Blog() {
   const [blogs, setBlogs] = useState([]);
-
+  const fetchData = "src/data/blog.json";
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
         const res = await fetch(
-          "https://risezonic2025backend.onrender.com/api/blogs"
+          // "https://risezonic2025backend.onrender.com/api/blogs"
+          fetchData
         ); // Replace with your API endpoint
         const data = await res.json();
         setBlogs(data);
@@ -27,7 +28,7 @@ export default function Blog() {
       new Date(b.createdAt || b.publishedAt) -
       new Date(a.createdAt || a.publishedAt)
   );
-useEffect(() => {
+  useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (

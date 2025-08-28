@@ -10,6 +10,7 @@ export default function BlogDetail() {
   const [blogs, setBlogs] = useState([]);
   const [blog, setBlog] = useState(null);
   const [loading, setLoading] = useState(true);
+  const fetchData = "../src/data/blog.json";
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -17,7 +18,8 @@ export default function BlogDetail() {
     const fetchBlogs = async () => {
       try {
         const res = await fetch(
-          "https://risezonic2025backend.onrender.com/api/blogs"
+          // "https://risezonic2025backend.onrender.com/api/blogs"
+          fetchData
         ); // Replace with your API endpoint
         const data = await res.json();
         setBlogs(data);

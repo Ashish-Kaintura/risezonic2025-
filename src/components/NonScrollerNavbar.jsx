@@ -68,7 +68,8 @@ export default function NonScrollerNavbar() {
               </li>
               <li>
                 <Link
-                  to="/airisezonic"
+                  to="https://ai.risezonic.com/"
+                  target="blank"
                   className={`text-lg hover:text-amber-400 ${
                     isActive("/airisezonic")
                       ? "text-amber-400 font-semibold"

@@ -24,7 +24,7 @@ export default function WhatWeDo() {
       </Helmet>
       <NavForOther />
 
-      <section className="container mx-auto">
+      <section className="max-w-6xl flex justify-center mx-auto pt-32">
         <div className="sm:flex sm:justify-between justify-center  h-screen items-center">
           <div className="h-100 w-full flex justify-center text-center ">
             <article>
@@ -82,7 +82,7 @@ export default function WhatWeDo() {
         </div>
       </section>
 
-      <section className="container mx-auto">
+      <section className="max-w-6xl flex justify-center mx-auto">
         <div className="sm:flex sm:justify-between justify-centerp-6 ">
           <div className="md:h-100 w-full  overflow-hidden ">
             <img
@@ -138,7 +138,7 @@ export default function WhatWeDo() {
         </div>
       </section>
 
-      <section className="container mx-auto">
+      <section className="max-w-6xl flex justify-center mx-auto">
         <div className="sm:block sm:justify-center justify-center  items-center">
           <div className="w-full flex justify-center text-center ">
             <article>

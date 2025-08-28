@@ -47,12 +47,13 @@ import { Link } from "react-router-dom";
 
 const OurServices = () => {
   const [services, setService] = useState([]);
-
+  const fetchdata = "src/data/services.json";
   useEffect(() => {
     const fetchServices = async () => {
       try {
         const response = await fetch(
-          "https://risezonic2025backend.onrender.com/api/services"
+          // "https://risezonic2025backend.onrender.com/api/services"
+          fetchdata
         );
         if (!response.ok) {
           throw new Error("Network response was not ok");
@@ -67,7 +68,7 @@ const OurServices = () => {
   }, []);
   return (
     <section className="py-12 px-4">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 gap-y-8">
           {services
             .filter((service) => service.isActive)
