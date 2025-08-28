@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import NavForOther from "../components/NavForOther";
 import { Helmet } from "react-helmet-async";
 import bgimag from "../assets/images/Home/service-bg.jpg";
@@ -21,7 +21,7 @@ const ContactUs = () => {
     alert("Thank you for contacting us!");
     setForm({ name: "", email: "", subject: "", message: "" });
   };
-useEffect(() => {
+  useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
@@ -43,7 +43,7 @@ useEffect(() => {
           </h1>
         </div>
         <div
-          className=" bg-gray-100 flex items-center flex-col justify-center p-4 bg-fixed bg-cover bg-center bg-no-repeat"
+          className=" bg-gray-100 flex items-center flex-col justify-center p-4 bg-fixed bg-cover bg-center bg-no-repeat "
           style={{
             // backgroundImage: `url(${"src/assets/images/Home/service-bg.jpg"})`,
             backgroundImage: `url(${bgimag})`,
@@ -62,7 +62,7 @@ useEffect(() => {
               to hearing from you!
             </p>
           </div>
-          <div className="lg:flex items-center lg:justify-between justify-center w-full p-4">
+          <div className="lg:flex items-center lg:justify-between justify-center w-full p-4 space-x-3">
             <div className="bg-white shadow-lg rounded-lg p-8 max-w-2xl w-full font-body">
               <h2 className="text-2xl font-bold mb-6 text-start text-gray-800">
                 Address

@@ -1,26 +1,20 @@
-// src/pages/BlogDetail.jsx
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-// import blogs from "../.././public/data/blog.json";
 import NavForOther from "../components/NavForOther";
 import { Helmet } from "react-helmet-async";
+
 export default function BlogDetail() {
   const { url } = useParams();
-  // eslint-disable-next-line no-unused-vars
   const [blogs, setBlogs] = useState([]);
   const [blog, setBlog] = useState(null);
   const [loading, setLoading] = useState(true);
-  const fetchData = "../src/data/blog.json";
+
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
-  useEffect(() => {
+
     const fetchBlogs = async () => {
       try {
-        const res = await fetch(
-          // "https://risezonic2025backend.onrender.com/api/blogs"
-          fetchData
-        ); // Replace with your API endpoint
+        const res = await fetch("/data/blog.json"); // ✅ Put your blog.json in public/data/
         const data = await res.json();
         setBlogs(data);
         const foundBlog = data.find((b) => b.url === url);
@@ -31,6 +25,7 @@ export default function BlogDetail() {
         setLoading(false);
       }
     };
+
     fetchBlogs();
   }, [url]);
 
@@ -48,18 +43,25 @@ export default function BlogDetail() {
         <meta property="og:description" content={blog.metadescription} />
         <link rel="canonical" href={blog.metacanonical} />
       </Helmet>
+
       <div className="max-w-4xl mx-auto px-4 py-8 pt-28">
         <img
           loading="lazy"
-          src={blog.image}
+          src={blog.CoverImage || blog.Image} // ✅ match your JSON keys
           alt={blog.title}
           className="w-full h-96 object-cover rounded-xl mb-6"
         />
+
         <h1 className="text-4xl font-bold mb-2">{blog.title}</h1>
         <p className="text-gray-500 text-sm mb-6">
-          By {blog.author} on {blog.date}
+          By {blog.author} on {new Date(blog.createdAt).toLocaleDateString()}
         </p>
-        <p className="text-lg leading-relaxed text-gray-800">{blog.content}</p>
+
+        {/* ✅ Render HTML from JSON */}
+        <div
+          className="prose max-w-none text-gray-800 leading-relaxed"
+          dangerouslySetInnerHTML={{ __html: blog.longdescription }}
+        />
       </div>
     </>
   );

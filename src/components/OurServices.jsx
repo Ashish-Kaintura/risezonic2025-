@@ -47,7 +47,7 @@ import { Link } from "react-router-dom";
 
 const OurServices = () => {
   const [services, setService] = useState([]);
-  const fetchdata = "src/data/services.json";
+  const fetchdata = "/data/services.json";
   useEffect(() => {
     const fetchServices = async () => {
       try {

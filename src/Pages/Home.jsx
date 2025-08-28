@@ -10,6 +10,7 @@ import Contactus from "../components/Contactus";
 import Testimonial from "../components/Testimonial";
 import BlogComponent from "../components/BlogComponent";
 import Navbar from "../components/Navbar";
+import HeroSectionHome from "../components/Herosectionhome";
 
 export default function Home() {
   useEffect(() => {
@@ -90,7 +91,7 @@ export default function Home() {
           </section>
         </article>
       </div>
-
+      {/* <HeroSectionHome /> */}
       <HeroSection />
       <div
         className=" bg-center bg-cover py-6 bg-fixed bg-no-repeat"

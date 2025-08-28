@@ -22,7 +22,7 @@ function App() {
     AOS.init({
       duration: 1000, // Animation duration in ms
       once: false, // Whether animation should happen only once
-      dataaosEasing: "ease-in-sine"
+      dataaosEasing: "ease-in-sine",
     });
   }, []);
   useEffect(() => {

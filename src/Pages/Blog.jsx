@@ -6,7 +6,7 @@ import NavForOther from "../components/NavForOther";
 import { Helmet } from "react-helmet-async";
 export default function Blog() {
   const [blogs, setBlogs] = useState([]);
-  const fetchData = "src/data/blog.json";
+  const fetchData = "/data/blog.json";
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
