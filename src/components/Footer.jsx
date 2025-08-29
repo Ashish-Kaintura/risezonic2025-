@@ -7,147 +7,151 @@ import {
   FaYoutube,
   FaPinterest,
 } from "react-icons/fa";
+import { Link, NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-300 py-10">
-      <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
-        {/* About */}
-        <div>
-          <h2 className="text-xl font-semibold mb-4 text-white">About Us</h2>
-          <p>
-            Risezonic is your go-to-spot solution for all elements in the
-            digital realm. Risezonic works from elevating your website to the
-            top of Google rankings to putting your brand in front of the ideal
-            audience. Our team of SEO experts, social media specialists, and app
-            developers has the expertise to drive your online growth.
-          </p>
-        </div>
-        <div className="flex space-x-4">
-          <div>
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12">
+        {/* About Section */}
+        {/* <div className="space-y-4">
+          <div className="mb-2 bg-white">
             <img
-              loading="lazy"
-              className="w-30 h-28 mb-2"
-              src="https://www.risezonic.com/certificates/google%20certificate1.webp"
-              alt=""
-            />
-            <img
-              loading="lazy"
-              className="w-30 h-28 mb-2"
-              src="https://www.risezonic.com/certificates/miiscertificate.webp"
-              alt=""
+              className="w-36"
+              src="http://localhost:5173/src/assets/images/Logo/risezonic%20logo%20(1).png"
+              alt="Risezonic Logo"
             />
           </div>
-          <div>
+          <p className="text-sm leading-relaxed">
+            Risezonic is your go-to solution for elevating your website and
+            dominating the digital realm, from SEO to digital marketing
+            strategies.
+          </p>
+        </div> */}
+
+        {/* Certificates Section */}
+        <div className="space-y-4">
+          <h2 className="text-lg font-semibold text-white">Certificates</h2>
+          <div className="flex space-x-3">
             <img
               loading="lazy"
-              className="w-30 h-28 mb-2"
+              className="w-24 h-24 object-cover"
+              src="https://www.risezonic.com/certificates/google%20certificate1.webp"
+              alt="Google Certificate"
+            />
+            <img
+              loading="lazy"
+              className="w-24 h-24 object-cover"
+              src="https://www.risezonic.com/certificates/miiscertificate.webp"
+              alt="MIIS Certificate"
+            />
+            <img
+              loading="lazy"
+              className="w-24 h-24 object-cover"
               src="https://www.risezonic.com/certificates/iso9001.webp"
-              alt=""
+              alt="ISO 9001 Certificate"
             />
           </div>
         </div>
 
-        {/* Services */}
+        {/* Quick Links Section */}
         <div>
-          <h2 className="text-xl font-semibold mb-4 text-white">Services</h2>
-          <ul className="space-y-2">
-            <a href="/">
-              {" "}
+          <h2 className="text-lg font-semibold text-white mb-4">Quick Links</h2>
+          <ul className="text-sm space-y-2">
+            <NavLink to="/" className="hover:text-white">
               <li>Home</li>
-            </a>
-            <a href="">
-              {" "}
+            </NavLink>
+            <NavLink to="/about" className="hover:text-white">
               <li>About</li>
-            </a>
-            <a href="">
-              {" "}
+            </NavLink>
+            <NavLink to="/services" className="hover:text-white">
               <li>Services</li>
-            </a>
-            <a href="">
-              {" "}
+            </NavLink>
+            <NavLink to="/career" className="hover:text-white">
               <li>Career</li>
-            </a>
-            <a href="">
-              {" "}
+            </NavLink>
+            <NavLink to="/blog" className="hover:text-white">
               <li>Blog</li>
-            </a>
-            <a href="">
-              {" "}
-              <li>Ai Risezonic</li>
-            </a>
-            <a href="">
-              {" "}
-              <li>Daily News</li>
-            </a>
-            <a href="">
-              {" "}
-              <li>What We Do</li>
-            </a>
-            <a href="">
-              {" "}
+            </NavLink>
+            <NavLink to="/ai-risezonic" className="hover:text-white">
+              <li>AI Risezonic</li>
+            </NavLink>
+            <NavLink to="/privacy-policy" className="hover:text-white">
               <li>Privacy Policy</li>
-            </a>
+            </NavLink>
           </ul>
         </div>
 
-        {/* Address */}
+        {/* Address Section */}
         <div>
-          <h2 className="text-xl font-semibold mb-4 text-white">Address</h2>
-          Risezonic : RZ11/D, Upper Ground Floor Opposite Palam Metro Station
-          Gate No 3, Palam Dwarka Road, Delhi, 110045
-          <br />
-          <br />
-          Risezonic - Awfis, 07th Floor, Gate No 3 & 4, Ambience Island DLF
-          Phase 3, NH-8, Gurugram, Haryana 122002
-        </div>
-
-        {/* Social Media */}
-        <div>
-          <h2 className="text-xl font-semibold mb-4 text-white">Follow Us</h2>
-          <div className="flex space-x-4">
-            <a
-              href="https://in.pinterest.com/rajshree0012/"
-              className="hover:text-white"
-            >
-              <FaPinterest />
-            </a>
-            <a
-              href="https://www.facebook.com/risezonicofficial"
-              className="hover:text-white"
-            >
-              <FaFacebookF />
-            </a>
-            <a
-              href="https://twitter.com/risezonicLLP"
-              className="hover:text-white"
-            >
-              <FaTwitter />
-            </a>
-            <a
-              href="https://www.instagram.com/risezonicofficial/"
-              className="hover:text-white"
-            >
-              <FaInstagram />
-            </a>
-            <a
-              href="https://www.linkedin.com/company/risezonic"
-              className="hover:text-white"
-            >
-              <FaLinkedinIn />
-            </a>
-            <a
-              href="https://www.youtube.com/@risezonic"
-              className="hover:text-white"
-            >
-              <FaYoutube />
-            </a>
+          <h2 className="text-lg font-semibold text-white mb-4">Address</h2>
+          <div className="text-sm leading-relaxed">
+            <p className="mb-4">
+              <strong>Risezonic:</strong> RZ11/D, Upper Ground Floor Opp. Palam
+              Metro Station Gate No 3, Palam Dwarka Road, Delhi, 110045
+            </p>
+            <p>
+              <strong>Risezonic - Awfis:</strong> 07th Floor, Gate No 3 & 4,
+              Ambience Island, DLF Phase 3, NH-8, Gurugram, Haryana 122002
+            </p>
           </div>
         </div>
       </div>
 
-      <div className="text-center text-sm text-gray-500 mt-10">
-        &copy; {new Date().getFullYear()} YourWebsite. All rights reserved.
+      <div className="border-t border-gray-700 mt-10 pt-6">
+        {/* Social Media Links */}
+        <div className="text-center space-y-4">
+          <h2 className="text-lg font-semibold text-white">Follow Us</h2>
+          <div className="flex justify-center space-x-6 text-xl">
+            <Link
+              to="https://in.pinterest.com/rajshree0012/"
+              className="hover:text-white"
+              aria-label="Pinterest"
+            >
+              <FaPinterest />
+            </Link>
+            <Link
+              to="https://www.facebook.com/risezonicofficial"
+              className="hover:text-white"
+              aria-label="Facebook"
+            >
+              <FaFacebookF />
+            </Link>
+            <Link
+              to="https://twitter.com/risezonicLLP"
+              className="hover:text-white"
+              aria-label="Twitter"
+            >
+              <FaTwitter />
+            </Link>
+            <Link
+              to="https://www.instagram.com/risezonicofficial/"
+              className="hover:text-white"
+              aria-label="Instagram"
+            >
+              <FaInstagram />
+            </Link>
+            <Link
+              to="https://www.linkedin.com/company/risezonic"
+              className="hover:text-white"
+              aria-label="LinkedIn"
+            >
+              <FaLinkedinIn />
+            </Link>
+            <Link
+              to="https://www.youtube.com/@risezonic"
+              className="hover:text-white"
+              aria-label="Youtube"
+            >
+              <FaYoutube />
+            </Link>
+          </div>
+        </div>
+
+        {/* Footer Bottom Text */}
+        <div className="text-center text-xs text-gray-500 mt-6">
+          &copy; {new Date().getFullYear()} Risezonic. All rights reserved.
+        </div>
       </div>
     </footer>
   );

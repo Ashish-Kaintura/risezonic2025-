@@ -233,7 +233,7 @@ export default function NavForOther() {
                 Contact
               </Link>
             </li>
-            <li className="flex items-center gap-2">
+            {/* <li className="flex items-center gap-2">
               <RiGalleryFill />
               <Link
                 to="/gallery"
@@ -241,8 +241,8 @@ export default function NavForOther() {
               >
                 Gallery
               </Link>
-            </li>
-            <li className="flex items-center gap-2">
+            </li> */}
+            {/* <li className="flex items-center gap-2">
               <FaNewspaper />
               <Link
                 to="/newsandmedia"
@@ -250,7 +250,7 @@ export default function NavForOther() {
               >
                 News And Media
               </Link>
-            </li>
+            </li> */}
             <li className="flex items-center gap-2">
               <FaLock />
               <Link

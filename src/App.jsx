@@ -17,6 +17,7 @@ import WhatWeDo from "./Pages/WhatWeDo";
 import DailyNewsPage from "./Pages/DailyNews";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import WhatsAppSticky from "./components/WhatsappSticky";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -46,6 +47,7 @@ function App() {
         <Route path="/newsandmedia" element={<MediaPage />} />
         <Route path="/dailynewspage" element={<DailyNewsPage />} />
       </Routes>
+      <WhatsAppSticky />
       <Footer />
     </Router>
   );

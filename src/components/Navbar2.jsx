@@ -228,7 +228,7 @@ export default function Navbar2() {
                 Contact
               </Link>
             </li>
-            <li className="flex items-center gap-2">
+            {/* <li className="flex items-center gap-2">
               <RiGalleryFill />
               <Link
                 to="/gallery"
@@ -236,8 +236,8 @@ export default function Navbar2() {
               >
                 Gallery
               </Link>
-            </li>
-            <li className="flex items-center gap-2">
+            </li> */}
+            {/* <li className="flex items-center gap-2">
               <FaNewspaper />
               <Link
                 to="/newsandmedia"
@@ -245,7 +245,7 @@ export default function Navbar2() {
               >
                 News And Media
               </Link>
-            </li>
+            </li> */}
             <li className="flex items-center gap-2">
               <FaLock />
               <Link

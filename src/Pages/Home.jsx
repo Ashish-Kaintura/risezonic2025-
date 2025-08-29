@@ -11,6 +11,8 @@ import Testimonial from "../components/Testimonial";
 import BlogComponent from "../components/BlogComponent";
 import Navbar from "../components/Navbar";
 import HeroSectionHome from "../components/Herosectionhome";
+import FAQ from "../components/FQA";
+import NavForOther from "../components/NavForOther";
 
 export default function Home() {
   useEffect(() => {
@@ -26,26 +28,31 @@ export default function Home() {
   return (
     <div>
       <div className="application">
-        <title>
-          Risezonic | Trusted Digital Marketing services Company in Delhi.
-        </title>
+        <title>Best Digital Marketing Agency in Delhi ncr | Risezonic.</title>
         <meta
           name="description"
-          content="Learn more about Risezonic—Delhi’s leading digital marketing services company. how we help businesses thrive online."
+          content="Risezonic is an affordable digital marketing agency in Delhi NCR. offering expert SEO, social media, PPC, ads, and web solutions to help your business growth."
         />
-        <meta name="keywords" content="home, risezonic, tech, services" />
+        <meta
+          name="keywords"
+          content="Best Digital Marketing Agency in Delhi ncr "
+        />
         <meta
           property="og:title"
-          content=" About Risezonic | Trusted Digital Marketing services Company in
-              Delhi."
+          content="Best Digital Marketing Agency in Delhi ncr | Risezonic."
         />
         <meta
           property="og:description"
-          content="Discover our latest offerings at Risezonic."
+          content="Risezonic is an affordable digital marketing agency in Delhi NCR. offering expert SEO, social media, PPC, ads, and web solutions to help your business growth."
         />
         <link rel="canonical" href="https://www.risezonic.com/" />
       </div>
-      <Navbar />
+      <div className="md:flex hidden">
+        <Navbar />
+      </div>
+      <div className="flex md:hidden">
+        <NavForOther />
+      </div>
       <div
         className="md:h-[920px] h-[350px] bg-center bg-cover bg-no-repeat relative "
         style={{
@@ -56,10 +63,12 @@ export default function Home() {
           <section>
             <h1 className="text-8xl font-semibold font-heading">
               Best Digital Marketing
+              <br />
+              <span className="text-7xl font-semibold text-secondary mt-1 pt-1 font-heading">
+                Agency in Delhi NCR
+              </span>
             </h1>
-            <h2 className="text-7xl font-semibold text-secondary mt-1 pt-1 font-heading">
-              Agency in Delhi NCR
-            </h2>
+
             <p className="mt-2 pt-4 font-semibold font-body text-sm">
               Risezonic is a leading digital marketing agency, distinguished by
               its creativity, accurate results and focus on results.
@@ -123,6 +132,7 @@ export default function Home() {
       <StrengthInNumber />
       <Contactus />
       <Testimonial />
+      <FAQ />
       <BlogComponent />
     </div>
   );

@@ -24,9 +24,9 @@ export default function WhatWeDo() {
       </Helmet>
       <NavForOther />
 
-      <section className="max-w-6xl flex justify-center mx-auto pt-32">
-        <div className="sm:flex sm:justify-between justify-center  h-screen items-center">
-          <div className="h-100 w-full flex justify-center text-center ">
+      <section className="max-w-7xl flex justify-center mx-auto pt-32">
+        <div className="md:flex block md:justify-between justify-center  md:h-screen items-center">
+          <div className="md:h-100 w-full flex justify-center text-center ">
             <article>
               <section className="md:h-[35rem] flex justify-center text-start items-center p-6">
                 <div className="relative">
@@ -82,9 +82,9 @@ export default function WhatWeDo() {
         </div>
       </section>
 
-      <section className="max-w-6xl flex justify-center mx-auto">
-        <div className="sm:flex sm:justify-between justify-centerp-6 ">
-          <div className="md:h-100 w-full  overflow-hidden ">
+      <section className="max-w-7xl flex justify-center mx-auto">
+        <div className="md:flex block md:justify-between justify-center  md:h-screen items-center ">
+          <div className="md:h-100 w-full md:flex hidden justify-center text-center ">
             <img
               loading="lazy"
               className="bg-contain bg-center h-full w-full"
@@ -93,7 +93,7 @@ export default function WhatWeDo() {
               alt="Plan & Create"
             />
           </div>
-          <div className="h-100 w-full flex justify-center text-center  ">
+          <div className="md:h-100 w-full flex justify-center text-center  ">
             <article>
               <section className=" md:h-[35rem] flex justify-center text-start items-center p-6">
                 <div className="relative">
@@ -101,7 +101,7 @@ export default function WhatWeDo() {
                     <span className="text-black md:text-6xl"> Our </span>{" "}
                     Digital Philosophy
                   </h2>
-                  <span className="text-amber-600 text-4xl font-semibold absolute md:top-10 top-8 left-0 right-0 bottom-0 inset-0">
+                  <span className="text-amber-600 text-4xl font-semibold absolute md:top-10 top-12 left-0 right-0 bottom-0 inset-0">
                     _____________________
                   </span>
                   <h3 className="md:pt-8 pt-6 font-body text-sm italic font-semibold">
@@ -135,72 +135,73 @@ export default function WhatWeDo() {
               </section>
             </article>
           </div>
+          <div className="md:h-100 w-full flex md:hidden justify-center text-center ">
+            <img
+              loading="lazy"
+              className="bg-contain bg-center h-full w-full"
+              // src="https://media.istockphoto.com/id/1324356458/vector/picture-icon-photo-frame-symbol-landscape-sign-photograph-gallery-logo-web-interface-and.jpg?s=612x612&w=0&k=20&c=ZmXO4mSgNDPzDRX-F8OKCfmMqqHpqMV6jiNi00Ye7rE="
+              src={whatwedo}
+              alt="Plan & Create"
+            />
+          </div>
         </div>
       </section>
 
-      <section className="max-w-6xl flex justify-center mx-auto">
-        <div className="sm:block sm:justify-center justify-center  items-center">
-          <div className="w-full flex justify-center text-center ">
-            <article>
-              <section className="md:h-[35rem] flex justify-center text-center items-center p-6">
-                <div className="relative">
-                  <h2 className="text-6xl font-heading text-primary">
-                    <span className="text-black md:text-8xl"> Why Choose</span>{" "}
-                    Risezonic?
-                  </h2>
-                  <span className="text-amber-600 text-4xl font-semibold absolute md:top-16 top-8 left-0 right-0 bottom-0 inset-0">
-                    _____________________
-                  </span>
-                  <h3 className="md:pt-8 pt-6 font-body text-sm italic font-semibold">
-                    Our success is based on your business success. Selecting
-                    Risezonic gives you clear information among all today's data
-                    noise. Being open, keeping everyone updated, and using a
-                    smart approach that covers both quick gains and future
-                    achievements are our goals. We make our strategies unique by
-                    researching the market well, studying user actions, and
-                    paying attention to our competitors. It’s clear that trust
-                    develops over time and only real achievements can prove it.
-                  </h3>
-                  <p className="md:pt-8 pt-2 font-body">
-                    We are dedicated to helping you accomplish your aims. We see
-                    each project from the point of view of a team member, not as
-                    a simple contractor. That is why we join you in your
-                    victories, face your obstacles, and share your vision. We
-                    can easily complete your work and also give you advice,
-                    point out new marketing trends, and keep improving your
-                    performance. What we do covers more areas than just
-                    marketing. We develop brands that communicate, offer
-                    products, and grow in business. We make sure you are noticed
-                    by your audience in places that matter the most. In
-                    everything from telling the story to deciding on the
-                    strategy, we concentrate on making the brand experience
-                    resonate and do well. While sharing our thoughts, measuring
-                    our progress, and trusting each other, we continue to work
-                    as partners.
-                  </p>
-                  <p className="md:pt-8 pt-2 font-body">
-                    By looking forward, we let you build results-based business
-                    strategies. Our mission is to help digital skills improve
-                    your results in real life. We can do more than campaign
-                    marketing, as we help you build systems that grow and bring
-                    better results for your business. That is how we function.
-                  </p>
-                </div>
-              </section>
-            </article>
+      <section className="max-w-7xl mx-auto px-4 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          {/* LEFT TEXT CONTENT */}
+          <div className="text-center md:text-left relative">
+            <h2 className="text-4xl md:text-6xl font-heading text-primary mb-4">
+              <span className="text-black">Why Choose</span> Risezonic?
+            </h2>
+            <span className="text-amber-600 text-4xl font-semibold absolute md:top-20 top-12 left-0 right-0 bottom-0 inset-0">
+              _____________________
+            </span>
+
+            <h3 className="font-body text-sm italic font-semibold mb-4">
+              Our success is based on your business success. Selecting Risezonic
+              gives you clear information among all today's data noise. Being
+              open, keeping everyone updated, and using a smart approach that
+              covers both quick gains and future achievements are our goals. We
+              make our strategies unique by researching the market well,
+              studying user actions, and paying attention to our competitors.
+              It’s clear that trust develops over time and only real
+              achievements can prove it.
+            </h3>
+
+            <p className="font-body mb-4">
+              We are dedicated to helping you accomplish your aims. We see each
+              project from the point of view of a team member, not as a simple
+              contractor. That is why we join you in your victories, face your
+              obstacles, and share your vision. We can easily complete your work
+              and also give you advice, point out new marketing trends, and keep
+              improving your performance. What we do covers more areas than just
+              marketing. We develop brands that communicate, offer products, and
+              grow in business. We make sure you are noticed by your audience in
+              places that matter the most. In everything from telling the story
+              to deciding on the strategy, we concentrate on making the brand
+              experience resonate and do well. While sharing our thoughts,
+              measuring our progress, and trusting each other, we continue to
+              work as partners.
+            </p>
+
+            <p className="font-body">
+              By looking forward, we let you build results-based business
+              strategies. Our mission is to help digital skills improve your
+              results in real life. We can do more than campaign marketing, as
+              we help you build systems that grow and bring better results for
+              your business. That is how we function.
+            </p>
           </div>
-          <div className="flex justify-center items-center ">
-            <div className="overflow-hidden ">
-              <img
-                loading="lazy"
-                className="bg-contain bg-center h-[450px] w-full"
-                // src="https://media.istockphoto.com/id/1324356458/vector/picture-icon-photo-frame-symbol-landscape-sign-photograph-gallery-logo-web-interface-and.jpg?s=612x612&w=0&k=20&c=ZmXO4mSgNDPzDRX-F8OKCfmMqqHpqMV6jiNi00Ye7rE="
-                src="https://i.postimg.cc/yYY3wjcM/Image-9-1.png"
-                // src="https://i.postimg.cc/htNJQq6n/Image-9.png"
-                // https://postimg.cc/gallery/BDdX6H1
-                alt="why chooes us"
-              />
-            </div>
+
+          {/* RIGHT IMAGE */}
+          <div className="flex justify-center">
+            <img
+              loading="lazy"
+              className="w-full h-auto max-h-[500px] object-contain"
+              src="https://i.postimg.cc/yYY3wjcM/Image-9-1.png"
+              alt="why choose us"
+            />
           </div>
         </div>
       </section>

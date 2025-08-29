@@ -52,7 +52,7 @@ export default function About() {
       <NavForOther />
 
       <div className="block justify-center">
-        <section className="max-w-6xl mx-auto">
+        <section className="max-w-7xl mx-auto">
           <div className="sm:flex sm:justify-between justify-center mt-20 h-screen items-center">
             <div className="h-100 w-full flex justify-center text-center ">
               <article>
@@ -99,7 +99,7 @@ export default function About() {
           </div>
         </section>
 
-        <section className="max-w-6xl mx-auto">
+        <section className="max-w-7xl mx-auto">
           <div className="sm:flex sm:justify-between justify-centerp-6 ">
             <div className="md:h-100 w-full  overflow-hidden ">
               <img
@@ -118,7 +118,7 @@ export default function About() {
                       <span className="text-black md:text-8xl"> What</span> We
                       Do
                     </h2>
-                    <span className="text-amber-600 text-4xl font-semibold absolute md:top-16 top-8 left-0 right-0 bottom-0 inset-0">
+                    <span className="text-amber-600 text-4xl font-semibold absolute md:top-16 top-20 left-0 right-0 bottom-0 inset-0">
                       _____________________
                     </span>
                     <h3 className="md:pt-8 pt-6 font-body text-sm italic font-semibold">
@@ -147,7 +147,7 @@ export default function About() {
           </div>
         </section>
 
-        <article className="max-w-6xl mx-auto">
+        <article className="max-w-7xl mx-auto">
           <section>
             <div className="sm:flex sm:justify-between justify-center py-12">
               <div>
@@ -186,7 +186,7 @@ export default function About() {
         <Testimonial />
         <article>
           <section>
-            <div className="flex justify-center py-12 bg-secondary text-white font-heading text-4xl">
+            <div className="flex justify-center py-12 bg-secondary text-white font-heading sm:text-4xl text-2xl text-center">
               <h2>Fueling Digital Growth with Creativity and Precision</h2>
             </div>
           </section>
