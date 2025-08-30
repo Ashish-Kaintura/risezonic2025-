@@ -69,16 +69,14 @@ export default function Home() {
               </span>
             </h1>
 
-            <p className="mt-2 pt-4 font-semibold font-body text-sm">
+            <p className="mt-2 pt-4 font-semibold font-body text-sm max-w-5xl">
               Risezonic is a leading digital marketing agency, distinguished by
-              its creativity, accurate results and focus on results.
-              <br />
-              Since we have won awards, we are experts in providing excellent
-              digital marketing, building custom websites and apps and
-              consulting brands on technology. <br />
-              Strengthening the combination of data-driven decisions, creative
-              thoughts and strong tech knowledge allows us to achieve measurable
-              results.
+              its creativity, accurate results and focus on results. Since we
+              have won awards, we are experts in providing excellent digital
+              marketing, building custom websites and apps and consulting brands
+              on technology. Strengthening the combination of data-driven
+              decisions, creative thoughts and strong tech knowledge allows us
+              to achieve measurable results.
               <br />
               <br />
             </p>
@@ -118,10 +116,11 @@ export default function Home() {
             ___________
           </span>
           <p className="text-xl pt-4 text-white font-body">
-            Everything we do is based on joint effort, imagination and getting
-            the job done. We know that each company is unique and we adjust our
-            strategies to meet your requirements. Paying attention to openness,
-            we team up with your organization to create results that last.
+            Everything we do is based on joint effort, imagination, and getting
+            the job done. As a provider of the best digital marketing services,
+            we know that each company is unique and we adjust our strategies to
+            meet your requirements. Paying attention to openness, we team up
+            with your organization to create results that last.
           </p>
           <div className=" mt-6">
             <OurServices />

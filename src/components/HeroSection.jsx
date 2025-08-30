@@ -19,16 +19,23 @@ const HeroSection = () => {
         {/* Right Content */}
         <div className="w-full md:w-1/2">
           <p className="text-amber-600 font-medium text-lg mb-2">
-            We Provide digital solution that works
+            We Provide digital marketing solution that works
           </p>
-          <h2 className="text-6xl font-bold text-gray-900 leading-snug mb-4">
-            Streamlined Digital Marketing, <br /> Seamless Results
+          <h2 className="text-4xl font-bold text-gray-900 leading-snug mb-4">
+            Streamlined Digital Marketing <br />
+            Services for br Growing Businesses
           </h2>
           <p className="text-gray-600 mb-6">
-            Risezonic the best content marketing agency in delhi gives your
-            brand a unified framework of digital tools made to make an impact.
-            We take care that every chosen strategy in SEO, social media and
-            other areas is well-connected, uses data and brings good results.
+            At Risezonic, we are a Top digital marketing Agency in Delhi NCR,
+            India, that is focused on data-driven tailored support for startups
+            and evolving businesses, One that combines creativity and utilizing
+            data to create unique and impactful SEO, social media and
+            performance marketing campaigns. The built campaign is will be
+            optimized in a timely manner with the expectation of providing you
+            maximum return on investment, progressing sustainable growth.
+            Risezonic provides trustworthy digital solutions for businesses that
+            are looking to scale either locally or globally that are designed to
+            your specifications.
           </p>
 
           {/* Award Badge */}
@@ -38,12 +45,11 @@ const HeroSection = () => {
             </div>
             <div className="lg:block hidden">
               <h3 className="font-bold text-lg text-gray-900">
-                INTERNATIONAL AWARDS 2024 <br />
-                WITH 16 YEARS OF EXPERIENCE
+                INTERNATIONAL AWARDS 2024 <br /> WITH 8 YEARS OF EXPERIENCE
               </h3>
               <p className="text-gray-600 text-sm">
-                Grow your business smoothly by hiring a digital marketing agency
-                that mixes clarity and results
+                Partner with Risezonic to transform your online presence and
+                accelerate your business success.
               </p>
             </div>
           </div>

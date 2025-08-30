@@ -28,16 +28,19 @@ export default function Services() {
   return (
     <>
       <Helmet>
-        <title>SEO Agency in Delhi | Risezonic.</title>
+        <title>affordable digital marketing services | Risezonic.</title>
         <meta
           name="description"
-          content="Boost your online visibility with Risezonic -SEO Agency in Delhi. We specialize in local and international SEO strategies that drive traffic, leads, and growth."
+          content="Affordable digital marketing services for small businesses. Risezonic delivers result-driven SEO, PPC, SMM, and web strategies to grow your online presence."
         />
-        <meta name="keywords" content="SEO Agency in Delhi" />
-        <meta property="og:title" content="SEO Agency in Delhi | Risezonic." />
+        <meta name="keywords" content=" digital marketing services " />
+        <meta
+          property="og:title"
+          content="affordable digital marketing services | Risezonic."
+        />
         <meta
           property="og:description"
-          content="Boost your online visibility with Risezonic -SEO Agency in Delhi. We specialize in local and international SEO strategies that drive traffic, leads, and growth."
+          content="Affordable digital marketing services for small businesses. Risezonic delivers result-driven SEO, PPC, SMM, and web strategies to grow your online presence."
         />
         <link
           rel="canonical"
@@ -55,7 +58,9 @@ export default function Services() {
       >
         <div className="pt-28 max-w-7xl mx-auto">
           <div className="flex justify-center py-8 text-center bg-primary text-white rounded-xl">
-            <h1 className="font-heading text-5xl">Our Services</h1>
+            <h1 className="font-heading text-5xl">
+              Top Digital Marketing Services
+            </h1>
           </div>
 
           {loading ? (
