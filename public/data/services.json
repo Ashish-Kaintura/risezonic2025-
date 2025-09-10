@@ -18,19 +18,22 @@
         "isActive": true,
         "SubServices": [
             {
-                "title": " Retargeting and remarketing",
+                "title": "Retargeting and remarketing",
+                "img": "https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/performance%20marketing/remarketing-and-retargeting.png",
                 "description": "Remarketing on the other hand, is a wider strategy that frequently influences email marketing to re-engage customers. Which involves sending automated emails to users who discontinued their shopping carts, follow-ups to those who subscribed to the notifications but haven’t made a purchase. The key is using important customer data (like instagram feed, email addresses) to communicate directly.",
                 "shortdescription": "Retargeting mainly focuses on using paid advertisements to show ads to customers who often visit your website or app. This is mainly done through “pixels” - small pieces of code submerged to your website that drops anonymous cookies on a visitor’s browser. Then they are shown targeted ads for the products or services they viewed when that visitor surfs to other platforms or other websites. The goal is to make your brand appear on top of the visitor's mind and remind them of their initial interests, to bring them back to the desired action.",
                 "_id": "6853b0202238c639cd15cb2e"
             },
             {
                 "title": "Affiliate Marketing",
+                "img": "https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/performance%20marketing/Afflied-marketing.png",
                 "description": "This pay-for-performance model allows the least risk on the part of the advertiser, and motivates the affiliates to send quality traffic, and is thus a viable and successful long term strategy of ensuring actual business growth.",
                 "shortdescription": "Affiliate Marketing is a performance-based type of marketing where a business pays one or more affiliates per visitor or customer that the affiliate brings to the business through his or her own marketing activities. Essentially, it is a performance based joint venture in which the merchant only pays when results are achieved and hence it is an appealing and risk free customer acquisition channel especially to businesses with customer acquisition targets but do not want to incur hefty initial marketing expenses. ",
                 "_id": "6853b0202238c639cd15cb2f"
             },
             {
                 "title": "Return on investment",
+                "img": "https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/performance%20marketing/ROI.png",
                 "description": "The basic formula for calculating marketing ROI is:                     ROI=  (Revenue from Marketing−Marketing Cost) ​×100%                                                      Marketing Cost",
                 "shortdescription": "Return on investment (ROI) is potentially the most analytical benchmark in any business, especially in performance marketing. It measures the profitability of your marketing campaigns and calculates the financial returns of a marketing campaign divided by the cost of running the campaign. In a nutshell, it provides the basic question: \"For every rupee we spend on marketing, how many rupees do we get back?\"",
                 "_id": "6853b0202238c639cd15cb30"
@@ -72,7 +75,7 @@
         "longdescription": "\u003Ch3 dir=\"ltr\"\u003EWhy Choose Risezonic?\u003C/h3\u003E\n\u003Cul\u003E\n\u003Cli dir=\"ltr\" aria-level=\"1\"\u003E\n\u003Cp dir=\"ltr\" role=\"presentation\"\u003E✔️ Affordable Website Design and Development Services tailored to your needs and budget\u003Cbr\u003E\u003Cbr\u003E\u003C/p\u003E\n\u003C/li\u003E\n\u003Cli dir=\"ltr\" aria-level=\"1\"\u003E\n\u003Cp dir=\"ltr\" role=\"presentation\"\u003E✔️ Data-driven design strategy that ensures measurable results\u003Cbr\u003E\u003Cbr\u003E\u003C/p\u003E\n\u003C/li\u003E\n\u003Cli dir=\"ltr\" aria-level=\"1\"\u003E\n\u003Cp dir=\"ltr\" role=\"presentation\"\u003E✔️ 24/7 Support from our dedicated development team\u003Cbr\u003E\u003Cbr\u003E\u003C/p\u003E\n\u003C/li\u003E\n\u003Cli dir=\"ltr\" aria-level=\"1\"\u003E\n\u003Cp dir=\"ltr\" role=\"presentation\"\u003E✔️ SEO-ready, secure, and scalable websites from a leading website designing service in Delhi\u003Cbr\u003E\u003Cbr\u003E\u003C/p\u003E\n\u003C/li\u003E\n\u003Cli dir=\"ltr\" aria-level=\"1\"\u003E\n\u003Cp dir=\"ltr\" role=\"presentation\"\u003E✔️ Expertise across platforms like WordPress, Shopify, Wix, and custom stacks\u003Cbr\u003E\u003Cbr\u003E\u003C/p\u003E\n\u003C/li\u003E\n\u003C/ul\u003E\n\u003Cp\u003E\u003Cstrong\u003E&nbsp;\u003C/strong\u003E\u003C/p\u003E\n\u003Ch3 dir=\"ltr\"\u003E&nbsp;Let&rsquo;s Build Your Next-Gen Website Today!\u003C/h3\u003E\n\u003Cp\u003E\u003Cstrong id=\"docs-internal-guid-673f2fcb-7fff-84ee-04c0-12dd0d436c29\"\u003EYour website is your most important digital asset&mdash;don&rsquo;t leave it to chance. Partner with Risezonic to get a high-performance, future-ready website that brings in leads, sales, and growth.\u003C/strong\u003E\u003C/p\u003E",
         "CoverImage": "https://i.postimg.cc/QN9Y43Pn/websitedesgineandevelopment.png",
         "bgImage": "",
-        "img": "",
+        "img": "https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/web-dev/Website-Designing-And-Development.png",
         "url": "website-designing-and-development",
         "metacanonical": "https://www.risezonic.com/services/website-designing-and-development",
         "metatitle": "Best Website Design and Development services| Risezonic.",
@@ -82,26 +85,31 @@
         "SubServices": [
             {
                 "title": "Custom Website Design",
+                "img": "https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/web-dev/Custom%20Website%20Design.png",
                 "intro": "We focus on creating custom sites for your specific brand identity & user journey as your creative team. We design responsive and appealing websites with a strong UI/UX. Differentiating ourselves from competitors in design, we focus on integration, so our projects not only appeal aesthetically but are also performant and lead to conversion. We offer the full picture, from brand visual storytelling down to clean and careful layouts. As a website design company in Delhi NCR and India amongst the leaders, we build and rank your site and assure it will give you the business you need!",
                 "_id": "68be7264def1926099dbd62d"
             },
             {
-                "title": " WordPress Development",
+                "title": "WordPress Development",
+                "img": "https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/web-dev/wordpress-development.png",
                 "intro": "The best website design services in Delhi NCR—take control of your online accounts. Risezonic is a leading WordPress website design company that creates secure and scalable WordPress websites designed for SEO and tailored to your business. Risezonic's expert developers ensure your WordPress website is easy to maintain and manage, fully responsive, and built for performance. Risezonic's clients range from small businesses to booming eCommerce brands. Regardless of your size, Risezonic can provide you with a custom WordPress solution. Our work helps you gain visibility and user interaction and allows your business to grow over time.",
                 "_id": "68be7264def1926099dbd62e"
             },
             {
-                "title": " E-Commerce Website Solutions",
+                "title": "E-Commerce Website Solutions",
+                "img": "https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/web-dev/E-Commerce-Website-Solutions.png",
                 "intro": "So you want to grow your eCommerce website's online sales! Risezonic offers the best eCommerce website design services in Delhi NCR. We proudly develop eCommerce websites on the most popular platforms, including Shopify, WooCommerce, and Magento. Our expert developer team creates fast, secure, and mobile-friendly responsive eCommerce websites to optimize user experience and modernize and simplify the buying process. Risezonic’s experienced eCommerce website developer team tries to limit cart abandonment and improve conversions and create an easy-to-manage online store that will keep customers coming back again and again while providing an additional revenue stream for your company. ",
                 "_id": "68be7264def1926099dbd62f"
             },
             {
-                "title": " Mobile-Responsive Development",
+                "title": "Mobile-Responsive Development",
+                "img": "https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/web-dev/Mobile-responsive-development.png",
                 "intro": "In the mobile-first digital environment we find ourselves in today, it is imperative to have a responsive website design to be successful. That is why every website custom-built with Risezonic is totally mobile-friendly and fully optimized for all devices, utilizing responsive web design best practices to ensure that our sites are perfectly functional on smartphones, tablets, laptops, and desktops. Our responsive web development services are designed to make sure that your site has a seamless user experience, fast loading times, and increased positions in search engines to help your customers find you regardless of how they choose to browse your site.",
                 "_id": "68be7264def1926099dbd630"
             },
             {
-                "title": " Website Redesign & Optimization",
+                "title": "Website Redesign & Optimization",
+                "img": "https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/web-dev/Website-Redesign-Optimization.png",
                 "intro": " Have a website that is not performing well in terms of traffic or conversion? At Risezonic we support website redesign and optimization services to improve your web presence. Expertly analyze your website using data-driven analytics to clearly identify performance issues (i.e., speed, UI/UX, and conversion rates) and implement enhancements. Our designers and developers will turn your site into a super-fast, user-friendly, high-converting website to earn you more honest leads and revenue for your business.",
                 "_id": "68be7264def1926099dbd631"
             }
@@ -201,7 +209,7 @@
         "longdescription": "\u003Cp dir=\"ltr\"\u003E\u003Cstrong\u003E\u003Cspan style=\"font-size: 18pt;\"\u003EWhy Content Marketing is Indispensable for Your Business:\u003C/span\u003E\u003C/strong\u003E\u003C/p\u003E\n\u003Cp dir=\"ltr\"\u003E\u003Cstrong\u003E1. Builds Brand Authority and Trust:\u003C/strong\u003E With the help of high-quality content your brand becomes an expert in your industry. When you regularly provide valuable information, you can build a strong relationship and trust with your audience, making them choose you over your competitors.&nbsp;&nbsp;\u003C/p\u003E\n\u003Cp\u003E\u003Cstrong\u003E&nbsp;\u003C/strong\u003E\u003C/p\u003E\n\u003Cp dir=\"ltr\"\u003E\u003Cstrong\u003E2. Drives Organic Traffic &amp; SEO Value: \u003C/strong\u003ESEO preferred fresh, relevant content. The perfect content marketing strategy is the backbone of effective SEO, to make your website rank higher on the search engines for relevant keywords.&nbsp;\u003C/p\u003E\n\u003Cp\u003E\u003Cstrong\u003E&nbsp;\u003C/strong\u003E\u003C/p\u003E\n\u003Cp dir=\"ltr\"\u003E\u003Cstrong\u003E3. Fuels Lead Generation and Nurturing:\u003C/strong\u003E There&rsquo;s a wide range of content formats, from knowledgeable blog posts, to engaging videos and interactive quizzes can capture leads. We also create a content funnel that helps prospects go through their buying cycle and help them be nurtured with the right information until they are ready to buy.\u003C/p\u003E\n\u003Cp\u003E\u003Cstrong\u003E&nbsp;\u003C/strong\u003E\u003C/p\u003E\n\u003Cp dir=\"ltr\"\u003E\u003Cstrong\u003E4. Enhances Social Media Engagement:\u003C/strong\u003E Best content is instinctively shearable. It provides a reason to your target audience to connect with your brand on social media, increasing your reach and interacting with new customers organically.\u003C/p\u003E\n\u003Cp\u003E\u003Cstrong\u003E&nbsp;\u003C/strong\u003E\u003C/p\u003E\n\u003Cp dir=\"ltr\"\u003E\u003Cstrong\u003E5. Cost-Effective with Long-Term ROI:\u003C/strong\u003E With consistent efforts content marketing provides higher ROI compared to traditional advertising. Relevant and valuable content continues to engage the audience, generating traffic for months or even years after it&rsquo;s published, unlike paid ads which stop delivering after funds run out.\u003C/p\u003E\n\u003Cp dir=\"ltr\"\u003E\u003Cstrong\u003E\u003Cspan style=\"font-size: 18pt;\"\u003EWhy Choose Risezonic Among Content Marketing Agencies?\u003C/span\u003E\u003C/strong\u003E\u003C/p\u003E\n\u003Cp dir=\"ltr\"\u003EAt Risezonic, as one of the top Content Marketing Agency in India we provide a planned and result-driven approach.\u003C/p\u003E\n\u003Cul\u003E\n\u003Cli dir=\"ltr\" aria-level=\"1\"\u003E\n\u003Cp dir=\"ltr\" role=\"presentation\"\u003E\u003Cstrong\u003EStrategic Planning:\u003C/strong\u003E We begin by learning about business objectives, target audience, and competitors to create a content strategy that will finally appeal and resonate.\u003C/p\u003E\n\u003C/li\u003E\n\u003C/ul\u003E\n\u003Cul\u003E\n\u003Cli dir=\"ltr\" aria-level=\"1\"\u003E\n\u003Cp dir=\"ltr\" role=\"presentation\"\u003E\u003Cstrong\u003EDiverse Content Creation:\u003C/strong\u003E We have a team of expert writers, graphic designers, SEO experts, website developers, and videographers they collaborate to create engaging content in various formats- from blog posts, articles, to long and short form videos and case studies.\u003C/p\u003E\n\u003C/li\u003E\n\u003C/ul\u003E\n\u003Cul\u003E\n\u003Cli dir=\"ltr\" aria-level=\"1\"\u003E\n\u003Cp dir=\"ltr\" role=\"presentation\"\u003E\u003Cstrong\u003ESEO Optimization: \u003C/strong\u003ETo ensure maximum reach and visibility, We optimize every piece of&nbsp; content for search engines.\u003C/p\u003E\n\u003C/li\u003E\n\u003C/ul\u003E\n\u003Cul\u003E\n\u003Cli dir=\"ltr\" aria-level=\"1\"\u003E\n\u003Cp dir=\"ltr\" role=\"presentation\"\u003E\u003Cstrong\u003EDistribution &amp; Promotion:\u003C/strong\u003E We built strategies to ensure that your content reaches the correct audience across various platforms.\u003C/p\u003E\n\u003C/li\u003E\n\u003C/ul\u003E\n\u003Cul\u003E\n\u003Cli dir=\"ltr\" aria-level=\"1\"\u003E\n\u003Cp dir=\"ltr\" role=\"presentation\"\u003E\u003Cstrong\u003EPerformance Tracking:\u003C/strong\u003E We are always watching content, and give open reports and findings to optimize strategy and generate the most impact.\u003C/p\u003E\n\u003C/li\u003E\n\u003C/ul\u003E\n\u003Cp dir=\"ltr\"\u003EWorking with Us, will help you to turn your brand into a reliable source of information, build a long-term relationship with the audience and grow with the help of Content Marketing as one of the most efficient distribution channels nowadays. Want us to assist in making your story effective?\u003C/p\u003E\n\u003Cp\u003E&nbsp;\u003C/p\u003E",
         "CoverImage": "https://i.postimg.cc/VkBVqWTf/content-marketing.png",
         "bgImage": "",
-        "img": "https://www.usdatacorporation.com/wp-content/uploads/2022/05/US-Data-Content-Marketing-Google-Relevance-SEO-1.png",
+        "img": "https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/content/content%20marketing.png",
         "url": "content-marketing",
         "metacanonical": "https://www.risezonic.com/services/content-marketing",
         "metatitle": "Best content marketing agency| Risezonic.",
@@ -223,7 +231,7 @@
         "longdescription": "\u003Cp\u003ETo conclude, strong design increases the chances of people recognizing your brand, interacting with it and appreciating its value. Integrating creativity and new ideas ensures the design of a business looks striking and also functions well.\u003C/p\u003E",
         "CoverImage": "https://i.postimg.cc/TwhNXMP1/Design-services.png",
         "bgImage": "",
-        "img": "https://w7.pngwing.com/pngs/50/571/png-transparent-graphic-designer-web-design-graphic-design-gadget-electronics-photography.png",
+        "img": "https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/desining/Designing.png",
         "url": "designing",
         "metacanonical": "https://www.risezonic.com/services/designing",
         "metatitle": "Graphic Designing Agency in Delhi | Risezonic.",
@@ -245,13 +253,13 @@
             },
             {
                 "title": " Brochure and Pamphlet Design",
-                "img": "https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/desining/Video%20editing.png",
+                "img": "https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/desining/Brochure.png",
                 "shortdescription": "The digital age notwithstanding, the proper print collateral can be far more powerful. Risezonic is one of the top brochure and pamphlet designing agencies in Delhi that ensures creation of concrete marketing tools that connect. With the help of professional writers, we create attractive, short-colored brochures and pamphlets to convey the most important messages of yours, product/service information. These chapters must be straightforward in design when it comes to information hierarchy, interesting visuals, and a powerful call to action; these chapters must act as an effective leave-behind or handouts. Engage Risezonic to provide you with quality, professional print designs that would leave your prospects with a sweet impression and lasting impression.",
                 "_id": "6853b5022238c639cd15ccc2"
             },
             {
                 "title": "4. Video Editing",
-                "img": "https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/desining/",
+                "img": "https: //raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/desining/Video%20editing.png",
                 "shortdescription": "In today’s world, companies should focus on operational excellence because it is essential. Six Sigma consultant services make a big difference by assisting companies in organizing their work, cutting down on waste and making noticeable improvements. The process behind Six Sigma makes company products of higher quality, helps the business stay consistent and brings customer satisfaction. Firms that wish to develop steadily and sustainably get help from those skilled in using these practices. For this reason, Six Sigma consulting is becoming a popular service among many companies.",
                 "_id": "6853b5022238c639cd15ccc3"
             }
