@@ -58,7 +58,7 @@ export default function Services() {
       >
         <div className="pt-28 max-w-7xl mx-auto">
           <div className="flex justify-center py-8 text-center bg-primary text-white rounded-xl">
-            <h1 className="font-heading text-5xl">
+            <h1 className="font-heading sm:text-5xl text-2xl ">
               Top Digital Marketing Services
             </h1>
           </div>

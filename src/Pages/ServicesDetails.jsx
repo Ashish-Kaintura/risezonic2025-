@@ -48,8 +48,7 @@ export default function ServiceDetail() {
 
       <article className="pt-28 bg-white ">
         <section className="max-w-7xl mx-auto px-4 py-8">
-          {/* Header section */}
-
+          {/* /* Header section */}
           <section className="font-body">
             <BackButton />
             <div className="sm:flex sm:justify-between justify-center  mt-10 items-center">
@@ -58,10 +57,10 @@ export default function ServiceDetail() {
                   <section className=" flex justify-center text-start items-center">
                     <div className="relative">
                       <h2 className="text-4xl  text-primary font-heading">
-                        {service.title}
+                        {service.h1title ? service.h1title : service.title}
                       </h2>
                       {/* <span className="text-amber-600 text-4xl font-semibold absolute md:top-6 top-3 left-0 right-0 bottom-0 inset-0">
-                        _____________________
+                      _____________________
                       </span> */}
                       <h3 className="md:pt-8 pt-6 font-body ">
                         {service.intro}
@@ -88,7 +87,6 @@ export default function ServiceDetail() {
           <div className="mt-12 prose max-w-none prose-lg ">
             <p>{service.description}</p>
           </div>
-
           {/* subservices  */}
           {service.SubServices?.length > 0 && (
             <div className="mt-16">
@@ -131,7 +129,6 @@ export default function ServiceDetail() {
               </section>
             </div>
           )}
-
           {/* subservices  */}
           {service.SubServices?.length > 0 && (
             <div className="mt-16">
@@ -182,7 +179,6 @@ export default function ServiceDetail() {
               </section>
             </div>
           )}
-
           {/* subservices  */}
           {service.SubServices?.length > 0 && (
             <div className="mt-16">
@@ -310,7 +306,6 @@ export default function ServiceDetail() {
               </section>
             </div>
           )}
-
           {/* SubServices */}
           {/* {service.SubServices?.length > 0 && (
             <div className="mt-16">

@@ -54,9 +54,9 @@ export default function About() {
       <div className="block justify-center">
         <section className="max-w-7xl mx-auto">
           <div className="sm:flex sm:justify-between justify-center mt-20 h-screen items-center">
-            <div className="h-100 w-full flex justify-center text-center ">
+            <div className="md-100 w-full flex justify-center text-center ">
               <article>
-                <section className="b md:h-[35rem] flex justify-center text-start items-center p-6">
+                <section className="md:h-[35rem]   flex justify-center text-start items-center p-6">
                   <div className="relative">
                     <h2 className="text-6xl font-heading text-primary">
                       <span className="text-black md:text-8xl"> ABOUT </span>{" "}
@@ -87,7 +87,7 @@ export default function About() {
                 </section>
               </article>
             </div>
-            <div className="md:h-100 w-full  overflow-hidden">
+            <div className="md:h-100 w-full overflow-hidden">
               <img
                 loading="lazy"
                 className="bg-contain bg-center h-full w-full"
@@ -100,8 +100,8 @@ export default function About() {
         </section>
 
         <section className="max-w-7xl mx-auto">
-          <div className="sm:flex sm:justify-between justify-centerp-6 ">
-            <div className="md:h-100 w-full  overflow-hidden ">
+          <div className="sm:flex sm:justify-between justify-center p-6 ">
+            <div className="md:h-100 w-full sm:flex hidden  overflow-hidden ">
               <img
                 loading="lazy"
                 className="bg-contain bg-center h-full w-full"
@@ -110,7 +110,7 @@ export default function About() {
                 alt="Plan & Create"
               />
             </div>
-            <div className="h-100 w-full flex justify-center text-center  ">
+            <div className="sm:h-100 w-full flex justify-center text-center  ">
               <article>
                 <section className=" md:h-[35rem] flex justify-center text-start items-center p-6">
                   <div className="relative">
@@ -143,6 +143,15 @@ export default function About() {
                   </div>
                 </section>
               </article>
+            </div>
+            <div className="md:h-100 w-full flex sm:hidden overflow-hidden ">
+              <img
+                loading="lazy"
+                className="bg-contain bg-center h-full w-full"
+                // src="https://media.istockphoto.com/id/1324356458/vector/picture-icon-photo-frame-symbol-landscape-sign-photograph-gallery-logo-web-interface-and.jpg?s=612x612&w=0&k=20&c=ZmXO4mSgNDPzDRX-F8OKCfmMqqHpqMV6jiNi00Ye7rE="
+                src={whatwedo}
+                alt="Plan & Create"
+              />
             </div>
           </div>
         </section>
