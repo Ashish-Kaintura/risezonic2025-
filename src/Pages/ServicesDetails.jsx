@@ -118,7 +118,7 @@ export default function ServiceDetail() {
                         </section>
                       </article>
                     </div>
-                    <div className="md:h-100 w-full  md:w-1/2 bg-gray-300 overflow-hidden">
+                    <div className="md:h-100 w-full  md:w-1/2  overflow-hidden">
                       <img
                         loading="lazy"
                         className="bg-contain bg-center h-full w-full"
@@ -139,7 +139,7 @@ export default function ServiceDetail() {
                 {/* SubService 1 - Local SEO */}
                 {service.SubServices[1] && (
                   <div className="sm:flex sm:justify-between justify-center sm:space-x-3  items-center">
-                    <div className="md:h-100 w-full  md:w-1/2 bg-gray-300 overflow-hidden md:flex hidden">
+                    <div className="md:h-100 w-full  md:w-1/2  overflow-hidden md:flex hidden">
                       <img
                         loading="lazy"
                         className="bg-contain bg-center h-full w-full"
@@ -169,7 +169,7 @@ export default function ServiceDetail() {
                         </section>
                       </article>
                     </div>
-                    <div className="md:h-100 w-full  md:w-1/2 bg-gray-300 overflow-hidden flex md:hidden">
+                    <div className="md:h-100 w-full  md:w-1/2  overflow-hidden flex md:hidden">
                       <img
                         loading="lazy"
                         className="bg-contain bg-center h-full w-full"
@@ -212,7 +212,7 @@ export default function ServiceDetail() {
                         </section>
                       </article>
                     </div>
-                    <div className="md:h-100 w-full  md:w-1/2 bg-gray-300 overflow-hidden">
+                    <div className="md:h-100 w-full  md:w-1/2  overflow-hidden">
                       <img
                         loading="lazy"
                         className="bg-contain bg-center h-full w-full"
@@ -232,7 +232,7 @@ export default function ServiceDetail() {
                 {/* SubService 1 - Local SEO */}
                 {service.SubServices[3] && (
                   <div className="sm:flex sm:justify-between justify-center sm:space-x-3  items-center">
-                    <div className="md:h-100 w-full  md:w-1/2 bg-gray-300 overflow-hidden">
+                    <div className="md:h-100 w-full  md:w-1/2  overflow-hidden">
                       <img
                         loading="lazy"
                         className="bg-contain bg-center h-full w-full"
@@ -297,7 +297,7 @@ export default function ServiceDetail() {
                       </article>
                     </div>
 
-                    <div className="md:h-100 w-full  md:w-1/2 bg-gray-300 overflow-hidden">
+                    <div className="md:h-100 w-full  md:w-1/2  overflow-hidden">
                       <img
                         loading="lazy"
                         className="bg-contain bg-center h-full w-full"
