@@ -54,7 +54,7 @@ export default function Home() {
         <NavForOther />
       </div>
       <div
-        className="md:h-[920px] h-[350px] bg-center bg-cover bg-no-repeat relative "
+        className="md:h-[920px] h-[350px] bg-center bg-cover bg-no-repeat relative md:flex hidden"
         style={{
           backgroundImage: `url(${"https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg"})`,
         }}
@@ -98,6 +98,41 @@ export default function Home() {
           </section>
         </article>
       </div>
+      <div
+        className="relative bg-center bg-cover bg-no-repeat h-[350px] md:h-[920px] md:hidden flex"
+        style={{
+          backgroundImage: `url("https://i.postimg.cc/G2nbVSbQ/Banner-1-green.jpg")`,
+        }}
+      >
+        <article className="absolute inset-0 flex items-center justify-center md:justify-end px-4 md:px-10 z-10">
+          <section className="text-center md:text-left max-w-4xl">
+            {/* Heading */}
+            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-semibold font-heading leading-snug pt-20">
+              Best Digital Marketing
+              <br />
+              <span className="block text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-semibold text-secondary mt-2 font-heading">
+                Agency in Delhi NCR
+              </span>
+            </h1>
+
+            {/* Button */}
+            <div className="flex justify-center md:justify-start mt-6 md:mt-32">
+              <div className="bg-gradient-to-b from-gray-800/40 to-transparent p-[3px] rounded-xl">
+                <button className="group p-[3px] rounded-lg bg-gradient-to-b from-gray-700 to-gray-600 shadow-md hover:shadow-lg active:scale-95 transition-all duration-200">
+                  <div className="bg-gradient-to-b from-gray-600 to-gray-700 rounded-md px-4 py-2">
+                    <div className="flex gap-2 items-center">
+                      <span className="font-semibold text-white text-sm sm:text-base">
+                        More Details
+                      </span>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </section>
+        </article>
+      </div>
+
       {/* <HeroSectionHome /> */}
       <HeroSection />
       <div
