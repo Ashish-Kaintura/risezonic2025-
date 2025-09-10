@@ -2,27 +2,24 @@ import React, { useState } from "react";
 
 const faqs = [
   {
-    question: "Which types of industry are you most experienced in?",
+    question: " What services does Risezonic offer?",
     answer:
-      "We handle development services for a broad selection of industries, for example, eCommerce, education, real estate, hospitality and others. We develop unique strategies that match your business’s needs and your target audience.",
+      "Risezonic is a digital marketing and consulting agency—we help businesses solve problems and grow their companies. Our main services include the following:Website design and development, digital marketing (SEO, social media, PPC), mobile app development, and specialized consulting services in sales and technology.",
   },
   {
-    question:
-      " When should I expect to see the results of my digital marketing?",
+    question: "Is Risezonic an offshore company?",
     answer:
-      "If SEO and content marketing are used, you should notice changes in 3 to 6 months, while paid advertising tends to provide results in only a few weeks.F",
+      "Risezonic is a digital marketing agency and consulting company based in Delhi NCR, India. We service local clients in India and clients in other parts of the world to provide customized solutions to help brands find success in the digital space.",
   },
   {
-    question:
-      "Is it possible to choose custom digital marketing packages from you?",
+    question: "How can digital marketing help my business?",
     answer:
-      "Absolutely. We plan and provide services that fit your goals, budget and level of digital knowledge. For clients who want either large-scale systems or limited campaigns, we are able to help.",
+      "Digital marketing helps your business find more online visibility, get potential customers to your website, and generate leads and, ultimately, sales. We use data-driven strategies such as search engine optimization (SEO), social media marketing (SMM), and pay-per-click (PPC) advertising so that we can reach the right audience in the most economical way possible and measure your return on investment (ROI).",
   },
   {
-    question:
-      "Are you able to make changes to an online site that is already working?",
+    question: "What is the difference between SEO and PPC?",
     answer:
-      "Yes. Along with WordPress website design, we help with speed, SEO, look on mobile devices and better user experience.",
+      "SEO (Search Engine Optimization) is the process of optimizing your website for a better position in organic (unpaid) search results. PPC (Pay-Per-Click) advertising is a paid advertisement, in which case, you pay a fee each time someone clicks on your ad. Both SEO and PPC are important for driving traffic; SEO takes time and patience (long-term), and PPC is instant (short-term).",
   },
 ];
 

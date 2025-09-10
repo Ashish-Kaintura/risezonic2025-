@@ -18,7 +18,7 @@ const Career = () => {
     },
     { id: 3, title: "UI/UX Designer", location: "Remote", type: "Contract" },
   ];
-useEffect(() => {
+  useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
@@ -43,7 +43,7 @@ useEffect(() => {
             current openings below.
           </p>
           <div className="space-y-6">
-            {jobs.map((job) => (
+            {/* {jobs.map((job) => (
               <div
                 key={job.id}
                 className="bg-white shadow-md rounded-lg p-6 flex flex-col md:flex-row justify-between items-start md:items-center"
@@ -60,7 +60,11 @@ useEffect(() => {
                   Apply Now
                 </button>
               </div>
-            ))}
+            ))} */}
+
+            <h2 className="text-3xl  font-primary font-heading ">
+              No Opening As per Now{" "}
+            </h2>
           </div>
         </div>
       </div>

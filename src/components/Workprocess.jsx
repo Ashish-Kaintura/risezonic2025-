@@ -91,11 +91,14 @@ export default function Workprocess() {
                     ______________
                   </span>
                   <p className="pt-8">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Pariatur eum assumenda nisi nesciunt, obcaecati facilis
-                    placeat fugit. Consectetur, harum magni. Nemo voluptate eos,
-                    repellendus voluptas velit consequuntur! Aspernatur quasi
-                    autem accusamus est beatae perferendis eligendi quos?
+                    Once the project has been perfected, we finalize your
+                    project for launch. We've gone through a great process and
+                    the last stage is a delivered and deployed project. The
+                    project is now completely launched, so you can access your
+                    website or app just like anyone else can. Then we can
+                    provide support and monitoring so your project runs at it's
+                    best. You can run your business and we'll handle the tedious
+                    technical issues.
                   </p>
                 </div>
               </section>
