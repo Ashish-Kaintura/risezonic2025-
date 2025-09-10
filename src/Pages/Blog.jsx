@@ -37,7 +37,7 @@ export default function Blog() {
         <title>Digital Marketing Blog | Risezonic.</title>
         <meta
           name="description"
-          content="Explore the Risezonic blog for expert tips on SEO, social media, performance marketing,website design, and the latest digital marketing trends."
+          content="Explore the Risezonic digital marketing blog for expert tips on SEO, social media, performance marketing, website design, and the latest digital marketing trends."
         />
         <meta name="keywords" content="Digital Marketing Blog" />
 

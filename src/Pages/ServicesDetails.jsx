@@ -60,10 +60,10 @@ export default function ServiceDetail() {
                       <h2 className="text-4xl  text-primary font-heading">
                         {service.title}
                       </h2>
-                      <span className="text-amber-600 text-4xl font-semibold absolute md:top-6 top-3 left-0 right-0 bottom-0 inset-0">
+                      {/* <span className="text-amber-600 text-4xl font-semibold absolute md:top-6 top-3 left-0 right-0 bottom-0 inset-0">
                         _____________________
-                      </span>
-                      <h3 className="md:pt-8 pt-6 font-body text-sm italic font-semibold">
+                      </span> */}
+                      <h3 className="md:pt-8 pt-6 font-body ">
                         {service.intro}
                       </h3>
                       <p className="md:pt-8 pt-2 font-body">
@@ -88,12 +88,6 @@ export default function ServiceDetail() {
           <div className="mt-12 prose max-w-none prose-lg ">
             <p>{service.description}</p>
           </div>
-          {/* Long Description */}
-          <div className="mt-12 prose max-w-none prose-lg ">
-            <div
-              dangerouslySetInnerHTML={{ __html: service.longdescription }}
-            />
-          </div>
 
           {/* subservices  */}
           {service.SubServices?.length > 0 && (
@@ -110,7 +104,7 @@ export default function ServiceDetail() {
                               {service.SubServices[0].title}
                             </h2>
 
-                            <h3 className="md:pt-8 pt-6 font-body text-sm italic font-semibold">
+                            <h3 className="md:pt-8 pt-6 font-body ">
                               {service.SubServices[0].intro}
                             </h3>
 
@@ -161,7 +155,7 @@ export default function ServiceDetail() {
                               {service.SubServices[1].title}
                             </h2>
 
-                            <h3 className="md:pt-8 pt-6 font-body text-sm italic font-semibold">
+                            <h3 className="md:pt-8 pt-6 font-body ">
                               {service.SubServices[1].intro}
                             </h3>
 
@@ -204,7 +198,7 @@ export default function ServiceDetail() {
                               {service.SubServices[2].title}
                             </h2>
 
-                            <h3 className="md:pt-8 pt-6 font-body text-sm italic font-semibold">
+                            <h3 className="md:pt-8 pt-6 font-body ">
                               {service.SubServices[2].intro}
                             </h3>
 
@@ -254,7 +248,7 @@ export default function ServiceDetail() {
                               {service.SubServices[3].title}
                             </h2>
 
-                            <h3 className="md:pt-8 pt-6 font-body text-sm italic font-semibold">
+                            <h3 className="md:pt-8 pt-6 font-body ">
                               {service.SubServices[3].intro}
                             </h3>
 
@@ -267,6 +261,49 @@ export default function ServiceDetail() {
                           </div>
                         </section>
                       </article>
+                    </div>
+                  </div>
+                )}
+              </section>
+            </div>
+          )}
+          {/* subservices  */}
+          {service.SubServices?.length > 0 && (
+            <div className="mt-16">
+              <section className=" mx-auto">
+                {/* SubService 1 - Local SEO */}
+                {service.SubServices[4] && (
+                  <div className="sm:flex sm:justify-between justify-center sm:space-x-3  items-center">
+                    <div className=" sm:w-1/2 w-full flex justify-center text-center ">
+                      <article>
+                        <section className=" flex justify-center text-start items-center">
+                          <div className="relative">
+                            <h2 className="sm:text-6xl text-2xl font-heading text-primary">
+                              {service.SubServices[4].title}
+                            </h2>
+
+                            <h3 className="md:pt-8 pt-6 font-body ">
+                              {service.SubServices[4].intro}
+                            </h3>
+
+                            <p className="md:pt-8 pt-2 font-body">
+                              {service.SubServices[4].shortdescription}
+                            </p>
+                            <p className="md:pt-8 pt-2 font-body">
+                              {service.SubServices[4].description}
+                            </p>
+                          </div>
+                        </section>
+                      </article>
+                    </div>
+
+                    <div className="md:h-100 w-full  md:w-1/2 bg-gray-300 overflow-hidden">
+                      <img
+                        loading="lazy"
+                        className="bg-contain bg-center h-full w-full"
+                        src={service.SubServices[4].img}
+                        alt="Plan & Create"
+                      />
                     </div>
                   </div>
                 )}
@@ -306,6 +343,12 @@ export default function ServiceDetail() {
               </div>
             </div>
           )} */}
+          {/* Long Description */}
+          <div className="mt-12 prose max-w-none prose-lg ">
+            <div
+              dangerouslySetInnerHTML={{ __html: service.longdescription }}
+            />
+          </div>
         </section>
       </article>
     </>

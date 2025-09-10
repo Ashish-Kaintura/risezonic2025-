@@ -2,6 +2,7 @@
     {
         "_id": "684fc0098b13cad8e29a65e9",
         "title": "Performance Marketing",
+        "h1title": "",
         "intro": "",
         "description": " Hence, involving a leading Performance Marketing Agency in Delhi NCR turns things around for your business. Since efficiency and accountability are important, performance marketing brings the greatest value in a market. If you choose a reliable Performance Marketing Agency, you will benefit from an approach that is agile, has defined goals and always matches your business goals. Seeing your page is helpful, but what truly counts are numbers of visits and their effect on sales.",
         "shortdescription": "Performance Marketing is set to become the preferred way of advertising since each expense can easily be linked to the results it produces. It aims to get real results for businesses such as leads, sales, clicks or conversions, so they only have to pay when the product does what it claims. Nowadays, when everything is online and moving quickly, this way of designing ensures transparency, lets formats scale and maintains efficiency. No matter if your business is young or developed, choosing an outcome-driven strategy can greatly benefit your company’s finances.",
@@ -42,6 +43,7 @@
     {
         "_id": "685115cd1ab4aebf7a17642f",
         "title": "Social Media Marketing",
+        "h1title": "",
         "intro": "",
         "description": "When there are so many brands out there, your company should engage its audience rather than just exist. Such an agency helps you establish your brand slowly but surely through each social media update. Don’t hesitate to speak on social media, as this is where most conversations with customers start.",
         "shortdescription": "Building a relationship with the audience is now only possible for businesses through Social Media Marketing. Since today’s consumers are actively spending time on Instagram, Facebook, LinkedIn and Twitter, your brand should always be alive, captivating and consistent. That’s not all there is, though, as you need to focus on interacting, converting and gathering people together. With social media, your brand can be heard, seen and its opinions can affect others’ decisions. So, the services of a Social Media Marketing Agency in Delhi NCR are very helpful in this situation.",
@@ -50,7 +52,7 @@
         "bgImage": "",
         "img": "https://5.imimg.com/data5/SELLER/Default/2021/2/HT/OG/IT/22960678/social-media-marketing-service.jpg",
         "url": "social-media-marketing",
-        "metacanonical": "",
+        "metacanonical": "https://www.risezonic.com/services/social-media-marketing",
         "metatitle": "Social Media Marketing Agency in Delhi NCR | Risezonic.",
         "metadescription": "Risezonic is a leading social media marketing agency in Delhi NCR . A team of creative and strategic professionals committed to growing your brand online.",
         "metakeywords": "Social Media Marketing Agency in Delhi NCR",
@@ -61,29 +63,57 @@
         "__v": 0
     },
     {
-        "_id": "685116e31ab4aebf7a176433",
+        "_id": "68be6a5ad747a9a02de2a3f6",
         "title": "Website Designing And Development",
+        "h1title": "Affordable Website Design & Development Solutions",
         "intro": "",
         "description": "",
-        "shortdescription": "",
-        "longdescription": "",
+        "shortdescription": "At Risezonic, we don't just build websites; we build digital experiences that convert. Based in Delhi NCR, India, we build websites that are user-friendly, mobile responsive, fast, and designed with your business goals in mind. Whether you are a small business, e-commerce brand, or tech start-up, we make your vision a reality by adopting a strategy-first approach that encourages user engagement, conversions, and sustainable growth.",
+        "longdescription": "\u003Ch3 dir=\"ltr\"\u003EWhy Choose Risezonic?\u003C/h3\u003E\n\u003Cul\u003E\n\u003Cli dir=\"ltr\" aria-level=\"1\"\u003E\n\u003Cp dir=\"ltr\" role=\"presentation\"\u003E✔️ Affordable Website Design and Development Services tailored to your needs and budget\u003Cbr\u003E\u003Cbr\u003E\u003C/p\u003E\n\u003C/li\u003E\n\u003Cli dir=\"ltr\" aria-level=\"1\"\u003E\n\u003Cp dir=\"ltr\" role=\"presentation\"\u003E✔️ Data-driven design strategy that ensures measurable results\u003Cbr\u003E\u003Cbr\u003E\u003C/p\u003E\n\u003C/li\u003E\n\u003Cli dir=\"ltr\" aria-level=\"1\"\u003E\n\u003Cp dir=\"ltr\" role=\"presentation\"\u003E✔️ 24/7 Support from our dedicated development team\u003Cbr\u003E\u003Cbr\u003E\u003C/p\u003E\n\u003C/li\u003E\n\u003Cli dir=\"ltr\" aria-level=\"1\"\u003E\n\u003Cp dir=\"ltr\" role=\"presentation\"\u003E✔️ SEO-ready, secure, and scalable websites from a leading website designing service in Delhi\u003Cbr\u003E\u003Cbr\u003E\u003C/p\u003E\n\u003C/li\u003E\n\u003Cli dir=\"ltr\" aria-level=\"1\"\u003E\n\u003Cp dir=\"ltr\" role=\"presentation\"\u003E✔️ Expertise across platforms like WordPress, Shopify, Wix, and custom stacks\u003Cbr\u003E\u003Cbr\u003E\u003C/p\u003E\n\u003C/li\u003E\n\u003C/ul\u003E\n\u003Cp\u003E\u003Cstrong\u003E&nbsp;\u003C/strong\u003E\u003C/p\u003E\n\u003Ch3 dir=\"ltr\"\u003E&nbsp;Let&rsquo;s Build Your Next-Gen Website Today!\u003C/h3\u003E\n\u003Cp\u003E\u003Cstrong id=\"docs-internal-guid-673f2fcb-7fff-84ee-04c0-12dd0d436c29\"\u003EYour website is your most important digital asset&mdash;don&rsquo;t leave it to chance. Partner with Risezonic to get a high-performance, future-ready website that brings in leads, sales, and growth.\u003C/strong\u003E\u003C/p\u003E",
         "CoverImage": "https://i.postimg.cc/QN9Y43Pn/websitedesgineandevelopment.png",
         "bgImage": "",
         "img": "",
         "url": "website-designing-and-development",
-        "metacanonical": "",
-        "metatitle": "Website Design and Development Company in Delhi | Risezonic.",
-        "metadescription": "Risezonic is a top-rated website design and development company in Delhi. providing  services WordPress websites, e-commerce websites and Custom PHP Web Development",
-        "metakeywords": "Website Development Company in Delhi ",
+        "metacanonical": "https://www.risezonic.com/services/website-designing-and-development",
+        "metatitle": "Best Website Design and Development services| Risezonic.",
+        "metadescription": "Risezonic is a top-rated website design and development services in India. providing  services WordPress websites, e-commerce websites and Custom PHP Web Development",
+        "metakeywords": "website design and development services",
         "isActive": true,
-        "SubServices": [],
-        "createdAt": "2025-06-17T07:18:59.434Z",
-        "updatedAt": "2025-06-19T07:15:45.581Z",
+        "SubServices": [
+            {
+                "title": "Custom Website Design",
+                "intro": "We focus on creating custom sites for your specific brand identity & user journey as your creative team. We design responsive and appealing websites with a strong UI/UX. Differentiating ourselves from competitors in design, we focus on integration, so our projects not only appeal aesthetically but are also performant and lead to conversion. We offer the full picture, from brand visual storytelling down to clean and careful layouts. As a website design company in Delhi NCR and India amongst the leaders, we build and rank your site and assure it will give you the business you need!",
+                "_id": "68be7264def1926099dbd62d"
+            },
+            {
+                "title": " WordPress Development",
+                "intro": "The best website design services in Delhi NCR—take control of your online accounts. Risezonic is a leading WordPress website design company that creates secure and scalable WordPress websites designed for SEO and tailored to your business. Risezonic's expert developers ensure your WordPress website is easy to maintain and manage, fully responsive, and built for performance. Risezonic's clients range from small businesses to booming eCommerce brands. Regardless of your size, Risezonic can provide you with a custom WordPress solution. Our work helps you gain visibility and user interaction and allows your business to grow over time.",
+                "_id": "68be7264def1926099dbd62e"
+            },
+            {
+                "title": " E-Commerce Website Solutions",
+                "intro": "So you want to grow your eCommerce website's online sales! Risezonic offers the best eCommerce website design services in Delhi NCR. We proudly develop eCommerce websites on the most popular platforms, including Shopify, WooCommerce, and Magento. Our expert developer team creates fast, secure, and mobile-friendly responsive eCommerce websites to optimize user experience and modernize and simplify the buying process. Risezonic’s experienced eCommerce website developer team tries to limit cart abandonment and improve conversions and create an easy-to-manage online store that will keep customers coming back again and again while providing an additional revenue stream for your company. ",
+                "_id": "68be7264def1926099dbd62f"
+            },
+            {
+                "title": " Mobile-Responsive Development",
+                "intro": "In the mobile-first digital environment we find ourselves in today, it is imperative to have a responsive website design to be successful. That is why every website custom-built with Risezonic is totally mobile-friendly and fully optimized for all devices, utilizing responsive web design best practices to ensure that our sites are perfectly functional on smartphones, tablets, laptops, and desktops. Our responsive web development services are designed to make sure that your site has a seamless user experience, fast loading times, and increased positions in search engines to help your customers find you regardless of how they choose to browse your site.",
+                "_id": "68be7264def1926099dbd630"
+            },
+            {
+                "title": " Website Redesign & Optimization",
+                "intro": " Have a website that is not performing well in terms of traffic or conversion? At Risezonic we support website redesign and optimization services to improve your web presence. Expertly analyze your website using data-driven analytics to clearly identify performance issues (i.e., speed, UI/UX, and conversion rates) and implement enhancements. Our designers and developers will turn your site into a super-fast, user-friendly, high-converting website to earn you more honest leads and revenue for your business.",
+                "_id": "68be7264def1926099dbd631"
+            }
+        ],
+        "createdAt": "2025-09-08T05:32:10.198Z",
+        "updatedAt": "2025-09-08T06:06:28.152Z",
         "__v": 0
     },
     {
         "_id": "6851202a1ab4aebf7a17645e",
         "title": "Seo Services ",
+        "h1title": "Result-Driven SEO Agency in Delhi That Delivers Growth",
         "intro": "",
         "description": "",
         "shortdescription": "In today's fast forwarding digital world, SEO is the main part that supports every good digital marketing strategy. Search Engine Optimization (SEO) is the art of improving your website's presence on search engines like Google. It makes your site appear higher in search results, brings in the right visitors and produces valuable leads on its own. No matter if you are just starting or established, SEO is most important for the continued growth of your website.",
@@ -92,9 +122,9 @@
         "bgImage": "",
         "img": "https://i.postimg.cc/L8Qb0QND/seo-managment.png",
         "url": "seo-services",
-        "metacanonical": "",
-        "metatitle": "SEO Agency in Delhi | Risezonic.",
-        "metadescription": "Boost your online visibility with Risezonic -SEO Agency in Delhi. We specialize in local and international SEO strategies that drive traffic, leads, and growth.",
+        "metacanonical": "https://www.risezonic.com/services/seo-services",
+        "metatitle": "Best SEO Agency in Delhi | Risezonic.",
+        "metadescription": "Risezonic is the best SEO agency in Delhi.offers expert on-page & off-page SEO, technical optimization, and data-driven strategies to boost your online presence.",
         "metakeywords": "SEO Agency in Delhi",
         "isActive": true,
         "SubServices": [
@@ -129,6 +159,7 @@
     {
         "_id": "685120961ab4aebf7a176461",
         "title": "APP Development ",
+        "h1title": "Trusted MobileApp Development Company",
         "intro": "",
         "description": "Though we are one of the finest Website Development Company in India, our range will make your brand reachable everywhere your customers are, namely, in the pocket. We develop user-friendly high performance mobile apps on iOS and Android which will allow them to create a higher user interaction, reduce costs, and tap new sources of income. We handle the process of developing apps, taking it through stages of conceptualization and design that is user friendly, as well as code that is error-free and testing which is stringent.",
         "shortdescription": "Today in any mobile-based world, the concept of having a good online presence is not mere use of a 1-horse site. You may indeed need a dedicated mobile application to get close to your audience and impress them with smooth interactions. As one of the best Website Development Company, Risezonic knows the entire digital spectrum and our competence reaches extensively into the edge of App Development.",
@@ -137,10 +168,10 @@
         "bgImage": "",
         "img": "https://kanak-164b5.kxcdn.com/website_kanak/static/src/img/android-apps/android-bg1.png",
         "url": "app-development",
-        "metacanonical": "",
-        "metatitle": "Mobile App Development Company | Risezonic.",
-        "metadescription": "Top-rated Mobile App Development Company. Risezonic builds Android apps, iOS apps, and hybrid platforms.",
-        "metakeywords": "Mobile App Development",
+        "metacanonical": "https://www.risezonic.com/services/aap-development",
+        "metatitle": "mobile app development company in Delhi | Risezonic.",
+        "metadescription": "Top-rated Mobile App Development Company in Delhi. Risezonic builds Android apps, iOS apps, and hybrid platforms.",
+        "metakeywords": "mobile app development company in delhi",
         "isActive": true,
         "SubServices": [
             {
@@ -161,6 +192,7 @@
     {
         "_id": "685121ab1ab4aebf7a176466",
         "title": "Content Marketing",
+        "h1title": "",
         "intro": "",
         "description": "Content marketing is a craft of producing and sharing content that is valuable, relevant and consistent to attract and preserve a well-defined audience -and, eventually, to lead to profitable customer action. It is all about no longer using big sales pitches but rather putting content that educates and entertains as well as solving the problems of your audience by giving rich informative content.",
         "shortdescription": "Nowadays in the information crowded digital era, it is not enough to have a web page in order to attract and maintain the attention of your target audience. Businesses must be able to deliver value, gain trust, and have authority in order to position themselves in the best possible way. Strategic Content Marketing is there to fill this gap, and at Risezonic, we work on creating a powerful and engaging story that will appeal to your audience, making them engage in action and finally, become full-fledged customers.",
@@ -169,7 +201,7 @@
         "bgImage": "",
         "img": "https://www.usdatacorporation.com/wp-content/uploads/2022/05/US-Data-Content-Marketing-Google-Relevance-SEO-1.png",
         "url": "content-marketing",
-        "metacanonical": "\u003Clink rel=\"canonical \"href=\"https://www.risezonic.com/services/content-marketing\"/\u003E",
+        "metacanonical": "https://www.risezonic.com/services/content-marketing",
         "metatitle": "Best content marketing agency| Risezonic.",
         "metadescription": "Boost your brand value with Risezonic, a content marketing agency. We create high-impact content that drives traffic, engagement, and conversions.",
         "metakeywords": "content marketing agency",
@@ -190,7 +222,7 @@
         "bgImage": "",
         "img": "https://w7.pngwing.com/pngs/50/571/png-transparent-graphic-designer-web-design-graphic-design-gadget-electronics-photography.png",
         "url": "designing",
-        "metacanonical": "",
+        "metacanonical": "https://www.risezonic.com/services/designing",
         "metatitle": "Graphic Designing Agency in Delhi | Risezonic.",
         "metadescription": " Risezonic is a graphic design agency in Delhi. We provide complete graphic design services, including motion graphics, infographics, video editing, GIFs etc.",
         "metakeywords": "Graphic Designing Agency in Delhi ",
@@ -224,6 +256,7 @@
     {
         "_id": "685122891ab4aebf7a176472",
         "title": "Six Sigma Consulting",
+        "h1title": "",
         "intro": "",
         "description": "Consultants in Six Sigma always have a solid grasp of DMAIC (Define, Measure, Analyze, Improve, Control) and Lean when they begin a project. Their job is to help organizations spot where process defects arise, set up strategies to improve them and ensure reductions in expenses, higher productivity and sound choices. Their involvement is seen in manufacturing, logistics, healthcare and the IT field. Consultants usually provide training to employees to help them improve and support a culture of always growing. With the help of statistics and performance markers, they help companies achieve better operations. If a company wants to grow, make work interiors more efficient or serve customers better, Six Sigma consulting provides a proven plan.",
         "shortdescription": "In today’s world, companies should focus on operational excellence because it is essential. Six Sigma consultant services make a big difference by assisting companies in organizing their work, cutting down on waste and making noticeable improvements. The process behind Six Sigma makes company products of higher quality, helps the business stay consistent and brings customer satisfaction. Firms that wish to develop steadily and sustainably get help from those skilled in using these practices. For this reason, Six Sigma consulting is becoming a popular service among many companies.",
@@ -232,7 +265,7 @@
         "bgImage": "",
         "img": "https://www.tqmi.com/wp-content/uploads/2022/02/How-Can-Lean-Six-Sigma-Help-You-To-Accomplish-Goals.webp",
         "url": "six-sigma-consulting",
-        "metacanonical": "",
+        "metacanonical": "https://www.risezonic.com/services/six-sigma-consulting",
         "metatitle": "Six Sigma Consulting Services | Risezonic",
         "metadescription": "Optimize your processes with  Risezonic Six Sigma consulting services. Improve efficiency, reduce errors, and drive measurable performance improvements.",
         "metakeywords": "Six Sigma Consulting Service",
