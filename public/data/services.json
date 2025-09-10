@@ -238,13 +238,13 @@
             },
             {
                 "title": "2D /3D Designing",
-                "img": "https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/desining/",
+                "img": "https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/desining/2d%20and%203d.png",
                 "shortdescription": "We have learned the art of designing in 2D as well as 3D to bring out the depth and visualization of your ideas in the most accurate manner at Risezonic. The 2D work of ours generates powerful flat visual imagery such as illustrations, infographics, and impressive UI, which are ideal in stimulating straightforward and direct content. In immersive activities we can create products, architectural ideas and moving images with increased realism and depth that no other 3D design company can. Be it powerful still graphics or interactive and dynamic models, Risezonic will create striking visual resources that attract attention to your brand and mesmerize the audience in every platform imaginable.",
                 "_id": "6853b5022238c639cd15ccc1"
             },
             {
                 "title": " Brochure and Pamphlet Design",
-                "img": "https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/desining/",
+                "img": "https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/desining/Video%20editing.png",
                 "shortdescription": "The digital age notwithstanding, the proper print collateral can be far more powerful. Risezonic is one of the top brochure and pamphlet designing agencies in Delhi that ensures creation of concrete marketing tools that connect. With the help of professional writers, we create attractive, short-colored brochures and pamphlets to convey the most important messages of yours, product/service information. These chapters must be straightforward in design when it comes to information hierarchy, interesting visuals, and a powerful call to action; these chapters must act as an effective leave-behind or handouts. Engage Risezonic to provide you with quality, professional print designs that would leave your prospects with a sweet impression and lasting impression.",
                 "_id": "6853b5022238c639cd15ccc2"
             },
@@ -279,16 +279,19 @@
         "SubServices": [
             {
                 "title": "Lean Consulting",
+                "img": "https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/conulting/Lean%20Consulting.jpg",
                 "shortdescription": "The role of the Lean Consulting services that we offer at Risezonic is to remove the waste of your business and to optimize what you do. We review your processes in fine detail in order to reduce any possible waste, decrease expenses and increase productivity at a larger scale. Our specialists can advise your team on how to start using the Lean principles and inculcate an organizational culture of continuous improvement that can help smooth out the operations. Join forces with us and gain increased agility, an increased level of quality, along with getting your resources used to the maximum.",
                 "_id": "6853b6522238c639cd15cdfb"
             },
             {
                 "title": "RPA Consulting",
+                "img": "https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/conulting/RPA%20consulting.png",
                 "shortdescription": "Risezonic provides innovative RPA (Robotic Process Automation) Consulting in order to revolutionize your functioning efficiency. We are assisting businesses to automate repetitive and rule-based processes with clever software robots so that your human resources can be relieved of routine work to work on strategic opportunities. The total savings achieved is huge and this reduces business errors and quickens the rate of completing the process as well as it is more scalable. To have Risezonic add smooth automation to your production processes and make productivity a reality enabling your business to have a smarter and efficient future.",
                 "_id": "6853b6522238c639cd15cdfc"
             },
             {
                 "title": "5S Consulting",
+                "img": "https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/conulting/5s%20consulting.png",
                 "shortdescription": "At Risezonic we offer 5s Consulting that introduces efficiency and systematic organization in your work place. Our process, which is also termed according to the principles of Sort, Set in order, Shine, Standardize, and Sustain, will establish a clean, well-structured, and visually governed environment. The method will save resources, decrease boo-boos, enhance security, and reinforce employee spirits. Engage Risezonic to introduce a regimented 5S model that will establish the basis of indefinite improvement and a more efficient, less wasteful process.",
                 "_id": "6853b6522238c639cd15cdfd"
             }
