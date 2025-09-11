@@ -36,19 +36,19 @@ const Footer = () => {
             <img
               loading="lazy"
               className="w-24 h-24 object-cover"
-              src="https://www.risezonic.com/certificates/google%20certificate1.webp"
+              src="https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/certificates/google%20certificate1.webp"
               alt="Google Certificate"
             />
             <img
               loading="lazy"
               className="w-24 h-24 object-cover"
-              src="https://www.risezonic.com/certificates/miiscertificate.webp"
+              src="https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/certificates/miiscertificate.webp"
               alt="MIIS Certificate"
             />
             <img
               loading="lazy"
               className="w-24 h-24 object-cover"
-              src="https://www.risezonic.com/certificates/iso9001.webp"
+              src="https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/images/certificates/iso9001.webp"
               alt="ISO 9001 Certificate"
             />
           </div>
