@@ -42,7 +42,8 @@ export default function Workprocess() {
             <img
               loading="lazy"
               className="bg-contain bg-center h-full w-full "
-              src={Workprocess1}
+              // src={Workprocess1}
+              src="https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/assets/images/Home/workprocess1.jpg"
               alt="Plan & Create"
             />
           </div>
@@ -53,7 +54,8 @@ export default function Workprocess() {
               loading="lazy"
               className="bg-cover bg-center h-full w-full "
               // src="https://plus.unsplash.com/premium_photo-1661430753296-11d1fde8b7dd?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGFwdG9wJTIwZGVza3xlbnwwfHwwfHx8MA%3D%3D"
-              src={Workprocess2}
+              // src={Workprocess2}
+              src="https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/assets/images/Home/workprocess2.jpg"
               alt="Plan & Create"
             />
           </div>
@@ -109,7 +111,8 @@ export default function Workprocess() {
               loading="lazy"
               className="bg-cover bg-center h-full w-full "
               // src="https://media.istockphoto.com/id/1222160402/photo/women-using-laptop-computer.jpg?s=612x612&w=0&k=20&c=pE4fJnDVx3fr8FWZru30rwQgrPolpupbVBf83Us7MwM="
-              src={Workprocess3}
+              // src={Workprocess3}
+              src="https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/assets/images/Home/workprocess3.jpg"
               alt="Plan & Create"
             />
           </div>

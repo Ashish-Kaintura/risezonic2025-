@@ -92,7 +92,8 @@ export default function About() {
                 loading="lazy"
                 className="bg-contain bg-center h-full w-full"
                 // src="https://media.istockphoto.com/id/1324356458/vector/picture-icon-photo-frame-symbol-landscape-sign-photograph-gallery-logo-web-interface-and.jpg?s=612x612&w=0&k=20&c=ZmXO4mSgNDPzDRX-F8OKCfmMqqHpqMV6jiNi00Ye7rE="
-                src={Aboutusimg}
+                // src={Aboutusimg}
+                src="https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/assets/images/Aboutus/Aboutus.webp"
                 alt="Plan & Create"
               />
             </div>
@@ -106,7 +107,8 @@ export default function About() {
                 loading="lazy"
                 className="bg-contain bg-center h-full w-full"
                 // src="https://media.istockphoto.com/id/1324356458/vector/picture-icon-photo-frame-symbol-landscape-sign-photograph-gallery-logo-web-interface-and.jpg?s=612x612&w=0&k=20&c=ZmXO4mSgNDPzDRX-F8OKCfmMqqHpqMV6jiNi00Ye7rE="
-                src={whatwedo}
+                // src={whatwedo}
+                src="https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/assets/images/Aboutus/AboutUsWhatwedo.png"
                 alt="Plan & Create"
               />
             </div>
@@ -149,7 +151,7 @@ export default function About() {
                 loading="lazy"
                 className="bg-contain bg-center h-full w-full"
                 // src="https://media.istockphoto.com/id/1324356458/vector/picture-icon-photo-frame-symbol-landscape-sign-photograph-gallery-logo-web-interface-and.jpg?s=612x612&w=0&k=20&c=ZmXO4mSgNDPzDRX-F8OKCfmMqqHpqMV6jiNi00Ye7rE="
-                src={whatwedo}
+                src="https://raw.githubusercontent.com/Ashish-Kaintura/risezonic2025-/main/src/assets/images/Aboutus/AboutUsWhatwedo.png"
                 alt="Plan & Create"
               />
             </div>
