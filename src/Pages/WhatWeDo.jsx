@@ -20,7 +20,7 @@ export default function WhatWeDo() {
           content="Rizeonic provides results-driven digital marketing strategies, including SEO, social media, performance marketing, and paid ad management."
         />
         <meta name="keywords" content="Marketing Solutions" />
-        <link rel="canonical " href="https://www.risezonic.com/what-we-do" />
+        <link rel="canonical" href="https://www.risezonic.com/what-we-do" />
       </Helmet>
       <NavForOther />
 
@@ -30,9 +30,9 @@ export default function WhatWeDo() {
             <article>
               <section className="md:h-[35rem] flex justify-center text-start items-center p-6">
                 <div className="relative">
-                  <h2 className="text-6xl font-heading text-primary">
+                  <h1 className="text-6xl font-heading text-primary">
                     <span className="text-black md:text-8xl"> What</span> We Do
-                  </h2>
+                  </h1>
                   <span className="text-amber-600 text-4xl font-semibold absolute md:top-16 top-8 left-0 right-0 bottom-0 inset-0">
                     _____________________
                   </span>

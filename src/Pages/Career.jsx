@@ -30,7 +30,7 @@ const Career = () => {
           content="Start your digital marketing career at Risezonic. Join the Risezonic group team in Delhi and work on exciting, high-impact campaigns."
         />
         <meta name="keywords" content="Risezonic " />
-        <link rel="canonical " href="https://www.risezonic.com/career" />
+        <link rel="canonical" href="https://www.risezonic.com/career" />
       </Helmet>
       <NavForOther />
       <div className="min-h-screen bg-gray-50 py-12 px-4 pt-28">

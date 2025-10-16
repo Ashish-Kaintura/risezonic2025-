@@ -13,6 +13,7 @@ import Navbar from "../components/Navbar";
 import HeroSectionHome from "../components/Herosectionhome";
 import FAQ from "../components/FQA";
 import NavForOther from "../components/NavForOther";
+import { Helmet } from "react-helmet-async";
 
 export default function Home() {
   useEffect(() => {
@@ -27,7 +28,8 @@ export default function Home() {
   // }, []);
   return (
     <div>
-      <div className="application">
+      <Helmet>
+
         <title>Best Digital Marketing Agency in Delhi ncr | Risezonic.</title>
         <meta
           name="description"
@@ -46,7 +48,8 @@ export default function Home() {
           content="Risezonic is an affordable digital marketing agency in Delhi NCR. offering expert SEO, social media, PPC, ads, and web solutions to help your business growth."
         />
         <link rel="canonical" href="https://www.risezonic.com/" />
-      </div>
+
+      </Helmet>
       <div className="md:flex hidden">
         <Navbar />
       </div>
@@ -107,13 +110,13 @@ export default function Home() {
         <article className="absolute inset-0 flex items-center justify-center md:justify-end px-4 md:px-10 z-10">
           <section className="text-center md:text-left max-w-4xl">
             {/* Heading */}
-            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-semibold font-heading leading-snug pt-20">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-semibold font-heading leading-snug pt-20">
               Best Digital Marketing
               <br />
               <span className="block text-2xl sm:text-3xl md:text-5xl lg:text-7xl font-semibold text-secondary mt-2 font-heading">
                 Agency in Delhi NCR
               </span>
-            </h1>
+            </h2>
 
             {/* Button */}
             <div className="flex justify-center md:justify-start mt-6 md:mt-32">

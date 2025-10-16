@@ -49,7 +49,7 @@ export default function BlogDetail() {
           loading="lazy"
           src={blog.CoverImage || blog.Image} // ✅ match your JSON keys
           alt={blog.title}
-          className="w-full h-96 object-cover rounded-xl mb-6"
+          className="w-full h-[500px] object-cover rounded-xl mb-6"
         />
 
         <h1 className="text-4xl font-bold mb-2">{blog.title}</h1>

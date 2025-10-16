@@ -44,7 +44,7 @@ export default function Services() {
         />
         <link
           rel="canonical"
-          href="https://www.risezonic.com/services/seo-services"
+          href="https://www.risezonic.com/our-services"
         />
       </Helmet>
 

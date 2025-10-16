@@ -56,9 +56,9 @@ export default function ServiceDetail() {
                 <article>
                   <section className=" flex justify-center text-start items-center">
                     <div className="relative">
-                      <h2 className="text-4xl  text-primary font-heading">
+                      <h1 className="text-4xl  text-primary font-heading">
                         {service.h1title ? service.h1title : service.title}
-                      </h2>
+                      </h1>
                       {/* <span className="text-amber-600 text-4xl font-semibold absolute md:top-6 top-3 left-0 right-0 bottom-0 inset-0">
                       _____________________
                       </span> */}
@@ -82,6 +82,9 @@ export default function ServiceDetail() {
                 />
               </div>
             </div>
+            <div
+              dangerouslySetInnerHTML={{ __html: service.longdescription }}
+            />
           </section>
           {/* Long Description */}
           <div className="mt-12 prose max-w-none prose-lg ">
@@ -339,11 +342,7 @@ export default function ServiceDetail() {
             </div>
           )} */}
           {/* Long Description */}
-          <div className="mt-12 prose max-w-none prose-lg ">
-            <div
-              dangerouslySetInnerHTML={{ __html: service.longdescription }}
-            />
-          </div>
+        
         </section>
       </article>
     </>

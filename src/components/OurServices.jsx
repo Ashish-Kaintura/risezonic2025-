@@ -88,7 +88,7 @@ const OurServices = () => {
                       alt={service.title}
                     />
                   </div>
-                  <h3 className="text-normal font-semibold mb-2">
+                  <h3 className="text-normal font-semibold mb-2 line-clamp-1">
                     {service.title}
                   </h3>
                   <p className="text-sm line-clamp-2">

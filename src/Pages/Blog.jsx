@@ -41,7 +41,7 @@ export default function Blog() {
         />
         <meta name="keywords" content="Digital Marketing Blog" />
 
-        <link rel="canonical " href="https://www.risezonic.com/blogs" />
+        <link rel="canonical" href="https://www.risezonic.com/blogs" />
       </Helmet>
       <NavForOther />
       <div
