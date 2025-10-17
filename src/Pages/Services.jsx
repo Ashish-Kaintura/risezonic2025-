@@ -46,6 +46,52 @@ export default function Services() {
           rel="canonical"
           href="https://www.risezonic.com/our-services"
         />
+        <script type="application/ld+json">
+          {`{
+            "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Risezonic",
+          "image": "https://www.risezonic.com/assets/risezonic%20logo%20(1)-DIYazAgE.png",
+          "@id": "https://www.risezonic.com",
+          "url": "https://www.risezonic.com/our-services",
+          "telephone": "8178857250",
+          "address": {
+            "@type": "PostalAddress",
+          "streetAddress": "RZ11/D, Upper Ground Floor Opposite Palam Metro Station Gate No 3, Palam Dwarka Road",
+          "addressLocality": "Delhi",
+          "postalCode": "110045",
+          "addressCountry": "IN"
+  },
+          "geo": {
+            "@type": "GeoCoordinates",
+          "latitude": 28.584759,
+          "longitude": 77.079077
+  },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+  },
+          "sameAs": [
+          "https://www.facebook.com/risezonicofficial/",
+          "https://x.com/risezonicLLP",
+          "https://www.instagram.com/risezonicofficial/",
+          "https://www.youtube.com/@risezonic",
+          "https://www.linkedin.com/company/risezonic/",
+          "https://in.pinterest.com/risezonicLLP/"
+          ] 
+}`}
+        </script>
+
       </Helmet>
 
       <NavForOther />

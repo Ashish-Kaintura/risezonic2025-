@@ -32,21 +32,69 @@ export default function About() {
           <link rel="canonical" href="https://www.risezonic.com/about-us" />
       </div> */}
       <Helmet>
-        <title>Digital Marketing Blog | Risezonic.</title>
+        <title> About Risezonic | Trusted Digital Marketing services Company in Delhi.</title>
         <meta
           name="description"
-          content="Explore the Risezonic blog for expert tips on SEO, social media, performance marketing,website design, and the latest digital marketing trends."
+          content="Learn more about Risezonic—Delhi’s leading digital marketing services company. how we help businesses thrive online."
         />
-        <meta name="keywords" content="Digital Marketing Blog" />
+        <meta name="keywords" content="home, risezonic, tech, services" />
         <meta
           property="og:title"
-          content="Digital Marketing Blog | Risezonic."
+          content="About Risezonic | Trusted Digital Marketing services Company in Delhi."
         />
         <meta
           property="og:description"
-          content="Explore the Risezonic blog for expert tips on SEO, social media, performance marketing,website design, and the latest digital marketing trends."
-        />
+          content="Learn more about Risezonic—Delhi’s leading digital marketing services company. how we help businesses thrive online."
+         />
         <link rel="canonical" href="https://www.risezonic.com/about-us" />
+
+        <script type="application/ld+json">
+          {`{
+            "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Risezonic",
+          "image": "https://www.risezonic.com/assets/risezonic%20logo%20(1)-DIYazAgE.png",
+          "@id": "https://www.risezonic.com",
+          "url": "https://www.risezonic.com/about-us",
+          "telephone": "8178857250",
+          "address": {
+            "@type": "PostalAddress",
+          "streetAddress": "RZ11/D, Upper Ground Floor Opposite Palam Metro Station Gate No 3, Palam Dwarka Road",
+          "addressLocality": "Delhi",
+          "postalCode": "110045",
+          "addressCountry": "IN"
+  },
+          "geo": {
+            "@type": "GeoCoordinates",
+          "latitude": 28.584759,
+          "longitude": 77.079077
+  },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+  },
+          "sameAs": [
+          "https://www.facebook.com/risezonicofficial/",
+          "https://x.com/risezonicLLP",
+          "https://www.instagram.com/risezonicofficial/",
+          "https://www.youtube.com/@risezonic",
+          "https://www.linkedin.com/company/risezonic/",
+          "https://in.pinterest.com/risezonicLLP/"
+          ] 
+}`}
+        </script>
+
+
       </Helmet>
 
       <NavForOther />
