@@ -70,7 +70,7 @@ const Footer = () => {
             <NavLink to="/career" className="hover:text-white">
               <li>Career</li>
             </NavLink>
-            <NavLink to="/blog" className="hover:text-white">
+            <NavLink to="/blogs" className="hover:text-white">
               <li>Blog</li>
             </NavLink>
             <NavLink to="/ai-risezonic" className="hover:text-white">

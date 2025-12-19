@@ -23,7 +23,7 @@ export default function BlogCard({ blog }) {
       </p>
       <p className="text-gray-700 mt-2">{blog.summary}</p>
       <Link
-        to={`/blog/${encodeURIComponent(blog.url)}`}
+        to={`/blogs/${encodeURIComponent(blog.url)}`}
         className="text-primary hover:underline mt-4 inline-block"
       >
         Read More →
