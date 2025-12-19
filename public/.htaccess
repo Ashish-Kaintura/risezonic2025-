@@ -2,15 +2,69 @@
   RewriteEngine On
   RewriteBase /
 
-  # Don’t rewrite existing files or directories
+  # --- Redirect non-www to www ---
+  RewriteCond %{HTTP_HOST} !^www\.risezonic\.com$ [NC]
+  RewriteRule ^(.*)$ https://www.risezonic.com/$1 [L,R=301]
+
+  # --- Force HTTPS ---
+  RewriteCond %{HTTPS} off
+  RewriteCond %{HTTP_HOST} ^(www\.)?risezonic\.com$ [NC]
+  RewriteRule ^(.*)$ https://www.risezonic.com/$1 [L,R=301]
+
+  # --- 301 Redirects for Old URLs ---
+  Redirect 301 /services/website-design-development/dynamic-website https://www.risezonic.com/our-services
+  Redirect 301 /Blog https://www.risezonic.com/blogs
+  Redirect 301 /services/Website-Design-Development https://www.risezonic.com/our-services
+  Redirect 301 /services/performance-marketing-agency/performance-marketing-b2b https://www.risezonic.com/our-services
+  Redirect 301 /Services https://www.risezonic.com/our-services
+  Redirect 301 /services/performance-marketing-agency/lead-generation https://www.risezonic.com/our-services
+  Redirect 301 /services/design-services/graphic-design https://www.risezonic.com/our-services
+  Redirect 301 /services/website-design-development/static-website https://www.risezonic.com/our-services
+  Redirect 301 /services/design-services/brochure-pamphlet-designing https://www.risezonic.com/our-services
+  Redirect 301 /Aboutus https://www.risezonic.com/about-us
+  Redirect 301 /services/app-development/ios-development https://www.risezonic.com/our-services
+  Redirect 301 /services/app-development/mobile-app-development https://www.risezonic.com/our-services
+  Redirect 301 /whatwedo https://www.risezonic.com
+  Redirect 301 /services/digital-marketing/local-seo https://www.risezonic.com/our-services
+  Redirect 301 /services/website-design-development/e-commerce-website-development https://www.risezonic.com/our-services
+  Redirect 301 /services/design-services/2d-3d-designing https://www.risezonic.com/our-services
+  Redirect 301 /services/Design-Services https://www.risezonic.com/our-services
+  Redirect 301 /services/digital-marketing/technical-consultancy https://www.risezonic.com/our-services
+  Redirect 301 /services/performance-marketing-agency/sales-consulting https://www.risezonic.com/our-services
+  Redirect 301 /services/Performance-Marketing-Agency https://www.risezonic.com/our-services
+  Redirect 301 /services/digital-marketing/social-media-marketing https://www.risezonic.com/our-services
+  Redirect 301 /services/performance-marketing-agency/return-on-investment https://www.risezonic.com/our-services
+  Redirect 301 /services/design-services/video-gif-designing https://www.risezonic.com/our-services
+  Redirect 301 /News-And-Media https://www.risezonic.com
+  Redirect 301 /OurWork https://www.risezonic.com
+  Redirect 301 /services/website-design-development/shopify-web-development https://www.risezonic.com/our-services
+  Redirect 301 /ContactUs https://www.risezonic.com/contact-us
+  Redirect 301 /services/App-Development https://www.risezonic.com/our-services
+  Redirect 301 /services/digital-marketing/ad-management https://www.risezonic.com/our-services
+  Redirect 301 /services/digital-marketing/email-marketing https://www.risezonic.com/our-services
+  Redirect 301 /services/website-design-development/opencart-website-development https://www.risezonic.com/our-services
+  Redirect 301 /services/design-services/logo-design https://www.risezonic.com/our-services
+  Redirect 301 /services/website-design-development/magento-web-development https://www.risezonic.com/our-services
+  Redirect 301 /services/six-sigma-consulting/5s-consulting https://www.risezonic.com/our-services
+  Redirect 301 /services/Six-Sigma-Consulting https://www.risezonic.com/our-services
+  Redirect 301 /services/digital-marketing/content-marketing https://www.risezonic.com/our-services
+  Redirect 301 /services/six-sigma-consulting/lean-consulting https://www.risezonic.com/our-services
+  Redirect 301 /services/website-design-development/custom-php-web-development https://www.risezonic.com/our-services
+  Redirect 301 /services/performance-marketing-agency/ppc-marketing https://www.risezonic.com/our-services
+  Redirect 301 /services/digital-marketing/seo-services https://www.risezonic.com/our-services
+  Redirect 301 /services/website-design-development/wordpress-development https://www.risezonic.com/our-services
+  Redirect 301 /services/app-development/android-development https://www.risezonic.com/our-services
+  Redirect 301 /privacyPolicy https://www.risezonic.com/our-services
+  Redirect 301 /services/Digital-Marketing https://www.risezonic.com/our-services
+  Redirect 301 /services/digital-marketing/international-seo https://www.risezonic.com/our-services
+  Redirect 301 /services/six-sigma-consulting/rpa-consulting https://www.risezonic.com/our-services
+  Redirect 301 /Business-success https://www.risezonic.com/our-services
+
+  # --- Don’t rewrite existing files or directories ---
   RewriteCond %{REQUEST_FILENAME} -f [OR]
   RewriteCond %{REQUEST_FILENAME} -d
   RewriteRule ^ - [L]
 
-  # Redirect everything else to index.html
-  RewriteRule . /index.html [L]
+  # --- React SPA fallback ---
+  RewriteRule ^ index.html [L]
 </IfModule>
-
-# php -- BEGIN cPanel-generated handler, do not edit
-# This domain inherits the “PHP” package.
-# php -- END cPanel-generated handler, do not edit
