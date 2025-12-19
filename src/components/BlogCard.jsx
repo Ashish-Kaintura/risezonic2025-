@@ -15,7 +15,7 @@ export default function BlogCard({ blog }) {
         loading="lazy"
         src={blog.Image}
         alt={blog.title}
-        className="w-full h-64 object-cover rounded-md"
+        className="w-full h-60 object-cover rounded-md"
       />
       <h2 className="text-xl font-bold mt-4">{blog.title}</h2>
       <p className="text-sm text-gray-500">
