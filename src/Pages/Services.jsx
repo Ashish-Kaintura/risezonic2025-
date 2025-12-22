@@ -28,19 +28,19 @@ export default function Services() {
   return (
     <>
       <Helmet>
-        <title>affordable digital marketing services | Risezonic.</title>
+        <title>affordable Digital Marketing services | Risezonic.</title>
         <meta
           name="description"
-          content="Affordable digital marketing services for small businesses. Risezonic delivers result-driven SEO, PPC, SMM, and web strategies to grow your online presence."
+          content="Affordable Digital Marketing services for small businesses. Risezonic delivers result-driven SEO, PPC, SMM, and web strategies to grow your online presence."
         />
-        <meta name="keywords" content=" digital marketing services " />
+        <meta name="keywords" content=" Digital Marketing services " />
         <meta
           property="og:title"
-          content="affordable digital marketing services | Risezonic."
+          content="affordable Digital Marketing services | Risezonic."
         />
         <meta
           property="og:description"
-          content="Affordable digital marketing services for small businesses. Risezonic delivers result-driven SEO, PPC, SMM, and web strategies to grow your online presence."
+          content="Affordable Digital Marketing services for small businesses. Risezonic delivers result-driven SEO, PPC, SMM, and web strategies to grow your online presence."
         />
         <link
           rel="canonical"

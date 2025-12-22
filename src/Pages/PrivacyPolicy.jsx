@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
         <title>Our Company Privacy and Policy | Risezonic</title>
         <meta
           name="description"
-          content="Review Risezonic's Privacy Policy. Providing online security and compliance in digital marketing services."
+          content="Review Risezonic's Privacy Policy. Providing online security and compliance in Digital Marketing services."
         />
         <meta
           name="keywords"
@@ -94,7 +94,7 @@ export default function PrivacyPolicy() {
                 <span className="font-semibold font-heading">
                   Service-Related Information:
                 </span>{" "}
-                n case of availing of any digital marketing services by our
+                n case of availing of any Digital Marketing services by our
                 Company on your behalf, then you can share details relating to
                 your business and marketing purposes, including information
                 about your target audience, products/services, web-analytics,
@@ -182,7 +182,7 @@ export default function PrivacyPolicy() {
                 <span className="font-semibold font-heading">
                   To Give and Cancel Services:
                 </span>{" "}
-                To supply and administer the digital marketing services that you
+                To supply and administer the Digital Marketing services that you
                 have contracted us to furnish, to govern your client account,
                 payment processing, and any other obligations we can have with
                 you in light of a contract.

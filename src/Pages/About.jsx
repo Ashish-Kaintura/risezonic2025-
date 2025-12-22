@@ -17,7 +17,7 @@ export default function About() {
           </title>
           <meta
             name="description"
-            content="Learn more about Risezonic—Delhi’s leading digital marketing services company. how we help businesses thrive online."
+            content="Learn more about Risezonic—Delhi’s leading Digital Marketing services company. how we help businesses thrive online."
           />
           <meta name="keywords" content="home, risezonic, tech, services" />
           <meta
@@ -35,7 +35,7 @@ export default function About() {
         <title> About Risezonic | Trusted Digital Marketing services Company in Delhi.</title>
         <meta
           name="description"
-          content="Learn more about Risezonic—Delhi’s leading digital marketing services company. how we help businesses thrive online."
+          content="Learn more about Risezonic—Delhi’s leading Digital Marketing services company. how we help businesses thrive online."
         />
         <meta name="keywords" content="home, risezonic, tech, services" />
         <meta
@@ -44,7 +44,7 @@ export default function About() {
         />
         <meta
           property="og:description"
-          content="Learn more about Risezonic—Delhi’s leading digital marketing services company. how we help businesses thrive online."
+          content="Learn more about Risezonic—Delhi’s leading Digital Marketing services company. how we help businesses thrive online."
          />
         <link rel="canonical" href="https://www.risezonic.com/about-us" />
 
@@ -174,7 +174,7 @@ export default function About() {
                     <h3 className="md:pt-8 pt-6 font-body text-sm italic font-semibold">
                       We create winning digital solutions using our strategy,
                       creative thinking and precise methods. Because we are a
-                      forward-thinking digital marketing agency, our job is to
+                      forward-thinking Digital Marketing agency, our job is to
                       strengthen businesses’ presence online and achieve
                       successful measurable results.
                     </h3>

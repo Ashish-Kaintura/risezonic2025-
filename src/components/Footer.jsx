@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
           <p className="text-sm leading-relaxed">
             Risezonic is your go-to solution for elevating your website and
-            dominating the digital realm, from SEO to digital marketing
+            dominating the digital realm, from SEO to Digital Marketing
             strategies.
           </p>
         </div> */}

@@ -17,7 +17,7 @@ export default function WhatWeDo() {
         <title>Explore Marketing Solutions | Risezonic</title>
         <meta
           name="description"
-          content="Rizeonic provides results-driven digital marketing strategies, including SEO, social media, performance marketing, and paid ad management."
+          content="Rizeonic provides results-driven Digital Marketing strategies, including SEO, social media, performance marketing, and paid ad management."
         />
         <meta name="keywords" content="Marketing Solutions" />
         <link rel="canonical" href="https://www.risezonic.com/what-we-do" />
@@ -39,7 +39,7 @@ export default function WhatWeDo() {
                   <h3 className="md:pt-8 pt-6 font-body text-sm italic font-semibold">
                     We create winning digital solutions using our strategy,
                     creative thinking and precise methods. Because we are a
-                    forward-thinking digital marketing agency, our job is to
+                    forward-thinking Digital Marketing agency, our job is to
                     strengthen businesses’ presence online and achieve
                     successful measurable results.
                   </h3>

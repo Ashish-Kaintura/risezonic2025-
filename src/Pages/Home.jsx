@@ -32,7 +32,7 @@ export default function Home() {
         <title>Best Digital Marketing Agency in Delhi ncr | Risezonic.</title>
         <meta
           name="description"
-          content="Risezonic is an affordable digital marketing agency in Delhi NCR. offering expert SEO, social media, PPC, ads, and web solutions to help your business growth."
+          content="Risezonic is an affordable Digital Marketing agency in Delhi NCR. offering expert SEO, social media, PPC, ads, and web solutions to help your business growth."
         />
         <meta
           name="keywords"
@@ -44,7 +44,7 @@ export default function Home() {
         />
         <meta
           property="og:description"
-          content="Risezonic is an affordable digital marketing agency in Delhi NCR. offering expert SEO, social media, PPC, ads, and web solutions to help your business growth."
+          content="Risezonic is an affordable Digital Marketing agency in Delhi NCR. offering expert SEO, social media, PPC, ads, and web solutions to help your business growth."
         />
         <link rel="canonical" href="https://www.risezonic.com/" />
 
@@ -119,7 +119,7 @@ export default function Home() {
             </h1>
 
             <p className="mt-2 pt-4 font-semibold font-body text-sm max-w-5xl">
-              Risezonic is a leading digital marketing agency, distinguished by
+              Risezonic is a leading Digital Marketing agency, distinguished by
               its creativity, accurate results and focus on results. Since we
               have won awards, we are experts in providing excellent digital
               marketing, building custom websites and apps and consulting brands
@@ -201,7 +201,7 @@ export default function Home() {
           </span>
           <p className="text-xl pt-4 text-white font-body">
             Everything we do is based on joint effort, imagination, and getting
-            the job done. As a provider of the best digital marketing services,
+            the job done. As a provider of the best Digital Marketing services,
             we know that each company is unique and we adjust our strategies to
             meet your requirements. Paying attention to openness, we team up
             with your organization to create results that last.

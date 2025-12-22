@@ -33,7 +33,7 @@ const ContactUs = () => {
         <title>Contact us | Risezonic - Digital Marketing Experts.</title>
         <meta
           name="description"
-          content="Get in touch with a digital marketing expert at Risezonic. See how we can help boost your online presence and drive real business growth."
+          content="Get in touch with a Digital Marketing expert at Risezonic. See how we can help boost your online presence and drive real business growth."
         />
         <meta name="keywords" content="Digital Marketing Experts." />
         <link rel="canonical" href="https://www.risezonic.com/contact-us" />

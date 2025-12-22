@@ -5,7 +5,7 @@ const testimonials = [
     name: "Amit Verma ",
     role: "client",
     feedback:
-      "They improved our online visibility within months. The use of SEO and social media methods increased the amount of traffic and leads seen on their website. Definitely, this agency leads as the top digital marketing agency in India!",
+      "They improved our online visibility within months. The use of SEO and social media methods increased the amount of traffic and leads seen on their website. Definitely, this agency leads as the top Digital Marketing agency in India!",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb0DSmQ-nKJw--9PYSiUDPfBcOgYco5musCA&s",
   },
   {
@@ -19,7 +19,7 @@ const testimonials = [
     name: "Rohit Khurana",
     role: "client",
     feedback:
-      "Risezonic made a difference from redesigning the website to improving marketing campaigns. Because of their knowledge of the Delhi NCR market, we were able to grow within the region and beyond. Fantastic digital marketing company!",
+      "Risezonic made a difference from redesigning the website to improving marketing campaigns. Because of their knowledge of the Delhi NCR market, we were able to grow within the region and beyond. Fantastic Digital Marketing company!",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR78PRLIjGxzCAl4RCz7URy4aLTVi7SuAmMw&s",
   },
 ];

@@ -20,7 +20,7 @@ const Gallery = () => {
         <title>Risezonic Gallery | See Our Team & Event .</title>
         <meta
           name="description"
-          content="Explore our gallery to see the creative work and success stories crafted by Risezonic, your trusted digital marketing services."
+          content="Explore our gallery to see the creative work and success stories crafted by Risezonic, your trusted Digital Marketing services."
         />
         <meta name="keywords" content="Risezonic." />
         <link rel="canonical " href="https://www.risezonic.com/gallery" />
