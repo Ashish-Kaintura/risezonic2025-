@@ -6,6 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import WhatsAppSticky from "./components/WhatsappSticky";
 import Loader from "./Pages/Loader";
+import NotFound from "./Pages/NotFound";
 
 // Lazy load pages
 const Home = lazy(() => import("./Pages/Home"));
@@ -46,13 +47,15 @@ function App() {
           <Route path="/our-services" element={<Services />} />
           <Route path="/our-services/:url" element={<ServiceDetail />} />
           <Route path="/blogs" element={<Blog />} />
-          <Route path="/blogs/:url" element={<BlogDetail />} />
+          <Route path="/blogs
+          /:url" element={<BlogDetail />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/career" element={<Career />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/newsandmedia" element={<MediaPage />} />
           <Route path="/dailynewspage" element={<DailyNewsPage />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
       <WhatsAppSticky />
