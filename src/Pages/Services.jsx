@@ -102,7 +102,7 @@ export default function Services() {
           backgroundImage: "url('/assets/services/counter-bg.jpg')", // ✅ Move images to /public/assets
         }}
       >
-        <div className="pt-28 max-w-7xl mx-auto">
+        <div className="sm:pt-28 pt-16 max-w-7xl mx-auto">
           <div className="flex justify-center py-8 text-center bg-primary text-white rounded-xl">
             <h1 className="font-heading sm:text-5xl text-2xl ">
               Top Digital Marketing Services

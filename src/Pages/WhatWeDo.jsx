@@ -33,7 +33,7 @@ export default function WhatWeDo() {
                   <h1 className="text-6xl font-heading text-primary">
                     <span className="text-black md:text-8xl"> What</span> We Do
                   </h1>
-                  <span className="text-amber-600 text-4xl font-semibold absolute md:top-16 top-8 left-0 right-0 bottom-0 inset-0">
+                  <span className="text-amber-600 text-4xl sm:block hidden font-semibold absolute md:top-16 top-8 left-0 right-0 bottom-0 inset-0">
                     _____________________
                   </span>
                   <h3 className="md:pt-8 pt-6 font-body text-sm italic font-semibold">
@@ -103,7 +103,7 @@ export default function WhatWeDo() {
                     <span className="text-black md:text-6xl"> Our </span>{" "}
                     Digital Philosophy
                   </h2>
-                  <span className="text-amber-600 text-4xl font-semibold absolute md:top-10 top-12 left-0 right-0 bottom-0 inset-0">
+                  <span className="text-amber-600 text-4xl sm:block hidden font-semibold absolute md:top-10 top-12 left-0 right-0 bottom-0 inset-0">
                     _____________________
                   </span>
                   <h3 className="md:pt-8 pt-6 font-body text-sm italic font-semibold">
@@ -156,7 +156,7 @@ export default function WhatWeDo() {
             <h2 className="text-4xl md:text-6xl font-heading text-primary mb-4">
               <span className="text-black">Why Choose</span> Risezonic?
             </h2>
-            <span className="text-amber-600 text-4xl font-semibold absolute md:top-20 top-12 left-0 right-0 bottom-0 inset-0">
+            <span className="text-amber-600 text-4xl sm:block hidden font-semibold absolute md:top-20 top-12 left-0 right-0 bottom-0 inset-0">
               _____________________
             </span>
 

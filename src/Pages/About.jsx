@@ -110,7 +110,7 @@ export default function About() {
                       <span className="text-black md:text-8xl"> ABOUT </span>{" "}
                       Us.
                     </h1>
-                    <span className="text-amber-600 text-4xl font-semibold absolute md:top-16 top-8 left-0 right-0 bottom-0 inset-0">
+                    <span className=" sm:flex hidden text-amber-600 justify-center text-4xl font-semibold absolute md:top-16 top-8 left-0 right-0 bottom-0 inset-0">
                       _____________________
                     </span>
                     <h3 className="md:pt-8 pt-6 font-body text-sm italic font-semibold">
@@ -168,7 +168,7 @@ export default function About() {
                       <span className="text-black md:text-8xl"> What</span> We
                       Do
                     </h2>
-                    <span className="text-amber-600 text-4xl font-semibold absolute md:top-16 top-20 left-0 right-0 bottom-0 inset-0">
+                    <span className=" sm:flex hidden text-amber-600 justify-center text-4xl font-semibold absolute md:top-16 top-20 left-0 right-0 bottom-0 inset-0">
                       _____________________
                     </span>
                     <h3 className="md:pt-8 pt-6 font-body text-sm italic font-semibold">
@@ -211,7 +211,7 @@ export default function About() {
             <div className="sm:flex sm:justify-between justify-center py-12">
               <div>
                 {" "}
-                <div className="relative text-center bg">
+                <div className="relative text-center px-6">
                   <h2 className="text-3xl font-heading text-primary">
                     <span className="text-black md:text-5xl">
                       {" "}
@@ -219,7 +219,7 @@ export default function About() {
                     </span>{" "}
                     Defined by Values
                   </h2>
-                  <span className="text-amber-600 text-4xl font-semibold absolute md:top-8 top-8 left-0 right-0 bottom-0 inset-0">
+                  <span className=" sm:flex hidden text-amber-600 justify-center text-4xl font-semibold absolute md:top-8 top-8 left-0 right-0 bottom-0 inset-0">
                     _____________________
                   </span>
                   <h3 className="md:pt-8 pt-6 font-body text-sm italic font-semibold">
